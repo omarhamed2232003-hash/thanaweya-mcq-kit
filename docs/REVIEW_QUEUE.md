@@ -1,5 +1,7 @@
 # Batches waiting for an independent review
 
+> 27 Nov 2026: the physics+chemistry and biology+maths reviews are in and applied. See `docs/REVIEW_FINDINGS.md` for the counts, the 53 dropped duplicates, the 8 rewrites and the 43 maths questions still to decide on. The table below records which batches those verdicts covered.
+
 The answer-key audit in `npm test` is mechanical: it checks that each marked answer agrees with the question's own explanation, that the arithmetic in the explanation recomputes, and that no two options are the same. It cannot tell whether an explanation is scientifically right.
 
 This file lists the question batches that have only had the mechanical pass. Each needs a subject reviewer before the repository is tagged or released.

@@ -82,7 +82,10 @@ test('buildSession rejects an invalid bank', () => {
 
 test('grading marks correct, wrong and unanswered items', () => {
   const session = buildSession(bank, { count: 3, seed: 'grade-check' });
-  const answers = { [session.questions[0].id]: session.questions[0].answerIndex };
+  // The first question depends on the seed and may be multi-answer, so answer it
+  // with whatever shape the question actually uses.
+  const first = session.questions[0];
+  const answers = { [first.id]: first.answerIndices ?? first.answerIndex };
   const result = gradeSession(session, answers);
   assert.equal(result.total, 3);
   assert.equal(result.correct, 1);

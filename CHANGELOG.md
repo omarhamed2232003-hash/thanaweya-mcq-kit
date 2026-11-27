@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.20.0
+
+- Independent review applied. Two reviewers read the bank (physics and
+  chemistry: 148 questions; biology and maths: 135). 253 passed, 30 asked for a
+  fix, 0 wrong keys. Details in `docs/REVIEW_FINDINGS.md`.
+- 53 near-duplicates dropped, keeping the earliest question in each cluster:
+  the bank is now 230 questions.
+- 8 questions rewritten for science or wording (chem-mole-002, chem-mole-015,
+  chem-ph-002, phy-heat-004, phy-multi-003, bio-enzyme-018, bio-resp-005, and
+  phy-series-004 renamed phy-parallel-004 because the question is parallel, not
+  series). bio-resp-005 now follows the textbook figure of 36 to 38 ATP.
+- 4 difficulty labels corrected to easy.
+- 43 maths questions were judged prep-stage level. They are kept and listed in
+  `docs/REVIEW_FINDINGS.md`: relabelling or replacing them is a decision, not a
+  quiet edit.
+- The review did not check textbook alignment beyond the ATP case, and that
+  limit is written down rather than implied.
+- One test fixed: the grading test assumed the first seeded question was
+  single-answer, which stopped being true once the bank shrank.
 ## 0.19.0
 
 - `CONTRIBUTING.md` now carries the review workflow: what the mechanical checks

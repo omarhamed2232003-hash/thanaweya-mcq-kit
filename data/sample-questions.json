@@ -69,7 +69,7 @@
       ]
     },
     {
-      "id": "phy-series-004",
+      "id": "phy-parallel-004",
       "type": "single",
       "subject": "physics",
       "grade": "3",
@@ -261,7 +261,7 @@
       "subject": "chemistry",
       "grade": "3",
       "chapter": "electrochemistry",
-      "difficulty": "advanced",
+      "difficulty": "easy",
       "stem": "ما التعريف الصحيح للتأكسد في تفاعلات الأكسدة والاختزال؟",
       "options": [
         "فقدان إلكترونات",
@@ -365,7 +365,7 @@
       "subject": "biology",
       "grade": "3",
       "chapter": "enzymes",
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "ماذا يحدث لنشاط الإنزيم عند رفع درجة الحرارة كثيرًا فوق الدرجة المثلى؟",
       "options": [
         "يزداد النشاط باستمرار",
@@ -374,7 +374,7 @@
         "يتحول الإنزيم إلى سكر"
       ],
       "answerIndex": 2,
-      "explanation": "الحرارة المرتفعة تغيّر بنية الإنزيم (تفسخه) فيتغير شكل الموقع الفعال ويقل النشاط حتى يتوقف.",
+      "explanation": "الحرارة المرتفعة تغيّر بنية الإنزيم (تغيّر طبيعته وتشوّه البروتين) فيتغير شكل الموقع الفعال ويقل النشاط حتى يتوقف، وهذا التغير غير عكوس.",
       "tags": [
         "enzymes"
       ]
@@ -504,27 +504,6 @@
       ]
     },
     {
-      "id": "phy-elec-002",
-      "type": "single",
-      "subject": "physics",
-      "grade": "3",
-      "chapter": "electricity",
-      "difficulty": "medium",
-      "stem": "مقاومتان 6 أوم و3 أوم موصلتان على التوازي. ما المقاومة المكافئة لهما؟",
-      "options": [
-        "9 أوم",
-        "4.5 أوم",
-        "18 أوم",
-        "2 أوم"
-      ],
-      "answerIndex": 3,
-      "explanation": "على التوازي: 1/م = 1/6 + 1/3 = 1/2، إذن المقاومة المكافئة = 2 أوم.",
-      "tags": [
-        "resistors",
-        "circuits"
-      ]
-    },
-    {
       "id": "phy-mag-001",
       "type": "single",
       "subject": "physics",
@@ -545,33 +524,13 @@
       ]
     },
     {
-      "id": "chem-mole-001",
-      "type": "single",
-      "subject": "chemistry",
-      "grade": "3",
-      "chapter": "stoichiometry",
-      "difficulty": "easy",
-      "stem": "ما عدد مولات الماء في 36 جرامًا منه؟ (الكتلة المولية للماء 18 جم/مول)",
-      "options": [
-        "1 مول",
-        "3 مول",
-        "2 مول",
-        "18 مول"
-      ],
-      "answerIndex": 2,
-      "explanation": "عدد المولات = الكتلة ÷ الكتلة المولية = 36 ÷ 18 = 2 مول.",
-      "tags": [
-        "mole"
-      ]
-    },
-    {
       "id": "chem-mole-002",
       "type": "single",
       "subject": "chemistry",
       "grade": "3",
       "chapter": "stoichiometry",
       "difficulty": "medium",
-      "stem": "كم عدد الجزيئات في 0.5 مول من أي مادة؟ (عدد أفوجادرو = 6.02×10²³)",
+      "stem": "كم عدد الجزيئات في 0.5 مول من الماء؟ (عدد أفوجادرو = 6.02×10²³)",
       "options": [
         "3.01×10²³",
         "6.02×10²³",
@@ -579,7 +538,7 @@
         "3.01×10²²"
       ],
       "answerIndex": 0,
-      "explanation": "عدد الجزيئات = عدد المولات × عدد أفوجادرو = 0.5 × 6.02×10²³ = 3.01×10²³ جزيئًا.",
+      "explanation": "عدد الجزيئات = عدد المولات × عدد أفوجادرو = 0.5 × 6.02×10²³ = 3.01×10²³ جزيئًا. السؤال عن الماء تحديدًا لأن الماء مادة جزيئية، بخلاف المواد الأيونية والفلزية التي تُحسب بالجسيمات لا بالجزيئات.",
       "tags": [
         "avogadro",
         "mole"
@@ -624,26 +583,6 @@
       "tags": [
         "ph",
         "acids"
-      ]
-    },
-    {
-      "id": "chem-bond-001",
-      "type": "single",
-      "subject": "chemistry",
-      "grade": "3",
-      "chapter": "bonding",
-      "difficulty": "easy",
-      "stem": "أي نوع من الروابط يربط أيون الصوديوم بأيون الكلوريد في كلوريد الصوديوم NaCl؟",
-      "options": [
-        "رابطة تساهمية نقية",
-        "رابطة فلزية",
-        "رابطة أيونية",
-        "رابطة هيدروجينية"
-      ],
-      "answerIndex": 2,
-      "explanation": "انتقال الإلكترون من الصوديوم إلى الكلور يكوّن أيونين متضادي الشحنة يجذبهما التجاذب الكهربائي، وهي رابطة أيونية.",
-      "tags": [
-        "ionic-bond"
       ]
     },
     {
@@ -706,27 +645,6 @@
       "tags": [
         "molarity",
         "solutions"
-      ]
-    },
-    {
-      "id": "bio-cell-001",
-      "type": "single",
-      "subject": "biology",
-      "grade": "3",
-      "chapter": "cell",
-      "difficulty": "easy",
-      "stem": "أي عضية تُعدّ المركز الرئيسي لإنتاج الطاقة (ATP) في الخلية حقيقية النواة؟",
-      "options": [
-        "الميتوكوندريا",
-        "الريبوسوم",
-        "جهاز جولجي",
-        "الفجوة العصارية"
-      ],
-      "answerIndex": 0,
-      "explanation": "الميتوكوندريا هي موقع التنفس الهوائي وإنتاج معظم ATP في الخلية.",
-      "tags": [
-        "organelles",
-        "mitochondria"
       ]
     },
     {
@@ -996,26 +914,6 @@
       ]
     },
     {
-      "id": "phy-energy-002",
-      "type": "single",
-      "subject": "physics",
-      "grade": "3",
-      "chapter": "energy",
-      "difficulty": "easy",
-      "stem": "جسم كتلته 5 كجم مرفوع إلى ارتفاع 4 أمتار (g = 10 م/ث²). ما طاقة وضعه؟",
-      "options": [
-        "20 جول",
-        "200 جول",
-        "100 جول",
-        "50 جول"
-      ],
-      "answerIndex": 1,
-      "explanation": "طاقة الوضع = الكتلة × العجلة × الارتفاع = 5 × 10 × 4 = 200 جول.",
-      "tags": [
-        "potential-energy"
-      ]
-    },
-    {
       "id": "phy-wave-002",
       "type": "single",
       "subject": "physics",
@@ -1124,7 +1022,7 @@
       "subject": "chemistry",
       "grade": "3",
       "chapter": "stoichiometry",
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "ما كتلة 0.25 مول من كلوريد الصوديوم؟ (الكتلة المولية 58.5 جم/مول)",
       "options": [
         "58.5 جم",
@@ -1637,11 +1535,11 @@
       "options": [
         "حمضيًا قويًا",
         "متعادلًا",
-        "قاعديًا ضعيفًا",
+        "وسطًا قاعديًا ضعيفًا",
         "حمضيًا ضعيفًا"
       ],
       "answerIndex": 2,
-      "explanation": "pH أكبر من 7 يعني وسطًا قاعديًا، و9 قاعدي ضعيف لأن الهيدروكسيد قليل التركيز.",
+      "explanation": "pH أكبر من 7 يعني وسطًا قاعديًا، و9 وسط قاعدي ضعيف لأن تركيز أيون الهيدروجين أقل من 10 أس سالب 7. وضعف الوسط لا يعني أن القاعدة نفسها ضعيفة؛ فهذا حكم على المحلول لا على قوة القاعدة.",
       "tags": [
         "ph"
       ]
@@ -2120,26 +2018,6 @@
       ]
     },
     {
-      "id": "bio-eco-003",
-      "type": "single",
-      "subject": "biology",
-      "grade": "3",
-      "chapter": "ecology",
-      "difficulty": "easy",
-      "stem": "بماذا تبدأ السلسلة الغذائية عادة؟",
-      "options": [
-        "المستهلك الأول",
-        "المحللات",
-        "المنتجات",
-        "المستهلك الثاني"
-      ],
-      "answerIndex": 2,
-      "explanation": "السلسلة الغذائية تبدأ بالمنتجات التي تحول الطاقة الشمسية إلى غذاء، ثم المستهلكات فالمحللات.",
-      "tags": [
-        "food-chain"
-      ]
-    },
-    {
       "id": "bio-resp-002",
       "type": "single",
       "subject": "biology",
@@ -2266,7 +2144,7 @@
       "subject": "physics",
       "grade": "3",
       "chapter": "mechanics",
-      "difficulty": "hard",
+      "difficulty": "easy",
       "stem": "جسم يتحرك بسرعة 10 م/ث ثم زادت سرعته إلى 30 م/ث في 5 ثوانٍ. ما العجلة؟",
       "options": [
         "2 م/ث²",
@@ -2348,15 +2226,15 @@
       "grade": "3",
       "chapter": "heat",
       "difficulty": "medium",
-      "stem": "أي الطرق التالية تنقل الحرارة في السوائل والغازات؟",
+      "stem": "ما الطريقة الرئيسية لانتقال الحرارة في السوائل والغازات؟",
       "options": [
-        "التوصيل فقط",
+        "التوصيل",
         "الحمل",
-        "الإشعاع فقط",
+        "الإشعاع",
         "الانصهار"
       ],
       "answerIndex": 1,
-      "explanation": "الحمل هو انتقال الحرارة بحركة الكتل السائلة أو الغازية، بخلاف التوصيل في المواد الصلبة.",
+      "explanation": "الحمل هو الطريقة الرئيسية لانتقال الحرارة في السوائل والغازات لأنه انتقال بحركة الكتل، مع أن التوصيل والإشعاع يحدثان فيهما أيضًا لكن ليس بوصفهما الطريقة الرئيسية. الانصهار تغير حالة وليس طريقة انتقال حرارة.",
       "tags": [
         "heat-transfer"
       ]
@@ -2874,27 +2752,6 @@
       ]
     },
     {
-      "id": "chem-ph-004",
-      "type": "single",
-      "subject": "chemistry",
-      "grade": "3",
-      "chapter": "acids",
-      "difficulty": "medium",
-      "stem": "محلول تركيز أيونات الهيدروجين فيه 10 أس سالب 3 مول/لتر. ما قيمة الأس الهيدروجيني؟",
-      "options": [
-        "3",
-        "11",
-        "7",
-        "10"
-      ],
-      "answerIndex": 0,
-      "explanation": "الأس الهيدروجيني = سالب لوغاريتم تركيز أيون الهيدروجين، فمحلول تركيزه 10 أس سالب 3 يكون الأس الهيدروجيني 3.",
-      "tags": [
-        "ph",
-        "acids"
-      ]
-    },
-    {
       "id": "chem-gas-003",
       "type": "single",
       "subject": "chemistry",
@@ -2958,90 +2815,6 @@
       ]
     },
     {
-      "id": "chem-bond-005",
-      "type": "single",
-      "subject": "chemistry",
-      "grade": "3",
-      "chapter": "bonding",
-      "difficulty": "easy",
-      "stem": "ما نوع الرابطة في كلوريد الصوديوم NaCl؟",
-      "options": [
-        "أيونية",
-        "تساهمية نقية",
-        "تساهمية قطبية",
-        "فلزية"
-      ],
-      "answerIndex": 0,
-      "explanation": "ينتقل الإلكترون من الصوديوم إلى الكلور فيتكون أيونان متجاذبان، وهذه رابطة أيونية.",
-      "tags": [
-        "bonding",
-        "ionic"
-      ]
-    },
-    {
-      "id": "chem-mole-008",
-      "type": "single",
-      "subject": "chemistry",
-      "grade": "3",
-      "chapter": "moles",
-      "difficulty": "medium",
-      "stem": "ما عدد الجزيئات في 0.5 مول من أي مادة؟ (عدد أفوجادرو = 6.02×10²³)",
-      "options": [
-        "3.01×10²³",
-        "6.02×10²³",
-        "1.204×10²⁴",
-        "3.01×10²²"
-      ],
-      "answerIndex": 0,
-      "explanation": "عدد الجزيئات = عدد المولات × عدد أفوجادرو = 0.5 × 6.02×10²³ = 3.01×10²³ جزيء.",
-      "tags": [
-        "avogadro",
-        "mole"
-      ]
-    },
-    {
-      "id": "bio-cell-004",
-      "type": "single",
-      "subject": "biology",
-      "grade": "3",
-      "chapter": "cell",
-      "difficulty": "easy",
-      "stem": "ما العضي الذي يُسمى مصنع الطاقة في الخلية؟",
-      "options": [
-        "الميتوكوندريا",
-        "النواة",
-        "الرايبوسوم",
-        "الفجوة"
-      ],
-      "answerIndex": 0,
-      "explanation": "الميتوكوندريا تنتج الطاقة اللازمة للخلية من خلال التنفس الخلوي.",
-      "tags": [
-        "mitochondria",
-        "cell"
-      ]
-    },
-    {
-      "id": "bio-dna-003",
-      "type": "single",
-      "subject": "biology",
-      "grade": "3",
-      "chapter": "genetics",
-      "difficulty": "easy",
-      "stem": "مع أي قاعدة يرتبط الأدينين في جزيء DNA؟",
-      "options": [
-        "الثايمين",
-        "الجوانين",
-        "السيتوزين",
-        "اليوراسيل"
-      ],
-      "answerIndex": 0,
-      "explanation": "في DNA يرتبط الأدينين مع الثايمين برابطتين هيدروجينيتين، والجوانين مع السيتوزين.",
-      "tags": [
-        "dna",
-        "bases"
-      ]
-    },
-    {
       "id": "bio-photo-005",
       "type": "single",
       "subject": "biology",
@@ -3059,27 +2832,6 @@
       "explanation": "البناء الضوئي يستهلك ثاني أكسيد الكربون والماء وينتج الجلوكوز والأكسجين.",
       "tags": [
         "photosynthesis"
-      ]
-    },
-    {
-      "id": "bio-resp-003",
-      "type": "single",
-      "subject": "biology",
-      "grade": "3",
-      "chapter": "respiration",
-      "difficulty": "easy",
-      "stem": "في أي عضي يحدث معظم التنفس الخلوي الهوائي؟",
-      "options": [
-        "الميتوكوندريا",
-        "السيتوبلازم",
-        "النواة",
-        "الغشاء البلازمي"
-      ],
-      "answerIndex": 0,
-      "explanation": "معظم تفاعلات التنفس الهوائي تحدث في الميتوكوندريا.",
-      "tags": [
-        "respiration",
-        "mitochondria"
       ]
     },
     {
@@ -3125,27 +2877,6 @@
       ]
     },
     {
-      "id": "bio-osmosis-002",
-      "type": "single",
-      "subject": "biology",
-      "grade": "3",
-      "chapter": "transport",
-      "difficulty": "medium",
-      "stem": "ما اسم انتقال الماء عبر غشاء شبه منفذ من التركيز الأعلى إلى الأقل؟",
-      "options": [
-        "الخاصية الأسموزية",
-        "الانتشار البسيط",
-        "النقل النشط",
-        "البلعمة"
-      ],
-      "answerIndex": 0,
-      "explanation": "انتقال الماء عبر غشاء شبه منفذ يسمى الخاصية الأسموزية.",
-      "tags": [
-        "osmosis",
-        "transport"
-      ]
-    },
-    {
       "id": "bio-enzyme-002",
       "type": "single",
       "subject": "biology",
@@ -3163,47 +2894,6 @@
       "explanation": "الإنزيمات بروتينات تعمل كحفازات حيوية تسرّع التفاعلات دون أن تُستهلك.",
       "tags": [
         "enzymes"
-      ]
-    },
-    {
-      "id": "bio-mitosis-002",
-      "type": "single",
-      "subject": "biology",
-      "grade": "3",
-      "chapter": "cell-division",
-      "difficulty": "medium",
-      "stem": "إذا كان عدد كروموسومات خلية إنسان 46، فما عددها في كل خلية ناتجة عن الانقسام الميتوزي؟",
-      "options": [
-        "46",
-        "23",
-        "92",
-        "12"
-      ],
-      "answerIndex": 0,
-      "explanation": "الانقسام الميتوزي يحافظ على العدد الكروموسومي، فتبقى الخلايا الناتجة 46 كروموسومًا.",
-      "tags": [
-        "mitosis"
-      ]
-    },
-    {
-      "id": "math-alg-008",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "algebra",
-      "difficulty": "easy",
-      "stem": "حل المعادلة: 3س − 5 = 16. ما قيمة س؟",
-      "options": [
-        "7",
-        "21",
-        "11",
-        "3"
-      ],
-      "answerIndex": 0,
-      "explanation": "بإضافة 5 للطرفين: 3س = 21، وبالقسمة على 3: س = 7.",
-      "tags": [
-        "equations",
-        "algebra"
       ]
     },
     {
@@ -3225,27 +2915,6 @@
       "tags": [
         "area",
         "geometry"
-      ]
-    },
-    {
-      "id": "math-trig-004",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "trigonometry",
-      "difficulty": "easy",
-      "stem": "ما قيمة جا 30 درجة؟",
-      "options": [
-        "0.5",
-        "0.866",
-        "1",
-        "0"
-      ],
-      "answerIndex": 0,
-      "explanation": "جا 30 درجة = 0.5، وهي نسبة الضلع المقابل للوتر في مثلث 30-60-90.",
-      "tags": [
-        "trigonometry",
-        "sine"
       ]
     },
     {
@@ -3329,88 +2998,6 @@
       "tags": [
         "mean",
         "statistics"
-      ]
-    },
-    {
-      "id": "math-prob-002",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "probability",
-      "difficulty": "easy",
-      "stem": "ما احتمال ظهور الصورة عند رمي عملة معدنية مرة واحدة؟",
-      "options": [
-        "1/2",
-        "1",
-        "1/4",
-        "0"
-      ],
-      "answerIndex": 0,
-      "explanation": "النتائج الممكنة اثنتان متساويتان في الاحتمال، فاحتمال الصورة = 1 ÷ 2 = 0.5.",
-      "tags": [
-        "probability"
-      ]
-    },
-    {
-      "id": "math-geom-007",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "geometry",
-      "difficulty": "easy",
-      "stem": "ما مجموع قياسات الزوايا الداخلية للمثلث؟",
-      "options": [
-        "180 درجة",
-        "360 درجة",
-        "90 درجة",
-        "270 درجة"
-      ],
-      "answerIndex": 0,
-      "explanation": "مجموع زوايا أي مثلث يساوي 180 درجة.",
-      "tags": [
-        "triangles",
-        "geometry"
-      ]
-    },
-    {
-      "id": "math-alg-009",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "algebra",
-      "difficulty": "medium",
-      "stem": "إذا كان س + ص = 10 و س − ص = 4، فما قيمة س؟",
-      "options": [
-        "7",
-        "3",
-        "6",
-        "14"
-      ],
-      "answerIndex": 0,
-      "explanation": "بجمع المعادلتين: 2س = 14، إذن س = 7.",
-      "tags": [
-        "equations",
-        "algebra"
-      ]
-    },
-    {
-      "id": "phy-accel-001",
-      "type": "single",
-      "subject": "physics",
-      "grade": "3",
-      "chapter": "mechanics",
-      "difficulty": "easy",
-      "stem": "سيارة تتحرك من السكون ووصلت سرعتها إلى 20 م/ث خلال 5 ثوانٍ. ما عجلتها؟",
-      "options": [
-        "4 م/ث²",
-        "100 م/ث²",
-        "0.25 م/ث²",
-        "25 م/ث²"
-      ],
-      "answerIndex": 0,
-      "explanation": "العجلة = التغير في السرعة ÷ الزمن = 20 ÷ 5 = 4 م/ث².",
-      "tags": [
-        "acceleration"
       ]
     },
     {
@@ -3617,27 +3204,6 @@
       ]
     },
     {
-      "id": "bio-cell-005",
-      "type": "single",
-      "subject": "biology",
-      "grade": "3",
-      "chapter": "cell",
-      "difficulty": "easy",
-      "stem": "ما العضي المسؤول عن تخليق البروتين في الخلية؟",
-      "options": [
-        "الرايبوسوم",
-        "الميتوكوندريا",
-        "الليسوسوم",
-        "الفجوة"
-      ],
-      "answerIndex": 0,
-      "explanation": "الرايبوسومات هي موقع تخليق البروتين في الخلية.",
-      "tags": [
-        "ribosome",
-        "cell"
-      ]
-    },
-    {
       "id": "bio-dna-004",
       "type": "single",
       "subject": "biology",
@@ -3656,27 +3222,6 @@
       "tags": [
         "chromosomes",
         "meiosis"
-      ]
-    },
-    {
-      "id": "bio-photo-006",
-      "type": "single",
-      "subject": "biology",
-      "grade": "3",
-      "chapter": "photosynthesis",
-      "difficulty": "medium",
-      "stem": "ما الصبغة المسؤولة عن امتصاص الضوء في البناء الضوئي؟",
-      "options": [
-        "الكلوروفيل",
-        "الهيموجلوبين",
-        "الميلانين",
-        "الكاروتين في الجذور"
-      ],
-      "answerIndex": 0,
-      "explanation": "الكلوروفيل صبغة خضراء تمتص الضوء اللازم للبناء الضوئي.",
-      "tags": [
-        "chlorophyll",
-        "photosynthesis"
       ]
     },
     {
@@ -3718,27 +3263,6 @@
       "tags": [
         "genetics",
         "dominance"
-      ]
-    },
-    {
-      "id": "bio-immunity-003",
-      "type": "single",
-      "subject": "biology",
-      "grade": "3",
-      "chapter": "immunity",
-      "difficulty": "easy",
-      "stem": "ما الخلايا التي تنتج الأجسام المضادة؟",
-      "options": [
-        "الخلايا الليمفاوية البائية",
-        "خلايا الدم الحمراء",
-        "الصفائح الدموية",
-        "الخلايا العصبية"
-      ],
-      "answerIndex": 0,
-      "explanation": "الخلايا الليمفاوية البائية تتحول إلى خلايا بلازمية تنتج الأجسام المضادة.",
-      "tags": [
-        "immunity",
-        "antibodies"
       ]
     },
     {
@@ -3821,27 +3345,6 @@
       "explanation": "مشتقة 5س هي معامل س، أي 5.",
       "tags": [
         "derivatives"
-      ]
-    },
-    {
-      "id": "math-stat-006",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "statistics",
-      "difficulty": "easy",
-      "stem": "ما الوسيط للأعداد 3، 7، 9، 12، 15؟",
-      "options": [
-        "9",
-        "7",
-        "12",
-        "46"
-      ],
-      "answerIndex": 0,
-      "explanation": "الوسيط هو القيمة الوسطى بعد الترتيب، وهي 9.",
-      "tags": [
-        "median",
-        "statistics"
       ]
     },
     {
@@ -4066,27 +3569,6 @@
       ]
     },
     {
-      "id": "chem-mole-010",
-      "type": "single",
-      "subject": "chemistry",
-      "grade": "3",
-      "chapter": "moles",
-      "difficulty": "medium",
-      "stem": "ما عدد مولات 11.2 لتر من غاز في الظروف القياسية؟ (حجم المول 22.4 لتر)",
-      "options": [
-        "0.5 مول",
-        "1 مول",
-        "2 مول",
-        "11.2 مول"
-      ],
-      "answerIndex": 0,
-      "explanation": "عدد المولات = الحجم ÷ حجم المول = 11.2 ÷ 22.4 = 0.5 مول.",
-      "tags": [
-        "mole",
-        "molar-volume"
-      ]
-    },
-    {
       "id": "chem-ph-005",
       "type": "single",
       "subject": "chemistry",
@@ -4188,65 +3670,24 @@
       ]
     },
     {
-      "id": "bio-cell-006",
-      "type": "single",
-      "subject": "biology",
-      "grade": "3",
-      "chapter": "cell",
-      "difficulty": "easy",
-      "stem": "ما الغشاء الذي يحيط بالخلية ويتحكم في مرور المواد؟",
-      "options": [
-        "الغشاء البلازمي",
-        "الجدار الخلوي",
-        "النواة",
-        "الرايبوسوم"
-      ],
-      "answerIndex": 0,
-      "explanation": "الغشاء البلازمي غشاء شبه منفذ يتحكم في دخول وخروج المواد.",
-      "tags": [
-        "cell-membrane"
-      ]
-    },
-    {
       "id": "bio-resp-005",
       "type": "single",
       "subject": "biology",
       "grade": "3",
       "chapter": "respiration",
       "difficulty": "medium",
-      "stem": "كم جزيء ATP ينتج تقريبًا من أكسدة جزيء جلوكوز واحد في التنفس الهوائي؟",
+      "stem": "وفق الكتاب المدرسي، كم جزيء ATP ينتج تقريبًا من أكسدة جزيء جلوكوز واحد في التنفس الهوائي؟",
       "options": [
-        "حوالي 30",
+        "حوالي 36 إلى 38",
         "حوالي 2",
         "حوالي 100",
         "حوالي 8"
       ],
       "answerIndex": 0,
-      "explanation": "التنفس الهوائي الكامل لجزيء جلوكوز ينتج نحو 30 إلى 32 جزيء ATP بحسب المصدر، وأقلها 30.",
+      "explanation": "الكتاب المدرسي يذكر نحو 36 إلى 38 جزيء ATP من الأكسدة الكاملة لجزيء جلوكوز، وأرقام المراجع الدولية أقل (نحو 30 إلى 32)، وقد رُوعيت قيمة الكتاب هنا.",
       "tags": [
         "respiration",
         "atp"
-      ]
-    },
-    {
-      "id": "bio-photo-007",
-      "type": "single",
-      "subject": "biology",
-      "grade": "3",
-      "chapter": "photosynthesis",
-      "difficulty": "medium",
-      "stem": "في أي عضي تحدث تفاعلات البناء الضوئي؟",
-      "options": [
-        "البلاستيدات الخضراء",
-        "الميتوكوندريا",
-        "النواة",
-        "الليسوسوم"
-      ],
-      "answerIndex": 0,
-      "explanation": "البلاستيدات الخضراء تحتوي الكلوروفيل وهي موقع البناء الضوئي.",
-      "tags": [
-        "photosynthesis",
-        "chloroplast"
       ]
     },
     {
@@ -4413,27 +3854,6 @@
       ]
     },
     {
-      "id": "phy-elec-010",
-      "type": "single",
-      "subject": "physics",
-      "grade": "3",
-      "chapter": "electricity",
-      "difficulty": "medium",
-      "stem": "مقاومتان 3 أوم و6 أوم على التوازي. ما المقاومة المكافئة؟",
-      "options": [
-        "2 أوم",
-        "9 أوم",
-        "4.5 أوم",
-        "18 أوم"
-      ],
-      "answerIndex": 0,
-      "explanation": "في التوازي: 1/م = 1/3 + 1/6 = 3/6، إذن المقاومة المكافئة = 2 أوم.",
-      "tags": [
-        "resistance",
-        "parallel"
-      ]
-    },
-    {
       "id": "phy-power-005",
       "type": "single",
       "subject": "physics",
@@ -4492,26 +3912,6 @@
       "explanation": "الأس الهيدروجيني = سالب لوغاريتم تركيز أيون الهيدروجين = 2.",
       "tags": [
         "ph"
-      ]
-    },
-    {
-      "id": "chem-conc-005",
-      "type": "single",
-      "subject": "chemistry",
-      "grade": "3",
-      "chapter": "solutions",
-      "difficulty": "medium",
-      "stem": "أُذيب 0.5 مول من مادة في 250 ملليلترًا من المحلول. ما التركيز المولاري؟",
-      "options": [
-        "2 مول/لتر",
-        "0.5 مول/لتر",
-        "0.125 مول/لتر",
-        "4 مول/لتر"
-      ],
-      "answerIndex": 0,
-      "explanation": "الحجم باللتر 0.25، والتركيز = 0.5 ÷ 0.25 = 2 مول/لتر.",
-      "tags": [
-        "concentration"
       ]
     },
     {
@@ -4656,47 +4056,6 @@
       ]
     },
     {
-      "id": "math-trig-007",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "trigonometry",
-      "difficulty": "medium",
-      "stem": "ما قيمة ظا 45 درجة؟",
-      "options": [
-        "1",
-        "0",
-        "0.5",
-        "1.73"
-      ],
-      "answerIndex": 0,
-      "explanation": "ظا 45 درجة = 1، لأن الضلع المقابل يساوي الضلع المجاور عند هذه الزاوية.",
-      "tags": [
-        "trigonometry"
-      ]
-    },
-    {
-      "id": "phy-energy-009",
-      "type": "single",
-      "subject": "physics",
-      "grade": "3",
-      "chapter": "energy",
-      "difficulty": "easy",
-      "stem": "جسم كتلته 2 كجم يتحرك بسرعة 3 م/ث، ما طاقة حركته؟",
-      "options": [
-        "6 J",
-        "9 J",
-        "18 J",
-        "3 J"
-      ],
-      "answerIndex": 1,
-      "explanation": "طاقة الحركة = نصف × الكتلة × مربع السرعة = 0.5 × 2 × 9 = 9 جول.",
-      "tags": [
-        "energy",
-        "kinetic"
-      ]
-    },
-    {
       "id": "phy-current-004",
       "type": "single",
       "subject": "physics",
@@ -4715,27 +4074,6 @@
       "tags": [
         "current",
         "charge"
-      ]
-    },
-    {
-      "id": "phy-ohm-008",
-      "type": "single",
-      "subject": "physics",
-      "grade": "3",
-      "chapter": "current-electricity",
-      "difficulty": "easy",
-      "stem": "مقاومتان 4 أوم و6 أوم موصلتان على التوالي. ما المقاومة المكافئة؟",
-      "options": [
-        "2.4 Ω",
-        "10 Ω",
-        "24 Ω",
-        "5 Ω"
-      ],
-      "answerIndex": 1,
-      "explanation": "في التوصيل على التوالي تجمع المقاومات: 4 + 6 = 10 أوم.",
-      "tags": [
-        "resistance",
-        "series"
       ]
     },
     {
@@ -4761,27 +4099,6 @@
       "tags": [
         "resistance",
         "factors"
-      ]
-    },
-    {
-      "id": "phy-wave-006",
-      "type": "single",
-      "subject": "physics",
-      "grade": "3",
-      "chapter": "waves",
-      "difficulty": "easy",
-      "stem": "موجة زمنها الدوري 0.02 ثانية. ما ترددها؟",
-      "options": [
-        "20 Hz",
-        "50 Hz",
-        "0.02 Hz",
-        "200 Hz"
-      ],
-      "answerIndex": 1,
-      "explanation": "التردد = مقلوب الزمن الدوري = 1 ÷ 0.02 = 50 هرتز.",
-      "tags": [
-        "waves",
-        "frequency"
       ]
     },
     {
@@ -4852,48 +4169,6 @@
       ]
     },
     {
-      "id": "chem-mole-013",
-      "type": "single",
-      "subject": "chemistry",
-      "grade": "3",
-      "chapter": "mole",
-      "difficulty": "easy",
-      "stem": "ما عدد مولات الماء في 36 جراما منه؟ (الكتلة المولية للماء 18 جم/مول)",
-      "options": [
-        "1 مول",
-        "18 مول",
-        "2 مول",
-        "36 مول"
-      ],
-      "answerIndex": 2,
-      "explanation": "عدد المولات = الكتلة ÷ الكتلة المولية = 36 ÷ 18 = 2 مول.",
-      "tags": [
-        "mole",
-        "water"
-      ]
-    },
-    {
-      "id": "chem-acid-005",
-      "type": "single",
-      "subject": "chemistry",
-      "grade": "3",
-      "chapter": "acids-bases",
-      "difficulty": "medium",
-      "stem": "محلول تركيز أيون الهيدروجين فيه 10 أس سالب 3 مول/لتر. ما قيمة pH له؟",
-      "options": [
-        "11",
-        "3",
-        "7",
-        "-3"
-      ],
-      "answerIndex": 1,
-      "explanation": "pH = سالب لوغاريتم تركيز أيون الهيدروجين = 3.",
-      "tags": [
-        "acids",
-        "ph"
-      ]
-    },
-    {
       "id": "chem-periodic-006",
       "type": "multi",
       "subject": "chemistry",
@@ -4946,7 +4221,7 @@
       "grade": "3",
       "chapter": "mole",
       "difficulty": "medium",
-      "stem": "كم عدد الجزيئات في مول واحد من أي مادة؟",
+      "stem": "كم عدد الجسيمات (جزيئات أو أيونات أو ذرات) في مول واحد من أي مادة؟",
       "options": [
         "6.02 × 10^22",
         "6.02 × 10^23",
@@ -4954,7 +4229,7 @@
         "1 × 10^23"
       ],
       "answerIndex": 1,
-      "explanation": "المول الواحد يحتوي على عدد أفوجادرو من الجزيئات، وهو 6.02 × 10^23.",
+      "explanation": "المول الواحد يحتوي على عدد أفوجادرو من الجسيمات، وهو 6.02 × 10^23، سواء كانت جزيئات أو أيونات أو ذرات، فالتعبير الدقيق هو الجسيمات لا الجزيئات.",
       "tags": [
         "mole",
         "avogadro"
@@ -4986,27 +4261,6 @@
       ]
     },
     {
-      "id": "bio-genetics-008",
-      "type": "single",
-      "subject": "biology",
-      "grade": "3",
-      "chapter": "genetics",
-      "difficulty": "easy",
-      "stem": "ما عدد الكروموسومات في الخلية الجسمية للإنسان؟",
-      "options": [
-        "23",
-        "92",
-        "46",
-        "44"
-      ],
-      "answerIndex": 2,
-      "explanation": "الخلية الجسمية للإنسان تحتوي على 46 كروموسوما، أي 23 زوجا.",
-      "tags": [
-        "genetics",
-        "chromosomes"
-      ]
-    },
-    {
       "id": "bio-photo-009",
       "type": "multi",
       "subject": "biology",
@@ -5029,27 +4283,6 @@
       "tags": [
         "photosynthesis",
         "light"
-      ]
-    },
-    {
-      "id": "bio-cell-008",
-      "type": "single",
-      "subject": "biology",
-      "grade": "3",
-      "chapter": "cell-transport",
-      "difficulty": "easy",
-      "stem": "بأي عملية ينتقل الماء عبر الغشاء شبه المنفذ من المحلول الأقل تركيزا إلى الأكثر تركيزا؟",
-      "options": [
-        "الانتشار البسيط",
-        "الخاصية الأسموزية",
-        "النقل النشط",
-        "الالتهام"
-      ],
-      "answerIndex": 1,
-      "explanation": "انتقال الماء عبر غشاء شبه منفذ نحو المحلول الأعلى تركيزا هو الخاصية الأسموزية، ولا يحتاج طاقة.",
-      "tags": [
-        "cell",
-        "osmosis"
       ]
     },
     {
@@ -5099,27 +4332,6 @@
       ]
     },
     {
-      "id": "math-calc-008",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "calculus",
-      "difficulty": "easy",
-      "stem": "ما مشتقة الدالة y = x^3؟",
-      "options": [
-        "x^2",
-        "3x^2",
-        "3x",
-        "x^4/4"
-      ],
-      "answerIndex": 1,
-      "explanation": "مشتقة x أس n هي n × x أس (n − 1)، وعند n = 3 تكون المشتقة 3x^2.",
-      "tags": [
-        "calculus",
-        "derivative"
-      ]
-    },
-    {
       "id": "math-calc-009",
       "type": "single",
       "subject": "math",
@@ -5141,30 +4353,6 @@
       ]
     },
     {
-      "id": "math-num-007",
-      "type": "multi",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "number-theory",
-      "difficulty": "easy",
-      "stem": "أي مما يلي عدد أولي؟ (اختر كل ما ينطبق)",
-      "options": [
-        "2",
-        "9",
-        "13",
-        "21"
-      ],
-      "answerIndices": [
-        0,
-        2
-      ],
-      "explanation": "2 و13 عددان أوليان لأن كل منهما لا يقبل القسمة إلا على نفسه وعلى 1، أما 9 و21 فمضاعفات 3.",
-      "tags": [
-        "number-theory",
-        "prime"
-      ]
-    },
-    {
       "id": "math-alg-013",
       "type": "single",
       "subject": "math",
@@ -5183,48 +4371,6 @@
       "tags": [
         "algebra",
         "series"
-      ]
-    },
-    {
-      "id": "math-log-004",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "algebra",
-      "difficulty": "easy",
-      "stem": "ما قيمة لو2 8؟",
-      "options": [
-        "2",
-        "8",
-        "3",
-        "4"
-      ],
-      "answerIndex": 2,
-      "explanation": "لو2 8 هو الأس الذي نحتاج رفع 2 إليه لنحصل على 8، وهو 3.",
-      "tags": [
-        "algebra",
-        "log"
-      ]
-    },
-    {
-      "id": "phy-ohm-010",
-      "type": "single",
-      "subject": "physics",
-      "grade": "3",
-      "chapter": "current-electricity",
-      "difficulty": "medium",
-      "stem": "مقاومتان 6 أوم و3 أوم موصلتان على التوازي. ما المقاومة المكافئة؟",
-      "options": [
-        "9 Ω",
-        "18 Ω",
-        "2 Ω",
-        "4.5 Ω"
-      ],
-      "answerIndex": 2,
-      "explanation": "المقاومة المكافئة على التوازي = (6 × 3) ÷ (6 + 3) = 18 ÷ 9 = 2 أوم.",
-      "tags": [
-        "resistance",
-        "parallel"
       ]
     },
     {
@@ -5271,48 +4417,6 @@
       "tags": [
         "units",
         "derived"
-      ]
-    },
-    {
-      "id": "phy-wave-008",
-      "type": "single",
-      "subject": "physics",
-      "grade": "3",
-      "chapter": "waves",
-      "difficulty": "medium",
-      "stem": "موجة سرعتها 340 م/ث وترددها 170 هرتز. ما طولها الموجي؟",
-      "options": [
-        "2 m",
-        "0.5 m",
-        "57800 m",
-        "170 m"
-      ],
-      "answerIndex": 0,
-      "explanation": "الطول الموجي = السرعة ÷ التردد = 340 ÷ 170 = 2 متر.",
-      "tags": [
-        "waves",
-        "wavelength"
-      ]
-    },
-    {
-      "id": "chem-mole-016",
-      "type": "single",
-      "subject": "chemistry",
-      "grade": "3",
-      "chapter": "mole",
-      "difficulty": "easy",
-      "stem": "ما حجم 2 مول من غاز في الظروف القياسية؟ (الحجم المولي 22.4 لتر/مول)",
-      "options": [
-        "44.8 L",
-        "22.4 L",
-        "11.2 L",
-        "2 L"
-      ],
-      "answerIndex": 0,
-      "explanation": "الحجم = عدد المولات × الحجم المولي = 2 × 22.4 = 44.8 لتر.",
-      "tags": [
-        "mole",
-        "gas"
       ]
     },
     {
@@ -5450,27 +4554,6 @@
       ]
     },
     {
-      "id": "bio-photo-011",
-      "type": "single",
-      "subject": "biology",
-      "grade": "3",
-      "chapter": "photosynthesis",
-      "difficulty": "medium",
-      "stem": "ما مصدر الأكسجين المنطلق في البناء الضوئي؟",
-      "options": [
-        "تحلل الماء",
-        "تحلل ثاني أكسيد الكربون",
-        "الجلوكوز",
-        "الكلوروفيل"
-      ],
-      "answerIndex": 0,
-      "explanation": "الأكسجين المنطلق يأتي من تحلل الماء في الطور الضوئي، لا من ثاني أكسيد الكربون.",
-      "tags": [
-        "photosynthesis",
-        "oxygen"
-      ]
-    },
-    {
       "id": "math-calc-010",
       "type": "single",
       "subject": "math",
@@ -5489,27 +4572,6 @@
       "tags": [
         "calculus",
         "derivative"
-      ]
-    },
-    {
-      "id": "math-geom-010",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "geometry",
-      "difficulty": "medium",
-      "stem": "ما مساحة دائرة نصف قطرها 7 سم؟ (خذ π = 22 ÷ 7)",
-      "options": [
-        "154",
-        "44",
-        "49",
-        "22"
-      ],
-      "answerIndex": 0,
-      "explanation": "المساحة = π × نق² = (22 ÷ 7) × 49 = 154 سنتيمترا مربعا.",
-      "tags": [
-        "geometry",
-        "circle"
       ]
     },
     {
@@ -5534,48 +4596,6 @@
       "tags": [
         "algebra",
         "equations"
-      ]
-    },
-    {
-      "id": "math-trig-008",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "trigonometry",
-      "difficulty": "easy",
-      "stem": "ما قيمة جا 30 درجة؟",
-      "options": [
-        "0.5",
-        "0.87",
-        "1",
-        "0"
-      ],
-      "answerIndex": 0,
-      "explanation": "جا 30 درجة = 0.5، وهي نسبة الضلع المقابل للزاوية إلى الوتر في مثلث 30 و60 و90.",
-      "tags": [
-        "trigonometry",
-        "sine"
-      ]
-    },
-    {
-      "id": "phy-momentum-001",
-      "type": "single",
-      "subject": "physics",
-      "grade": "3",
-      "chapter": "mechanics",
-      "difficulty": "easy",
-      "stem": "جسم كتلته 4 كجم يتحرك بسرعة 5 م/ث. ما كمية حركته؟",
-      "options": [
-        "20 kg·m/s",
-        "9 kg·m/s",
-        "1.25 kg·m/s",
-        "80 kg·m/s"
-      ],
-      "answerIndex": 0,
-      "explanation": "كمية الحركة = الكتلة × السرعة = 4 × 5 = 20 كجم·م/ث.",
-      "tags": [
-        "mechanics",
-        "momentum"
       ]
     },
     {
@@ -5630,40 +4650,18 @@
       "stem": "أي مما يلي يزيد طاقة حركة جسم؟ (اختر كل ما ينطبق)",
       "options": [
         "زيادة كتلته مع ثبات السرعة",
-        "زيادة سرعته",
+        "مضاعفة سرعته",
         "زيادة ارتفاعه عن الأرض",
-        "مضاعفة سرعته"
+        "تقليل كتلته مع ثبات السرعة"
       ],
       "answerIndices": [
         0,
-        1,
-        3
+        1
       ],
-      "explanation": "طاقة الحركة تعتمد على الكتلة ومربع السرعة، فتزيد بزيادة الكتلة أو السرعة، ومضاعفة السرعة تضاعفها أربع مرات، أما الارتفاع فيخص طاقة الوضع.",
+      "explanation": "طاقة الحركة تتناسب طرديًا مع الكتلة ومع مربع السرعة، فتزيد بزيادة الكتلة أو بمضاعفة السرعة، أما زيادة الارتفاع فتخص طاقة الوضع، وتقليل الكتلة يقلل طاقة الحركة.",
       "tags": [
         "energy",
         "kinetic"
-      ]
-    },
-    {
-      "id": "chem-bond-006",
-      "type": "single",
-      "subject": "chemistry",
-      "grade": "3",
-      "chapter": "bonding",
-      "difficulty": "easy",
-      "stem": "ما نوع الرابطة في كلوريد الصوديوم؟",
-      "options": [
-        "تساهمية نقية",
-        "أيونية",
-        "فلزية",
-        "هيدروجينية"
-      ],
-      "answerIndex": 1,
-      "explanation": "كلوريد الصوديوم ينتج من انتقال إلكترون من الصوديوم إلى الكلور، فتتكون رابطة أيونية بين أيونين متضادين الشحنة.",
-      "tags": [
-        "bonding",
-        "ionic"
       ]
     },
     {
@@ -5685,27 +4683,6 @@
       "tags": [
         "electrochemistry",
         "electrolysis"
-      ]
-    },
-    {
-      "id": "chem-organic-003",
-      "type": "single",
-      "subject": "chemistry",
-      "grade": "3",
-      "chapter": "organic",
-      "difficulty": "easy",
-      "stem": "ما الصيغة العامة للألكانات؟",
-      "options": [
-        "CnH2n",
-        "CnH2n+2",
-        "CnH2n-2",
-        "CnHn"
-      ],
-      "answerIndex": 1,
-      "explanation": "الألكانات هيدروكربونات مشبعة بروابط أحادية، وصيغتها العامة CnH2n+2 مثل الميثان CH4 والإيثان C2H6.",
-      "tags": [
-        "organic",
-        "alkanes"
       ]
     },
     {
@@ -5734,69 +4711,6 @@
       ]
     },
     {
-      "id": "bio-hormone-002",
-      "type": "single",
-      "subject": "biology",
-      "grade": "3",
-      "chapter": "hormones",
-      "difficulty": "easy",
-      "stem": "أي هرمون يخفض تركيز الجلوكوز في الدم؟",
-      "options": [
-        "الجلوكاجون",
-        "الأنسولين",
-        "الأدرينالين",
-        "الثيروكسين"
-      ],
-      "answerIndex": 1,
-      "explanation": "الأنسولين يزيد دخول الجلوكوز إلى الخلايا ويحوله إلى جليكوجين، فيخفض تركيزه في الدم، والجلوكاجون يعمل عكسه.",
-      "tags": [
-        "hormones",
-        "insulin"
-      ]
-    },
-    {
-      "id": "bio-enzyme-003",
-      "type": "single",
-      "subject": "biology",
-      "grade": "3",
-      "chapter": "enzymes",
-      "difficulty": "medium",
-      "stem": "ماذا يحدث لإنزيم عند رفع درجة الحرارة كثيرا فوق الدرجة المثلى؟",
-      "options": [
-        "يزداد نشاطه بلا حد",
-        "يفقد نشاطه",
-        "لا يتأثر",
-        "يتحول إلى هرمون"
-      ],
-      "answerIndex": 1,
-      "explanation": "الحرارة العالية تغير الشكل الفراغي للإنزيم فتفسد موقعه النشط ويفقد نشاطه، وهذا التغير غير عكوس.",
-      "tags": [
-        "enzymes",
-        "denaturation"
-      ]
-    },
-    {
-      "id": "bio-immunity-004",
-      "type": "single",
-      "subject": "biology",
-      "grade": "3",
-      "chapter": "immunity",
-      "difficulty": "medium",
-      "stem": "أي الخلايا تفرز الأجسام المضادة؟",
-      "options": [
-        "كرات الدم الحمراء",
-        "الصفائح الدموية",
-        "الخلايا الليمفاوية البائية",
-        "الخلايا العصبية"
-      ],
-      "answerIndex": 2,
-      "explanation": "الخلايا الليمفاوية البائية تتكاثر وتتحول إلى خلايا بلازمية تفرز الأجسام المضادة، أما كرات الدم الحمراء فنقل الأكسجين وظيفتها.",
-      "tags": [
-        "immunity",
-        "antibodies"
-      ]
-    },
-    {
       "id": "bio-multi-003",
       "type": "multi",
       "subject": "biology",
@@ -5819,27 +4733,6 @@
       "tags": [
         "digestion",
         "liver"
-      ]
-    },
-    {
-      "id": "math-prob-004",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "probability",
-      "difficulty": "easy",
-      "stem": "ما احتمال ظهور صورة عند إلقاء عملة معدنية مرة واحدة؟",
-      "options": [
-        "1/4",
-        "1",
-        "1/2",
-        "0"
-      ],
-      "answerIndex": 2,
-      "explanation": "العملة لها وجهان متساويا الاحتمال، فاحتمال الصورة = 1 ÷ 2.",
-      "tags": [
-        "probability",
-        "coin"
       ]
     },
     {
