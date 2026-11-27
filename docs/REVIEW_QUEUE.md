@@ -10,6 +10,7 @@ This file lists the question batches that have only had the mechanical pass. Eac
 | Second batch | 0.9.0 | 35 (7 physics, 8 chemistry, 8 biology, 12 maths) | answer-key audit | subject review |
 | Third batch | 0.10.0 | 23 (6 physics, 6 chemistry, 7 biology, 4 maths) | answer-key audit; one explanation rewritten after the audit flagged it | subject review |
 | Multi-answer batch | 0.11.0 | 4 multi-answer questions (physics, chemistry, biology, maths) | answer-key audit, multi-type tests | subject review |
+| Fifth batch | 0.13.0 | 15 (4 physics, 4 chemistry, 4 biology, 3 maths) | answer-key audit | subject review |
 | Fourth batch | 0.12.0 | 20 (5 physics, 5 chemistry, 5 biology, 5 maths) | answer-key audit | subject review; one ATP question (bio-resp-004) states "about 30", which depends on the textbook used |
 
 How to review a batch:

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.13.0
+
+- Add 15 more original questions (physics 4, chemistry 4, biology 4, maths 3),
+  taking the bank to 227. All pass the answer-key audit.
+- Add the batch to docs/REVIEW_QUEUE.md for a subject reviewer.
 ## 0.12.0
 
 - Add 20 more original questions (physics 5, chemistry 5, biology 5, maths 5),
