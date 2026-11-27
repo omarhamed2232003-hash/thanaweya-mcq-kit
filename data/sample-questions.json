@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "language": "ar",
+  "direction": "rtl",
+  "title": "بنك أسئلة تجريبي (محتوى أصلي)",
+  "licenseNote": "All questions in this file were written for this kit. They are not taken from any official exam, textbook or ministry material, and they are not presented as curriculum-aligned.",
+  "questions": [
+    {
+      "id": "phy-ohm-001",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "electricity",
+      "difficulty": "easy",
+      "stem": "موصل مقاومته 10 أوم وفرق الجهد بين طرفيه 20 فولت. ما شدة التيار المار فيه؟",
+      "options": [
+        "2 أمبير",
+        "0.5 أمبير",
+        "10 أمبير",
+        "200 أمبير"
+      ],
+      "answerIndex": 0,
+      "explanation": "من قانون أوم: شدة التيار = فرق الجهد ÷ المقاومة = 20 ÷ 10 = 2 أمبير.",
+      "tags": [
+        "ohm-law",
+        "electricity"
+      ]
+    },
+    {
+      "id": "phy-force-unit-002",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "easy",
+      "stem": "ما وحدة قياس القوة في النظام الدولي للوحدات؟",
+      "options": [
+        "الجول",
+        "الباسكال",
+        "الواط",
+        "النيوتن"
+      ],
+      "answerIndex": 3,
+      "explanation": "النيوتن هو وحدة القوة، والجول وحدة الطاقة، والواط وحدة القدرة، والباسكال وحدة الضغط.",
+      "tags": [
+        "units",
+        "mechanics"
+      ]
+    },
+    {
+      "id": "phy-newton2-003",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "medium",
+      "stem": "جسم كتلته 2 كجم يتحرك بتسارع 3 م/ث². ما مقدار القوة المحصلة المؤثرة عليه؟",
+      "options": [
+        "1.5 نيوتن",
+        "6 نيوتن",
+        "5 نيوتن",
+        "12 نيوتن"
+      ],
+      "answerIndex": 1,
+      "explanation": "من القانون الثاني لنيوتن: القوة = الكتلة × التسارع = 2 × 3 = 6 نيوتن.",
+      "tags": [
+        "newton-laws",
+        "mechanics"
+      ]
+    },
+    {
+      "id": "phy-series-004",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "electricity",
+      "difficulty": "medium",
+      "stem": "مقاومتان 6 أوم و3 أوم موصلتان على التوازي. ما المقاومة المكافئة؟",
+      "options": [
+        "9 أوم",
+        "4.5 أوم",
+        "2 أوم",
+        "18 أوم"
+      ],
+      "answerIndex": 2,
+      "explanation": "في التوازي: 1/م = 1/6 + 1/3 = 1/2، إذن المقاومة المكافئة = 2 أوم.",
+      "tags": [
+        "circuits",
+        "electricity"
+      ]
+    },
+    {
+      "id": "phy-work-005",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "medium",
+      "stem": "ما الشغل المبذول لرفع جسم كتلته 5 كجم رأسيًا مسافة 4 أمتار (باعتبار g = 10 م/ث²)؟",
+      "options": [
+        "20 جول",
+        "50 جول",
+        "2000 جول",
+        "200 جول"
+      ],
+      "answerIndex": 3,
+      "explanation": "الشغل = الكتلة × g × الارتفاع = 5 × 10 × 4 = 200 جول.",
+      "tags": [
+        "work",
+        "energy"
+      ]
+    },
+    {
+      "id": "phy-lens-007",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "optics",
+      "difficulty": "hard",
+      "stem": "وضع جسم على بعد 20 سم أمام عدسة محدبة بعدها البؤري 10 سم. على أي بعد تتكون الصورة؟",
+      "options": [
+        "20 سم",
+        "10 سم",
+        "30 سم",
+        "لا تتكون صورة"
+      ],
+      "answerIndex": 0,
+      "explanation": "من معادلة العدسة: 1/ع = 1/س + 1/ص، أي 1/10 = 1/20 + 1/ص، ومنها ص = 20 سم، وهي صورة حقيقية مقلوبة.",
+      "tags": [
+        "lenses",
+        "optics"
+      ]
+    },
+    {
+      "id": "phy-ac-006",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "ac-circuits",
+      "difficulty": "advanced",
+      "stem": "في دائرة تيار متردد تحتوي على مكثف فقط، ما العلاقة بين الطور في التيار والجهد؟",
+      "options": [
+        "التيار يتأخر عن الجهد بربع دورة",
+        "التيار والجهد في نفس الطور",
+        "التيار يتقدم على الجهد بربع دورة",
+        "التيار يتأخر عن الجهد بنصف دورة"
+      ],
+      "answerIndex": 2,
+      "explanation": "في الدائرة السعوية البحتة يتقدم التيار على الجهد بربع دورة (90 درجة)، بينما في الدائرة الحثية البحتة يتأخر عنه بربع دورة.",
+      "tags": [
+        "ac",
+        "capacitor"
+      ]
+    },
+    {
+      "id": "chem-ph-008",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "acids-bases",
+      "difficulty": "easy",
+      "stem": "ما قيمة الأس الهيدروجيني (pH) للمحلول المتعادل عند درجة حرارة 25 مئوية؟",
+      "options": [
+        "صفر",
+        "1",
+        "14",
+        "7"
+      ],
+      "answerIndex": 3,
+      "explanation": "عند 25 مئوية يكون المحلول المتعادل pH = 7، حيث تركيز أيونات الهيدروجين وأيونات الهيدروكسيد متساوٍ.",
+      "tags": [
+        "ph",
+        "acids-bases"
+      ]
+    },
+    {
+      "id": "chem-electrons-009",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "atomic-structure",
+      "difficulty": "easy",
+      "stem": "ذرة متعادلة عددها الذري 11. كم عدد الإلكترونات فيها؟",
+      "options": [
+        "11",
+        "10",
+        "12",
+        "23"
+      ],
+      "answerIndex": 0,
+      "explanation": "في الذرة المتعادلة يتساوى عدد الإلكترونات مع عدد البروتونات، وهو العدد الذري 11.",
+      "tags": [
+        "atomic-structure"
+      ]
+    },
+    {
+      "id": "chem-dilute-010",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "acids-bases",
+      "difficulty": "medium",
+      "stem": "عند تخفيف حمض قوي بالماء، ماذا يحدث لتركيز أيونات الهيدروجين وقيمة pH؟",
+      "options": [
+        "يزداد تركيز أيونات الهيدروجين وتنخفض قيمة pH",
+        "يقل تركيز أيونات الهيدروجين وترتفع قيمة pH",
+        "لا يتغير أي منهما",
+        "يقل تركيز أيونات الهيدروجين وتنخفض قيمة pH"
+      ],
+      "answerIndex": 1,
+      "explanation": "التخفيف يقلل تركيز أيونات الهيدروجين، وبما أن pH = -لو[H+] فإن قيمته ترتفع وتقترب من 7.",
+      "tags": [
+        "ph",
+        "dilution"
+      ]
+    },
+    {
+      "id": "chem-bond-011",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "chemical-bonding",
+      "difficulty": "medium",
+      "stem": "ما نوع الرابطة بين الصوديوم والكلور في مركب كلوريد الصوديوم؟",
+      "options": [
+        "تساهمية نقية",
+        "تساهمية قطبية",
+        "هيدروجينية",
+        "أيونية"
+      ],
+      "answerIndex": 3,
+      "explanation": "ينتقل الإلكترون من الصوديوم إلى الكلور لتكوين أيونين متضادي الشحنة، والرابطة الناتجة بينهما أيونية.",
+      "tags": [
+        "bonding"
+      ]
+    },
+    {
+      "id": "chem-mole-012",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "stoichiometry",
+      "difficulty": "hard",
+      "stem": "كم عدد مولات الماء في 36 جرامًا منه؟ (الكتلة المولية للماء = 18 جم/مول)",
+      "options": [
+        "0.5 مول",
+        "1 مول",
+        "2 مول",
+        "18 مول"
+      ],
+      "answerIndex": 2,
+      "explanation": "عدد المولات = الكتلة ÷ الكتلة المولية = 36 ÷ 18 = 2 مول.",
+      "tags": [
+        "mole",
+        "stoichiometry"
+      ]
+    },
+    {
+      "id": "chem-oxidation-013",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "electrochemistry",
+      "difficulty": "advanced",
+      "stem": "ما التعريف الصحيح للتأكسد في تفاعلات الأكسدة والاختزال؟",
+      "options": [
+        "فقدان إلكترونات",
+        "اكتساب إلكترونات",
+        "فقدان بروتونات",
+        "اكتساب نيوترونات"
+      ],
+      "answerIndex": 0,
+      "explanation": "التأكسد هو فقدان الإلكترونات ويزداد به عدد التأكسد، أما الاختزال فهو اكتساب الإلكترونات.",
+      "tags": [
+        "redox",
+        "electrochemistry"
+      ]
+    },
+    {
+      "id": "bio-mito-014",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "cell-biology",
+      "difficulty": "easy",
+      "stem": "أي عضية تُنتج معظم الطاقة (ATP) داخل الخلية حقيقية النواة؟",
+      "options": [
+        "الريبوسوم",
+        "الميتوكوندريا",
+        "جهاز جولجي",
+        "الليسوسوم"
+      ],
+      "answerIndex": 1,
+      "explanation": "الميتوكوندريا هي موقع التنفس الهوائي وإنتاج معظم جزيئات ATP في الخلية.",
+      "tags": [
+        "organelles",
+        "respiration"
+      ]
+    },
+    {
+      "id": "bio-photosynthesis-015",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "plant-biology",
+      "difficulty": "easy",
+      "stem": "ما العملية التي تحول فيها النباتات الطاقة الضوئية إلى طاقة كيميائية؟",
+      "options": [
+        "التنفس الخلوي",
+        "الانتشار",
+        "البناء الضوئي",
+        "الانقسام الخلوي"
+      ],
+      "answerIndex": 2,
+      "explanation": "البناء الضوئي يحول الطاقة الضوئية إلى طاقة كيميائية مخزنة في الجلوكوز.",
+      "tags": [
+        "photosynthesis"
+      ]
+    },
+    {
+      "id": "bio-mrna-016",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "genetics",
+      "difficulty": "medium",
+      "stem": "أي جزيء ينقل الشفرة الوراثية من النواة إلى الريبوسوم؟",
+      "options": [
+        "mRNA",
+        "tRNA",
+        "rRNA",
+        "DNA"
+      ],
+      "answerIndex": 0,
+      "explanation": "الحمض النووي الريبوزي الرسول mRNA ينقل نسخة الشفرة من DNA في النواة إلى الريبوسوم للترجمة.",
+      "tags": [
+        "transcription",
+        "translation"
+      ]
+    },
+    {
+      "id": "bio-mitosis-017",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "cell-division",
+      "difficulty": "medium",
+      "stem": "بعد انتهاء الانقسام الميتوزي، ما عدد الكروموسومات في الخلايا الناتجة مقارنة بالخلية الأم؟",
+      "options": [
+        "نصف العدد",
+        "ضعف العدد",
+        "يعتمد على نوع الكائن فقط",
+        "نفس العدد"
+      ],
+      "answerIndex": 3,
+      "explanation": "الميتوزي يحافظ على العدد الكروموسومي، فتنتج خليتان مساويتان للخلية الأم في عدد الكروموسومات.",
+      "tags": [
+        "mitosis",
+        "cell-division"
+      ]
+    },
+    {
+      "id": "bio-enzyme-018",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "enzymes",
+      "difficulty": "hard",
+      "stem": "ماذا يحدث لنشاط الإنزيم عند رفع درجة الحرارة كثيرًا فوق الدرجة المثلى؟",
+      "options": [
+        "يزداد النشاط باستمرار",
+        "لا يتأثر النشاط بدرجة الحرارة",
+        "يقل النشاط بسبب تغير شكل الموقع الفعال",
+        "يتحول الإنزيم إلى سكر"
+      ],
+      "answerIndex": 2,
+      "explanation": "الحرارة المرتفعة تغيّر بنية الإنزيم (تفسخه) فيتغير شكل الموقع الفعال ويقل النشاط حتى يتوقف.",
+      "tags": [
+        "enzymes"
+      ]
+    }
+  ]
+}

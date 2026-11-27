@@ -1,0 +1,76 @@
+# مخطط بنك الأسئلة (Question bank schema)
+
+النسخة الحالية: `schemaVersion: 1`.
+
+## شكل الملف
+
+```json
+{
+  "schemaVersion": 1,
+  "language": "ar",
+  "direction": "rtl",
+  "title": "عنوان البنك",
+  "licenseNote": "بيان مصدر المحتوى وحقوقه",
+  "questions": [ ... ]
+}
+```
+
+| الحقل | النوع | مطلوب | الوصف |
+|---|---|---|---|
+| `schemaVersion` | number | نعم | يجب أن يكون `1` في هذه النسخة |
+| `language` | string | لا | لغة المحتوى (`ar`, `en`, ...) |
+| `direction` | string | لا | `rtl` أو `ltr` |
+| `title` | string | لا | عنوان يظهر في الواجهات |
+| `licenseNote` | string | لا (مُستحسن) | من أين جاء المحتوى وما حقوقه |
+| `questions` | array | نعم | قائمة الأسئلة، ولا تكون فارغة |
+
+## حقول السؤال
+
+| الحقل | النوع | مطلوب | الوصف |
+|---|---|---|---|
+| `id` | string | نعم | معرّف فريد داخل البنك. النمط المتبع: `subject-topic-001` |
+| `type` | string | لا | `single` فقط في هذه النسخة (اختيار واحد صحيح) |
+| `subject` | string | نعم | المادة، مثل `physics` |
+| `grade` | string | لا | الصف، مثل `"3"` |
+| `chapter` | string | لا | الباب أو الوحدة |
+| `lesson` | string | لا | الدرس |
+| `difficulty` | string | نعم | `easy` أو `medium` أو `hard` أو `advanced` |
+| `stem` | string | نعم | نص السؤال |
+| `options` | string[] | نعم | من 2 إلى 8 خيارات، غير فارغة وغير مكررة |
+| `answerIndex` | integer | نعم | فهرس الخيار الصحيح داخل `options` |
+| `explanation` | string | نعم | شرح الإجابة، ويظهر للطالب بعد الإجابة |
+| `tags` | string[] | لا | وسوم حرة للتصفية والتحليل |
+| `source` | object | لا | بيانات المصدر إن وُجدت، شكلها حر |
+
+## قواعد التحقق وأكواد الأخطاء
+
+`validateBank(bank)` تعيد `{ ok, errors, questionCount }`، وكل خطأ بالشكل:
+
+```json
+{ "path": "questions[3].answerIndex", "code": "answer_out_of_range", "message": "...", "messageAr": "..." }
+```
+
+| الكود | المعنى |
+|---|---|
+| `not_an_object` | الملف أو السؤال ليس كائنًا |
+| `schema_version` | رقم نسخة المخطط غير مدعوم |
+| `no_questions` | لا توجد مصفوفة أسئلة أو أنها فارغة |
+| `required_string` | حقل نصي مطلوب ناقص أو فارغ |
+| `unsupported_type` | نوع سؤال غير مدعوم في هذه النسخة |
+| `invalid_difficulty` | مستوى صعوبة غير معروف |
+| `too_few_options` / `too_many_options` | عدد الخيارات خارج 2..8 |
+| `empty_option` | خيار فارغ |
+| `duplicate_option` | خياران متطابقان داخل السؤال |
+| `missing_answer` | `answerIndex` ليس عددًا صحيحًا |
+| `answer_out_of_range` | `answerIndex` يشير إلى خيار غير موجود |
+| `invalid_tags` | `tags` ليست مصفوفة نصوص |
+| `duplicate_id` | معرّف سؤال مكرر داخل البنك |
+
+## قواعد كتابة الأسئلة
+
+1. محتوى أصلي: لا نسخ من امتحانات أو كتب محمية، ولا ادعاء بأن السؤال رسمي.
+2. شرح لكل سؤال يوضح سبب صحة الإجابة.
+3. المشتتات (الخيارات الخاطئة) يجب أن تكون خاطئة فعلًا وليست بلا معنى.
+4. توزيع الإجابات الصحيحة على المواضع الأربعة بدل تركيزها في موضع واحد.
+5. لا أسئلة شبه مكررة داخل البنك نفسه.
+6. وسم كل سؤال بالمادة والباب والدرس إن أمكن، ليمكن التصفية والتحليل.

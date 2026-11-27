@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>محرك الأسئلة — thanaweya-mcq-kit</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">؟</span>
+      <div>
+        <h1>محرك الأسئلة</h1>
+        <p class="brand-sub">thanaweya-mcq-kit — نموذج تجريبي بمحتوى أصلي</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button id="lang-toggle" class="ghost" type="button">EN</button>
+    </div>
+  </header>
+
+  <main class="app-main">
+    <section id="screen-start" class="card" aria-labelledby="start-title">
+      <h2 id="start-title" data-i18n="start">ابدأ الاختبار</h2>
+      <p class="muted" id="bank-summary"></p>
+      <form id="start-form" class="start-form">
+        <label class="field">
+          <span data-i18n="subject">المادة</span>
+          <select id="subject-select"></select>
+        </label>
+        <label class="field">
+          <span data-i18n="questionCount">عدد الأسئلة</span>
+          <select id="count-select"></select>
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" id="shuffle-options" checked>
+          <span>خلط ترتيب الخيارات</span>
+        </label>
+        <button class="primary" type="submit" data-i18n="start">ابدأ الاختبار</button>
+      </form>
+      <p class="muted small">المحتوى في هذا النموذج مكتوب خصيصًا لهذا المشروع، وليس منقولًا من أي امتحان أو كتاب رسمي.</p>
+    </section>
+
+    <section id="screen-quiz" class="card hidden" aria-live="polite">
+      <div class="quiz-top">
+        <span id="progress-label" class="pill"></span>
+        <span id="difficulty-badge" class="pill pill-soft"></span>
+      </div>
+      <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+      <h2 id="question-stem" class="stem"></h2>
+      <ol id="options-list" class="options"></ol>
+      <div id="feedback" class="feedback hidden">
+        <p id="feedback-verdict" class="verdict"></p>
+        <p id="feedback-answer" class="answer"></p>
+        <p id="feedback-explanation" class="explanation"></p>
+      </div>
+      <div class="quiz-actions">
+        <button id="skip-btn" class="ghost" type="button" data-i18n="skip">تخطي</button>
+        <button id="next-btn" class="primary" type="button" data-i18n="next" disabled>التالي</button>
+      </div>
+    </section>
+
+    <section id="screen-result" class="card hidden">
+      <h2 data-i18n="result">النتيجة</h2>
+      <div class="score-row">
+        <div class="score-ring" id="score-ring"><span id="score-value">0%</span></div>
+        <p id="score-line" class="score-line"></p>
+      </div>
+      <div id="breakdown" class="breakdown"></div>
+      <h3 data-i18n="review">مراجعة الإجابات</h3>
+      <ol id="review-list" class="review"></ol>
+      <div class="quiz-actions">
+        <button id="retry-btn" class="primary" type="button" data-i18n="retry">اختبار جديد</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <p>MIT License · محتوى أصلي · <a href="../README.md">README</a></p>
+  </footer>
+
+  <script type="module" src="quiz.js"></script>
+</body>
+</html>
