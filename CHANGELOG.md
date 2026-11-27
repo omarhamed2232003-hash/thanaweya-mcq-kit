@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.27.1
+
+- `docs/TEACHER_REVIEW.md`: the twenty-minute session a subject teacher actually
+  runs with the packet — what to mark, what to write, what they do not need to
+  touch, and what happens to their notes afterwards. Linked from the README.
+  Without that written sign-off the bank stays "mechanically checked" and no
+  document calls it reviewed.
+
 ## 0.27.0
 
 - `npm run build:packet`: a printable teacher review packet — every question
