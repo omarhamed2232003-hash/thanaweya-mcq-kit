@@ -92,13 +92,17 @@ console.log(result.scorePercent, result.byDifficulty);
 - تشغيل محلي: `npm test`.
 - CI: `.github/workflows/test.yml` على Node 20 و22.
 
-## Part of a set
+## جزء من مجموعة
 
-- [mcq-bank-lint](https://github.com/omarhamed2232003-hash/mcq-bank-lint) — audits each key against its own explanation.
-- [mcq-bank-diff](https://github.com/omarhamed2232003-hash/mcq-bank-diff) — what changed between two versions of a bank.
-- [mcq-exam-paper](https://github.com/omarhamed2232003-hash/mcq-exam-paper) — a printable paper and key from the same bank.
+أدوات صغيرة تشترك في صيغة واحدة لبنك الأسئلة:
 
-`docs/PIPELINE.md` shows how the four compose, and where each one stops.
+- [mcq-bank-lint](https://github.com/omarhamed2232003-hash/mcq-bank-lint) — يفحص كل مفتاح مقابل شرحه.
+- [mcq-bank-diff](https://github.com/omarhamed2232003-hash/mcq-bank-diff) — ما تغيّر بين نسختين من البنك.
+- [mcq-exam-paper](https://github.com/omarhamed2232003-hash/mcq-exam-paper) — ورقة امتحان ومفتاحها من نفس البنك.
+- [arabic-text-tools](https://github.com/omarhamed2232003-hash/arabic-text-tools) — قواعد تطبيع النص العربي التي تتبعها الفحوص (منفّذة داخل كل أداة لأنها بلا تبعيات).
+- [eta-einvoice-decisions](https://github.com/omarhamed2232003-hash/eta-einvoice-decisions) — مجموعة بيانات مختلفة تمامًا، لكن بنفس القاعدة: كل قيمة تعود إلى مستند رسمي، ومستوى التحقق مذكور.
+
+`docs/PIPELINE.md` يوضح كيف تتكامل الأدوات وأين تتوقف كل واحدة.
 
 ## الترخيص
 

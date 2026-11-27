@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.28.1
+
+- README: the "part of a set" section now has an Arabic heading like the rest of
+  the file and lists all five sibling repositories, including the two that were
+  missing from it.
+
 ## 0.28.0
 
 - `npm run build:packet -- --blind --sample N`: a blind packet. The same questions
