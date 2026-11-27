@@ -2665,6 +2665,733 @@
       "tags": [
         "logarithms"
       ]
+    },
+    {
+      "id": "phy-ohm-006",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "electricity",
+      "difficulty": "easy",
+      "stem": "موصل مقاومته 5 أوم وفرق الجهد بين طرفيه 15 فولت. ما شدة التيار المار فيه؟",
+      "options": [
+        "3 أمبير",
+        "0.33 أمبير",
+        "20 أمبير",
+        "75 أمبير"
+      ],
+      "answerIndex": 0,
+      "explanation": "من قانون أوم: شدة التيار = فرق الجهد ÷ المقاومة = 15 ÷ 5 = 3 أمبير.",
+      "tags": [
+        "ohm-law",
+        "electricity"
+      ]
+    },
+    {
+      "id": "phy-power-003",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "electricity",
+      "difficulty": "medium",
+      "stem": "جهاز يعمل على فرق جهد 220 فولت ويمر به تيار 2 أمبير. ما القدرة الكهربية المستهلكة؟",
+      "options": [
+        "440 واط",
+        "110 واط",
+        "220 واط",
+        "880 واط"
+      ],
+      "answerIndex": 0,
+      "explanation": "القدرة = فرق الجهد × شدة التيار = 220 × 2 = 440 واط.",
+      "tags": [
+        "power",
+        "electricity"
+      ]
+    },
+    {
+      "id": "phy-series-005",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "electricity",
+      "difficulty": "easy",
+      "stem": "مقاومتان 4 أوم و6 أوم موصلتان على التوالي. ما المقاومة المكافئة؟",
+      "options": [
+        "10 أوم",
+        "2.4 أوم",
+        "5 أوم",
+        "24 أوم"
+      ],
+      "answerIndex": 0,
+      "explanation": "على التوالي تُجمع المقاومات: 4 + 6 = 10 أوم.",
+      "tags": [
+        "resistance",
+        "series"
+      ]
+    },
+    {
+      "id": "phy-pressure-003",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "easy",
+      "stem": "قوة مقدارها 100 نيوتن تؤثر عموديًا على مساحة 0.5 متر مربع. ما الضغط الناتج؟",
+      "options": [
+        "200 باسكال",
+        "50 باسكال",
+        "100.5 باسكال",
+        "500 باسكال"
+      ],
+      "answerIndex": 0,
+      "explanation": "الضغط = القوة ÷ المساحة = 100 ÷ 0.5 = 200 باسكال.",
+      "tags": [
+        "pressure"
+      ]
+    },
+    {
+      "id": "phy-thermo-002",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "heat",
+      "difficulty": "medium",
+      "stem": "ما كمية الحرارة اللازمة لرفع درجة حرارة 200 جرام من الماء 25 درجة مئوية؟ (الحرارة النوعية 4200 جول/كجم·درجة)",
+      "options": [
+        "21 كيلوجول",
+        "210 كيلوجول",
+        "2.1 كيلوجول",
+        "105 كيلوجول"
+      ],
+      "answerIndex": 0,
+      "explanation": "الحرارة = الكتلة × الحرارة النوعية × فرق الحرارة = 0.2 × 4200 × 25 = 21000 جول = 21 كيلوجول.",
+      "tags": [
+        "specific-heat"
+      ]
+    },
+    {
+      "id": "phy-mag-002",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "magnetism",
+      "difficulty": "medium",
+      "stem": "سلك طوله 0.2 متر يمر به تيار 5 أمبير عمودي على مجال كثافته 0.4 تسلا. ما القوة المؤثرة عليه؟",
+      "options": [
+        "0.4 نيوتن",
+        "4 نيوتن",
+        "0.04 نيوتن",
+        "1 نيوتن"
+      ],
+      "answerIndex": 0,
+      "explanation": "القوة = الكثافة × التيار × الطول = 0.4 × 5 × 0.2 = 0.4 نيوتن.",
+      "tags": [
+        "magnetic-force"
+      ]
+    },
+    {
+      "id": "phy-force-002",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "easy",
+      "stem": "جسم كتلته 10 كجم. ما وزنه على سطح الأرض (g = 10 م/ث²)؟",
+      "options": [
+        "100 نيوتن",
+        "10 نيوتن",
+        "1 نيوتن",
+        "1000 نيوتن"
+      ],
+      "answerIndex": 0,
+      "explanation": "الوزن = الكتلة × عجلة الجاذبية = 10 × 10 = 100 نيوتن.",
+      "tags": [
+        "weight",
+        "gravity"
+      ]
+    },
+    {
+      "id": "phy-optics-004",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "optics",
+      "difficulty": "hard",
+      "stem": "وضع جسم على بعد 60 سم أمام عدسة محدبة بعدها البؤري 20 سم. على أي بعد تتكون الصورة؟",
+      "options": [
+        "30 سم",
+        "60 سم",
+        "20 سم",
+        "40 سم"
+      ],
+      "answerIndex": 0,
+      "explanation": "من معادلة العدسة: 1/ص = 1/ع − 1/س = 1/20 − 1/60 = 1/30، إذن ص = 30 سم.",
+      "tags": [
+        "lens",
+        "optics"
+      ]
+    },
+    {
+      "id": "chem-mole-007",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "moles",
+      "difficulty": "easy",
+      "stem": "ما عدد مولات 44 جرامًا من ثاني أكسيد الكربون؟ (الكتلة المولية 44 جرام/مول)",
+      "options": [
+        "1 مول",
+        "2 مول",
+        "0.5 مول",
+        "44 مول"
+      ],
+      "answerIndex": 0,
+      "explanation": "عدد المولات = الكتلة ÷ الكتلة المولية = 44 ÷ 44 = 1 مول.",
+      "tags": [
+        "mole",
+        "molar-mass"
+      ]
+    },
+    {
+      "id": "chem-conc-002",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "solutions",
+      "difficulty": "medium",
+      "stem": "ما تركيز محلول يحتوي 0.5 مول من المذاب في 2 لتر من المحلول؟",
+      "options": [
+        "0.25 مول/لتر",
+        "1 مول/لتر",
+        "4 مول/لتر",
+        "0.5 مول/لتر"
+      ],
+      "answerIndex": 0,
+      "explanation": "التركيز المولاري = عدد المولات ÷ الحجم باللتر = 0.5 ÷ 2 = 0.25 مول/لتر.",
+      "tags": [
+        "concentration",
+        "solutions"
+      ]
+    },
+    {
+      "id": "chem-ph-004",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "acids",
+      "difficulty": "medium",
+      "stem": "محلول تركيز أيونات الهيدروجين فيه 10 أس سالب 3 مول/لتر. ما قيمة الأس الهيدروجيني؟",
+      "options": [
+        "3",
+        "11",
+        "7",
+        "10"
+      ],
+      "answerIndex": 0,
+      "explanation": "الأس الهيدروجيني = سالب لوغاريتم تركيز أيون الهيدروجين، فمحلول تركيزه 10 أس سالب 3 يكون الأس الهيدروجيني 3.",
+      "tags": [
+        "ph",
+        "acids"
+      ]
+    },
+    {
+      "id": "chem-gas-003",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "gases",
+      "difficulty": "medium",
+      "stem": "ما حجم 3 مولات من غاز مثالي في الظروف القياسية؟ (حجم المول 22.4 لتر)",
+      "options": [
+        "67.2 لتر",
+        "22.4 لتر",
+        "44.8 لتر",
+        "6.72 لتر"
+      ],
+      "answerIndex": 0,
+      "explanation": "الحجم = عدد المولات × حجم المول = 3 × 22.4 = 67.2 لتر.",
+      "tags": [
+        "molar-volume",
+        "gases"
+      ]
+    },
+    {
+      "id": "chem-eq-005",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "equations",
+      "difficulty": "easy",
+      "stem": "عند موازنة معادلة احتراق الهيدروجين: 2H₂ + O₂ ← 2H₂O، ما معامل الماء؟",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "answerIndex": 0,
+      "explanation": "المعادلة الموزونة تحتاج جزيئين من الماء لموازنة أربع ذرات هيدروجين، فمعامل الماء 2.",
+      "tags": [
+        "balancing",
+        "equations"
+      ]
+    },
+    {
+      "id": "chem-atomic-002",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "atomic-structure",
+      "difficulty": "easy",
+      "stem": "ما عدد الإلكترونات في أيون الصوديوم Na⁺ إذا كان العدد الذري 11؟",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "1"
+      ],
+      "answerIndex": 0,
+      "explanation": "أيون الصوديوم فقد إلكترونًا واحدًا، فيصبح عدد الإلكترونات 11 − 1 = 10.",
+      "tags": [
+        "ions",
+        "atomic-structure"
+      ]
+    },
+    {
+      "id": "chem-bond-005",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "bonding",
+      "difficulty": "easy",
+      "stem": "ما نوع الرابطة في كلوريد الصوديوم NaCl؟",
+      "options": [
+        "أيونية",
+        "تساهمية نقية",
+        "تساهمية قطبية",
+        "فلزية"
+      ],
+      "answerIndex": 0,
+      "explanation": "ينتقل الإلكترون من الصوديوم إلى الكلور فيتكون أيونان متجاذبان، وهذه رابطة أيونية.",
+      "tags": [
+        "bonding",
+        "ionic"
+      ]
+    },
+    {
+      "id": "chem-mole-008",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "moles",
+      "difficulty": "medium",
+      "stem": "ما عدد الجزيئات في 0.5 مول من أي مادة؟ (عدد أفوجادرو = 6.02×10²³)",
+      "options": [
+        "3.01×10²³",
+        "6.02×10²³",
+        "1.204×10²⁴",
+        "3.01×10²²"
+      ],
+      "answerIndex": 0,
+      "explanation": "عدد الجزيئات = عدد المولات × عدد أفوجادرو = 0.5 × 6.02×10²³ = 3.01×10²³ جزيء.",
+      "tags": [
+        "avogadro",
+        "mole"
+      ]
+    },
+    {
+      "id": "bio-cell-004",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "cell",
+      "difficulty": "easy",
+      "stem": "ما العضي الذي يُسمى مصنع الطاقة في الخلية؟",
+      "options": [
+        "الميتوكوندريا",
+        "النواة",
+        "الرايبوسوم",
+        "الفجوة"
+      ],
+      "answerIndex": 0,
+      "explanation": "الميتوكوندريا تنتج الطاقة اللازمة للخلية من خلال التنفس الخلوي.",
+      "tags": [
+        "mitochondria",
+        "cell"
+      ]
+    },
+    {
+      "id": "bio-dna-003",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "genetics",
+      "difficulty": "easy",
+      "stem": "مع أي قاعدة يرتبط الأدينين في جزيء DNA؟",
+      "options": [
+        "الثايمين",
+        "الجوانين",
+        "السيتوزين",
+        "اليوراسيل"
+      ],
+      "answerIndex": 0,
+      "explanation": "في DNA يرتبط الأدينين مع الثايمين برابطتين هيدروجينيتين، والجوانين مع السيتوزين.",
+      "tags": [
+        "dna",
+        "bases"
+      ]
+    },
+    {
+      "id": "bio-photo-005",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "photosynthesis",
+      "difficulty": "easy",
+      "stem": "ما النواتج الأساسية لعملية البناء الضوئي؟",
+      "options": [
+        "الجلوكوز والأكسجين",
+        "ثاني أكسيد الكربون والماء",
+        "الجلوكوز وثاني أكسيد الكربون",
+        "الأكسجين والماء"
+      ],
+      "answerIndex": 0,
+      "explanation": "البناء الضوئي يستهلك ثاني أكسيد الكربون والماء وينتج الجلوكوز والأكسجين.",
+      "tags": [
+        "photosynthesis"
+      ]
+    },
+    {
+      "id": "bio-resp-003",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "respiration",
+      "difficulty": "easy",
+      "stem": "في أي عضي يحدث معظم التنفس الخلوي الهوائي؟",
+      "options": [
+        "الميتوكوندريا",
+        "السيتوبلازم",
+        "النواة",
+        "الغشاء البلازمي"
+      ],
+      "answerIndex": 0,
+      "explanation": "معظم تفاعلات التنفس الهوائي تحدث في الميتوكوندريا.",
+      "tags": [
+        "respiration",
+        "mitochondria"
+      ]
+    },
+    {
+      "id": "bio-gen-004",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "genetics",
+      "difficulty": "medium",
+      "stem": "عند تزاوج فردين هجينين Aa × Aa، ما نسبة الأفراد المتنحية في الذرية؟",
+      "options": [
+        "25%",
+        "50%",
+        "75%",
+        "0%"
+      ],
+      "answerIndex": 0,
+      "explanation": "الطراز 1:2:1 يعطي فردًا متنحيًا واحدًا من أربعة، أي 25%.",
+      "tags": [
+        "genetics",
+        "mendel"
+      ]
+    },
+    {
+      "id": "bio-blood-002",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "circulation",
+      "difficulty": "easy",
+      "stem": "ما المادة التي تنقل الأكسجين في خلايا الدم الحمراء؟",
+      "options": [
+        "الهيموجلوبين",
+        "الكلوروفيل",
+        "الفيبرينوجين",
+        "الأنسولين"
+      ],
+      "answerIndex": 0,
+      "explanation": "الهيموجلوبين بروتين في خلايا الدم الحمراء يرتبط بالأكسجين وينقله.",
+      "tags": [
+        "blood",
+        "hemoglobin"
+      ]
+    },
+    {
+      "id": "bio-osmosis-002",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "transport",
+      "difficulty": "medium",
+      "stem": "ما اسم انتقال الماء عبر غشاء شبه منفذ من التركيز الأعلى إلى الأقل؟",
+      "options": [
+        "الخاصية الأسموزية",
+        "الانتشار البسيط",
+        "النقل النشط",
+        "البلعمة"
+      ],
+      "answerIndex": 0,
+      "explanation": "انتقال الماء عبر غشاء شبه منفذ يسمى الخاصية الأسموزية.",
+      "tags": [
+        "osmosis",
+        "transport"
+      ]
+    },
+    {
+      "id": "bio-enzyme-002",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "biochemistry",
+      "difficulty": "easy",
+      "stem": "ما طبيعة الإنزيمات الكيميائية؟",
+      "options": [
+        "بروتينات تعمل كحفازات حيوية",
+        "كربوهيدرات تخزن الطاقة",
+        "دهون تبني الأغشية",
+        "أحماض نووية تحمل الوراثة"
+      ],
+      "answerIndex": 0,
+      "explanation": "الإنزيمات بروتينات تعمل كحفازات حيوية تسرّع التفاعلات دون أن تُستهلك.",
+      "tags": [
+        "enzymes"
+      ]
+    },
+    {
+      "id": "bio-mitosis-002",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "cell-division",
+      "difficulty": "medium",
+      "stem": "إذا كان عدد كروموسومات خلية إنسان 46، فما عددها في كل خلية ناتجة عن الانقسام الميتوزي؟",
+      "options": [
+        "46",
+        "23",
+        "92",
+        "12"
+      ],
+      "answerIndex": 0,
+      "explanation": "الانقسام الميتوزي يحافظ على العدد الكروموسومي، فتبقى الخلايا الناتجة 46 كروموسومًا.",
+      "tags": [
+        "mitosis"
+      ]
+    },
+    {
+      "id": "math-alg-008",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "easy",
+      "stem": "حل المعادلة: 3س − 5 = 16. ما قيمة س؟",
+      "options": [
+        "7",
+        "21",
+        "11",
+        "3"
+      ],
+      "answerIndex": 0,
+      "explanation": "بإضافة 5 للطرفين: 3س = 21، وبالقسمة على 3: س = 7.",
+      "tags": [
+        "equations",
+        "algebra"
+      ]
+    },
+    {
+      "id": "math-geom-006",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "geometry",
+      "difficulty": "easy",
+      "stem": "ما مساحة مستطيل طوله 8 سم وعرضه 5 سم؟",
+      "options": [
+        "40 سم²",
+        "26 سم²",
+        "13 سم²",
+        "80 سم²"
+      ],
+      "answerIndex": 0,
+      "explanation": "مساحة المستطيل = الطول × العرض = 8 × 5 = 40 سم².",
+      "tags": [
+        "area",
+        "geometry"
+      ]
+    },
+    {
+      "id": "math-trig-004",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "trigonometry",
+      "difficulty": "easy",
+      "stem": "ما قيمة جا 30 درجة؟",
+      "options": [
+        "0.5",
+        "0.866",
+        "1",
+        "0"
+      ],
+      "answerIndex": 0,
+      "explanation": "جا 30 درجة = 0.5، وهي نسبة الضلع المقابل للوتر في مثلث 30-60-90.",
+      "tags": [
+        "trigonometry",
+        "sine"
+      ]
+    },
+    {
+      "id": "math-seq-002",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "sequences",
+      "difficulty": "medium",
+      "stem": "في المتتابعة الهندسية 2، 6، 18، ... ما الحد الرابع؟",
+      "options": [
+        "54",
+        "24",
+        "36",
+        "72"
+      ],
+      "answerIndex": 0,
+      "explanation": "الأساس 3، إذن الحد الرابع = 18 × 3 = 54.",
+      "tags": [
+        "sequences",
+        "geometric"
+      ]
+    },
+    {
+      "id": "math-calc-005",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "ما مشتقة الدالة ص = س³؟",
+      "options": [
+        "3س²",
+        "س²",
+        "3س",
+        "س³"
+      ],
+      "answerIndex": 0,
+      "explanation": "بقاعدة القوة: مشتقة س³ هي 3س².",
+      "tags": [
+        "derivatives",
+        "calculus"
+      ]
+    },
+    {
+      "id": "math-log-003",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "medium",
+      "stem": "ما قيمة لو₁₀ 1000؟",
+      "options": [
+        "3",
+        "2",
+        "10",
+        "100"
+      ],
+      "answerIndex": 0,
+      "explanation": "لو₁₀ 1000 هو الأس الذي نرفع له 10 لنحصل على 1000، وهو 3.",
+      "tags": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "math-stat-005",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "statistics",
+      "difficulty": "easy",
+      "stem": "ما المتوسط الحسابي للأعداد 4، 6، 8، 10؟",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "28"
+      ],
+      "answerIndex": 0,
+      "explanation": "المتوسط = مجموع الأعداد ÷ عددها = 28 ÷ 4 = 7.",
+      "tags": [
+        "mean",
+        "statistics"
+      ]
+    },
+    {
+      "id": "math-prob-002",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "probability",
+      "difficulty": "easy",
+      "stem": "ما احتمال ظهور الصورة عند رمي عملة معدنية مرة واحدة؟",
+      "options": [
+        "1/2",
+        "1",
+        "1/4",
+        "0"
+      ],
+      "answerIndex": 0,
+      "explanation": "النتائج الممكنة اثنتان متساويتان في الاحتمال، فاحتمال الصورة = 1 ÷ 2 = 0.5.",
+      "tags": [
+        "probability"
+      ]
+    },
+    {
+      "id": "math-geom-007",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "geometry",
+      "difficulty": "easy",
+      "stem": "ما مجموع قياسات الزوايا الداخلية للمثلث؟",
+      "options": [
+        "180 درجة",
+        "360 درجة",
+        "90 درجة",
+        "270 درجة"
+      ],
+      "answerIndex": 0,
+      "explanation": "مجموع زوايا أي مثلث يساوي 180 درجة.",
+      "tags": [
+        "triangles",
+        "geometry"
+      ]
+    },
+    {
+      "id": "math-alg-009",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "medium",
+      "stem": "إذا كان س + ص = 10 و س − ص = 4، فما قيمة س؟",
+      "options": [
+        "7",
+        "3",
+        "6",
+        "14"
+      ],
+      "answerIndex": 0,
+      "explanation": "بجمع المعادلتين: 2س = 14، إذن س = 7.",
+      "tags": [
+        "equations",
+        "algebra"
+      ]
     }
   ]
 }

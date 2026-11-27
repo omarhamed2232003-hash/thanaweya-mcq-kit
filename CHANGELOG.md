@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.9.0
+
+- Add 35 original questions (physics 7, chemistry 8, biology 8, maths 12), each
+  written for this repo with a worked explanation. Bank is now 165 questions.
+- The answer-key audit runs over the new questions too: all pass.
 ## 0.8.0
 
 - Add `test/answers.test.js`: an answer-key audit that recomputes the arithmetic
