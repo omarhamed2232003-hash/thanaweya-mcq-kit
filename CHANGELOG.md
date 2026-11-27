@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.23.1
+
+- `docs/PIPELINE.md`: how the four tools compose (author, lint, diff, print,
+  play), with the commands and a table of where each one stops.
+- CI matrix now runs Node 20, 22 and 24.
 ## 0.23.0
 
 - `schema/question.schema.json`: the bank format as JSON Schema (draft 2020-12),
