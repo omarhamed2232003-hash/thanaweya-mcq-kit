@@ -378,6 +378,580 @@
       "tags": [
         "enzymes"
       ]
+    },
+    {
+      "id": "phy-kin-001",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "easy",
+      "stem": "سيارة تتحرك بسرعة 20 م/ث ثم توقفت بانتظام خلال 5 ثوانٍ. ما مقدار التباطؤ؟",
+      "options": [
+        "4 م/ث²",
+        "100 م/ث²",
+        "0.25 م/ث²",
+        "5 م/ث²"
+      ],
+      "answerIndex": 0,
+      "explanation": "التباطؤ = التغير في السرعة ÷ الزمن = (20 - 0) ÷ 5 = 4 م/ث².",
+      "tags": [
+        "motion",
+        "acceleration"
+      ]
+    },
+    {
+      "id": "phy-kin-002",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "easy",
+      "stem": "جسم يسقط سقوطًا حرًا من السكون ونهمل مقاومة الهواء (g = 10 م/ث²). ما سرعته بعد 3 ثوانٍ؟",
+      "options": [
+        "3 م/ث",
+        "30 م/ث",
+        "15 م/ث",
+        "90 م/ث"
+      ],
+      "answerIndex": 1,
+      "explanation": "السرعة = العجلة × الزمن = 10 × 3 = 30 م/ث.",
+      "tags": [
+        "free-fall",
+        "motion"
+      ]
+    },
+    {
+      "id": "phy-energy-001",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "energy",
+      "difficulty": "easy",
+      "stem": "جسم كتلته 2 كجم يتحرك بسرعة 3 م/ث. ما طاقة حركته؟",
+      "options": [
+        "6 جول",
+        "18 جول",
+        "9 جول",
+        "36 جول"
+      ],
+      "answerIndex": 2,
+      "explanation": "طاقة الحركة = ½ × الكتلة × مربع السرعة = ½ × 2 × 9 = 9 جول.",
+      "tags": [
+        "kinetic-energy"
+      ]
+    },
+    {
+      "id": "phy-wave-001",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "waves",
+      "difficulty": "medium",
+      "stem": "موجة ترددها 50 هرتز وطولها الموجي 4 أمتار. ما سرعة انتشارها؟",
+      "options": [
+        "54 م/ث",
+        "12.5 م/ث",
+        "200 م/ث",
+        "0.08 م/ث"
+      ],
+      "answerIndex": 2,
+      "explanation": "سرعة الموجة = التردد × الطول الموجي = 50 × 4 = 200 م/ث.",
+      "tags": [
+        "waves"
+      ]
+    },
+    {
+      "id": "phy-optics-001",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "optics",
+      "difficulty": "medium",
+      "stem": "ينتقل الضوء من الهواء إلى وسط معامل انكساره 1.5. إذا كانت سرعة الضوء في الهواء 3×10⁸ م/ث، فما سرعته داخل الوسط؟",
+      "options": [
+        "4.5×10⁸ م/ث",
+        "2×10⁸ م/ث",
+        "1.5×10⁸ م/ث",
+        "6×10⁸ م/ث"
+      ],
+      "answerIndex": 1,
+      "explanation": "معامل الانكسار = سرعة الضوء في الفراغ ÷ سرعته في الوسط، إذن السرعة = 3×10⁸ ÷ 1.5 = 2×10⁸ م/ث.",
+      "tags": [
+        "refraction",
+        "optics"
+      ]
+    },
+    {
+      "id": "phy-heat-001",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "heat",
+      "difficulty": "hard",
+      "stem": "ما كمية الحرارة اللازمة لرفع درجة حرارة 500 جرام من الماء من 20 إلى 70 درجة مئوية؟ (الحرارة النوعية للماء 4200 جول/كجم·درجة)",
+      "options": [
+        "105 كيلوجول",
+        "21 كيلوجول",
+        "210 كيلوجول",
+        "52.5 كيلوجول"
+      ],
+      "answerIndex": 0,
+      "explanation": "الحرارة = الكتلة × الحرارة النوعية × فرق الحرارة = 0.5 × 4200 × 50 = 105000 جول = 105 كيلوجول.",
+      "tags": [
+        "specific-heat",
+        "calorimetry"
+      ]
+    },
+    {
+      "id": "phy-elec-002",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "electricity",
+      "difficulty": "medium",
+      "stem": "مقاومتان 6 أوم و3 أوم موصلتان على التوازي. ما المقاومة المكافئة لهما؟",
+      "options": [
+        "9 أوم",
+        "4.5 أوم",
+        "18 أوم",
+        "2 أوم"
+      ],
+      "answerIndex": 3,
+      "explanation": "على التوازي: 1/م = 1/6 + 1/3 = 1/2، إذن المقاومة المكافئة = 2 أوم.",
+      "tags": [
+        "resistors",
+        "circuits"
+      ]
+    },
+    {
+      "id": "phy-mag-001",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "magnetism",
+      "difficulty": "hard",
+      "stem": "سلك طوله 0.5 متر يمر به تيار 4 أمبير داخل مجال مغناطيسي كثافته 0.2 تسلا، والسلك عمودي على المجال. ما القوة المؤثرة عليه؟",
+      "options": [
+        "0.4 نيوتن",
+        "4 نيوتن",
+        "0.1 نيوتن",
+        "1.6 نيوتن"
+      ],
+      "answerIndex": 0,
+      "explanation": "القوة = الكثافة × التيار × الطول = 0.2 × 4 × 0.5 = 0.4 نيوتن.",
+      "tags": [
+        "magnetic-force"
+      ]
+    },
+    {
+      "id": "chem-mole-001",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "stoichiometry",
+      "difficulty": "easy",
+      "stem": "ما عدد مولات الماء في 36 جرامًا منه؟ (الكتلة المولية للماء 18 جم/مول)",
+      "options": [
+        "1 مول",
+        "3 مول",
+        "2 مول",
+        "18 مول"
+      ],
+      "answerIndex": 2,
+      "explanation": "عدد المولات = الكتلة ÷ الكتلة المولية = 36 ÷ 18 = 2 مول.",
+      "tags": [
+        "mole"
+      ]
+    },
+    {
+      "id": "chem-mole-002",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "stoichiometry",
+      "difficulty": "medium",
+      "stem": "كم عدد الجزيئات في 0.5 مول من أي مادة؟ (عدد أفوجادرو = 6.02×10²³)",
+      "options": [
+        "3.01×10²³",
+        "6.02×10²³",
+        "1.2×10²⁴",
+        "3.01×10²²"
+      ],
+      "answerIndex": 0,
+      "explanation": "عدد الجزيئات = عدد المولات × عدد أفوجادرو = 0.5 × 6.02×10²³ = 3.01×10²³ جزيئًا.",
+      "tags": [
+        "avogadro",
+        "mole"
+      ]
+    },
+    {
+      "id": "chem-eq-001",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "equations",
+      "difficulty": "easy",
+      "stem": "في معادلة احتراق الهيدروجين الموزونة 2H₂ + O₂ → 2H₂O، ما معامل الأكسجين؟",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 0,
+      "explanation": "المعادلة موزونة بمعامل 2 للهيدروجين و1 للأكسجين و2 للماء، فيبقى معامل الأكسجين 1.",
+      "tags": [
+        "balancing"
+      ]
+    },
+    {
+      "id": "chem-ph-001",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "acids-bases",
+      "difficulty": "easy",
+      "stem": "محلول تركيز أيونات الهيدروجين فيه 1×10⁻³ مول/لتر. ما الرقم الهيدروجيني pH؟",
+      "options": [
+        "11",
+        "3",
+        "7",
+        "13"
+      ],
+      "answerIndex": 1,
+      "explanation": "pH = -لو[H⁺] = -لو(10⁻³) = 3، فالمحلول حمضي.",
+      "tags": [
+        "ph",
+        "acids"
+      ]
+    },
+    {
+      "id": "chem-bond-001",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "bonding",
+      "difficulty": "easy",
+      "stem": "أي نوع من الروابط يربط أيون الصوديوم بأيون الكلوريد في كلوريد الصوديوم NaCl؟",
+      "options": [
+        "رابطة تساهمية نقية",
+        "رابطة فلزية",
+        "رابطة أيونية",
+        "رابطة هيدروجينية"
+      ],
+      "answerIndex": 2,
+      "explanation": "انتقال الإلكترون من الصوديوم إلى الكلور يكوّن أيونين متضادي الشحنة يجذبهما التجاذب الكهربائي، وهي رابطة أيونية.",
+      "tags": [
+        "ionic-bond"
+      ]
+    },
+    {
+      "id": "chem-gas-001",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "gases",
+      "difficulty": "easy",
+      "stem": "ما الحجم التقريبي لمول واحد من أي غاز مثالي في الظروف القياسية؟",
+      "options": [
+        "2.24 لترًا",
+        "22.4 لترًا",
+        "1 لتر",
+        "44.8 لترًا"
+      ],
+      "answerIndex": 1,
+      "explanation": "الحجم المولي للغاز المثالي في الظروف القياسية يساوي 22.4 لترًا تقريبًا.",
+      "tags": [
+        "molar-volume",
+        "gases"
+      ]
+    },
+    {
+      "id": "chem-oxid-001",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "redox",
+      "difficulty": "medium",
+      "stem": "ما عدد تأكسد الكبريت في حمض الكبريتيك H₂SO₄؟",
+      "options": [
+        "+4",
+        "+2",
+        "-2",
+        "+6"
+      ],
+      "answerIndex": 3,
+      "explanation": "مجموع أعداد التأكسد صفر: 2(+1) + س + 4(-2) = 0، إذن س = +6.",
+      "tags": [
+        "oxidation-number"
+      ]
+    },
+    {
+      "id": "chem-conc-001",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "solutions",
+      "difficulty": "medium",
+      "stem": "أُذيب 0.5 مول من مادة في ماء حتى صار حجم المحلول 250 مل. ما تركيزه المولاري؟",
+      "options": [
+        "2 مول/لتر",
+        "0.125 مول/لتر",
+        "0.5 مول/لتر",
+        "8 مول/لتر"
+      ],
+      "answerIndex": 0,
+      "explanation": "التركيز = عدد المولات ÷ الحجم باللتر = 0.5 ÷ 0.25 = 2 مول/لتر.",
+      "tags": [
+        "molarity",
+        "solutions"
+      ]
+    },
+    {
+      "id": "bio-cell-001",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "cell",
+      "difficulty": "easy",
+      "stem": "أي عضية تُعدّ المركز الرئيسي لإنتاج الطاقة (ATP) في الخلية حقيقية النواة؟",
+      "options": [
+        "الميتوكوندريا",
+        "الريبوسوم",
+        "جهاز جولجي",
+        "الفجوة العصارية"
+      ],
+      "answerIndex": 0,
+      "explanation": "الميتوكوندريا هي موقع التنفس الهوائي وإنتاج معظم ATP في الخلية.",
+      "tags": [
+        "organelles",
+        "mitochondria"
+      ]
+    },
+    {
+      "id": "bio-gen-001",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "genetics",
+      "difficulty": "easy",
+      "stem": "ما عدد الكروموسومات في الخلية الجسمية الطبيعية للإنسان؟",
+      "options": [
+        "23",
+        "46",
+        "44",
+        "92"
+      ],
+      "answerIndex": 1,
+      "explanation": "الخلية الجسمية البشرية ثنائية المجموعة، وفيها 23 زوجًا أي 46 كروموسومًا.",
+      "tags": [
+        "chromosomes"
+      ]
+    },
+    {
+      "id": "bio-photo-001",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "photosynthesis",
+      "difficulty": "easy",
+      "stem": "ما الغاز المنطلق إلى الجو نتيجة عملية البناء الضوئي؟",
+      "options": [
+        "ثاني أكسيد الكربون",
+        "النيتروجين",
+        "الأكسجين",
+        "الميثان"
+      ],
+      "answerIndex": 2,
+      "explanation": "البناء الضوئي يستهلك ثاني أكسيد الكربون والماء وينتج الجلوكوز والأكسجين.",
+      "tags": [
+        "photosynthesis"
+      ]
+    },
+    {
+      "id": "bio-dna-001",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "genetics",
+      "difficulty": "easy",
+      "stem": "في جزيء DNA، أي قاعدة نيتروجينية ترتبط مع الأدينين؟",
+      "options": [
+        "الجوانين",
+        "السيتوزين",
+        "اليوراسيل",
+        "الثايمين"
+      ],
+      "answerIndex": 3,
+      "explanation": "الأدينين يرتبط بالثايمين برابطتين هيدروجينيتين، والجوانين يرتبط بالسيتوزين.",
+      "tags": [
+        "dna",
+        "base-pairing"
+      ]
+    },
+    {
+      "id": "bio-osmosis-001",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "transport",
+      "difficulty": "medium",
+      "stem": "انتقال الماء عبر غشاء شبه منفذ من محلول مخفف إلى محلول أكثر تركيزًا يسمى:",
+      "options": [
+        "الانتشار البسيط",
+        "الأسموزية",
+        "البلعمة",
+        "الانتشار المُيسَّر"
+      ],
+      "answerIndex": 1,
+      "explanation": "الأسموزية هي انتشار الماء عبر غشاء شبه منفذ نحو الوسط الأعلى تركيزًا في المذاب.",
+      "tags": [
+        "osmosis",
+        "transport"
+      ]
+    },
+    {
+      "id": "bio-enzyme-001",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "metabolism",
+      "difficulty": "medium",
+      "stem": "كيف تزيد الإنزيمات سرعة التفاعلات الحيوية؟",
+      "options": [
+        "بخفض طاقة التنشيط",
+        "برفع طاقة التنشيط",
+        "بمنع تكوّن المعقد الإنزيمي",
+        "بتحويل التفاعل إلى غير عكسي"
+      ],
+      "answerIndex": 0,
+      "explanation": "الإنزيم يقرّب المواد المتفاعلة ويهبط بطاقة التنشيط، فتزيد سرعة التفاعل دون أن يُستهلك.",
+      "tags": [
+        "enzymes"
+      ]
+    },
+    {
+      "id": "math-alg-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "easy",
+      "stem": "ما حل المعادلة 2س + 5 = 17؟",
+      "options": [
+        "4",
+        "6",
+        "11",
+        "8.5"
+      ],
+      "answerIndex": 1,
+      "explanation": "2س = 17 - 5 = 12، إذن س = 6.",
+      "tags": [
+        "linear-equations"
+      ]
+    },
+    {
+      "id": "math-alg-002",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "medium",
+      "stem": "ما جذرا المعادلة س² - 5س + 6 = 0؟",
+      "options": [
+        "2 و3",
+        "-2 و-3",
+        "1 و6",
+        "5 و6"
+      ],
+      "answerIndex": 0,
+      "explanation": "نبحث عن عددين حاصل ضربهما 6 ومجموعهما 5، وهما 2 و3، فالمعادلة = (س-2)(س-3) = 0.",
+      "tags": [
+        "quadratics"
+      ]
+    },
+    {
+      "id": "math-trig-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "trigonometry",
+      "difficulty": "easy",
+      "stem": "ما قيمة جا 30°؟",
+      "options": [
+        "1",
+        "0.5",
+        "0.866",
+        "0"
+      ],
+      "answerIndex": 1,
+      "explanation": "جا 30° = 0.5، وهي من النسب المثلثية الأساسية للزوايا الخاصة.",
+      "tags": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "math-geom-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "geometry",
+      "difficulty": "easy",
+      "stem": "مثلث طول قاعدته 8 سم وارتفاعه 5 سم. ما مساحته؟",
+      "options": [
+        "40 سم²",
+        "13 سم²",
+        "20 سم²",
+        "26 سم²"
+      ],
+      "answerIndex": 2,
+      "explanation": "مساحة المثلث = ½ × القاعدة × الارتفاع = ½ × 8 × 5 = 20 سم².",
+      "tags": [
+        "area",
+        "triangles"
+      ]
+    },
+    {
+      "id": "math-calc-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "ما مشتقة الدالة ص = 3س² بالنسبة للمتغير س؟",
+      "options": [
+        "3س",
+        "6س",
+        "6س²",
+        "س³"
+      ],
+      "answerIndex": 1,
+      "explanation": "بقاعدة القوة: مشتقة 3س² = 3 × 2 × س = 6س.",
+      "tags": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "math-stat-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "statistics",
+      "difficulty": "easy",
+      "stem": "ما المتوسط الحسابي للأعداد 4، 7، 9، 10؟",
+      "options": [
+        "7.5",
+        "7",
+        "8",
+        "6.5"
+      ],
+      "answerIndex": 0,
+      "explanation": "المجموع = 30، وعدد القيم 4، إذن المتوسط = 30 ÷ 4 = 7.5.",
+      "tags": [
+        "mean",
+        "statistics"
+      ]
     }
   ]
 }
