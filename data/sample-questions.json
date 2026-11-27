@@ -4744,7 +4744,7 @@
       "subject": "math",
       "grade": "3",
       "chapter": "calculus",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "ما مشتقة الدالة ص = (2س + 1)⁵؟",
       "options": [
         "10(2س + 1)⁴",
@@ -4786,7 +4786,7 @@
       "subject": "math",
       "grade": "3",
       "chapter": "calculus",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "ما مشتقة الدالة ص = جا(س²)؟",
       "options": [
         "جتا(س²)",
@@ -4933,7 +4933,7 @@
       "subject": "math",
       "grade": "3",
       "chapter": "calculus",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "stem": "ما مساحة المنطقة المحصورة تحت منحنى ص = س² ومحور السينات بين س = 0 و س = 3؟",
       "options": [
         "3",
@@ -4954,7 +4954,7 @@
       "subject": "math",
       "grade": "3",
       "chapter": "calculus",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "ما قيمة التكامل المحدود من 0 إلى 1 للمقدار 2س(س² + 1)؟",
       "options": [
         "1",
@@ -4975,7 +4975,7 @@
       "subject": "math",
       "grade": "3",
       "chapter": "calculus",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "ما مساحة المنطقة المحصورة بين منحنى ص = 4 − س² ومحور السينات؟",
       "options": [
         "16 ÷ 3",

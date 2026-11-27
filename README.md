@@ -12,7 +12,7 @@ Arabic-first multiple-choice quiz engine with zero dependencies and original sam
 ## البدء السريع
 
 ```bash
-npm test          # 32 اختبارًا للمحرك والمخطط والبيانات
+npm test          # 53 اختبارًا للمحرك والمخطط والبيانات وتدقيق المفاتيح
 npm run validate  # التحقق من كل بنوك الأسئلة داخل data/
 npm run serve     # خادم محلي على المنفذ 8080
 # ثم افتح http://localhost:8080/ui/
@@ -88,13 +88,21 @@ console.log(result.scorePercent, result.byDifficulty);
 
 ## الاختبارات
 
-- 32 اختبارًا عبر `node:test` (محرك، مخطط، بيانات).
+- 53 اختبارًا عبر `node:test` (محرك، مخطط، بيانات، تدقيق المفاتيح، حزمة المراجعة).
 - تشغيل محلي: `npm test`.
 - CI: `.github/workflows/test.yml` على Node 20 و22.
 
 ## الترخيص
 
 MIT — راجع [LICENSE](LICENSE).
+
+## بنية الكود
+
+`docs/ARCHITECTURE.md` يشرح الطبقات: المخطط، البنك، المحرك، الواجهة، وأين تنتهي مسؤولية كل ملف.
+
+## مراجعة المحتوى
+
+قبل أي إصدار، الأسئلة تحتاج مراجعة بشرية من متخصص. حزمة المراجع كاملة في `review/`: كل سؤال مجموعًا بحسب الدفعة التي أضافته (`review/questions-by-batch.md`)، والبيانات نفسها (`review/batches.json`)، ودليل يشرح ما تم فحصه آليًا وما يُطلب من المراجع (`review/REVIEWER_GUIDE.md`).
 
 ## English summary
 
@@ -108,6 +116,9 @@ the explanation finishes on must be the marked option, and no two options may be
 the same answer. Questions where an explanation contains an intermediate
 equation are listed in the test with the reason they are excluded.
 
-## مراجعة المحتوى
+## Status and limits
 
-قبل أي إصدار، الأسئلة تحتاج مراجعة بشرية من متخصص. حزمة المراجع كاملة في `review/`: كل سؤال مجموعًا بحسب الدفعة التي أضافته (`review/questions-by-batch.md`)، والبيانات نفسها (`review/batches.json`)، ودليل يشرح ما تم فحصه آليًا وما يُطلب من المراجع (`review/REVIEWER_GUIDE.md`).
+- No tag and no release yet: the first release waits on a subject-teacher sign-off of the content.
+- The bank has been through mechanical checks and two independent reviews (science and wording), but not a Ministry of Education textbook check.
+- The sample content is not curriculum-aligned and is not presented as official material.
+- The engine is general; the demo UI is a demonstration, not a product.

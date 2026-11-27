@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.22.2
+
+- `docs/ARCHITECTURE.md`: the layers (schema, bank, engine, UI), what each
+  module owns and does not own, the data flow of one quiz, where the tests sit
+  and where the content rules live.
+- README gains a "Status and limits" section that says what is true today: no
+  release yet, reviewed but not signed off by a subject teacher, no textbook
+  check, sample content not curriculum-aligned.
+- README: test counts corrected from 32 to 53, Arabic sections grouped ahead of
+  the English summary, architecture doc linked from the project structure.
+## 0.22.1
+
+- Round 3 review of the 14 calculus replacements: 14 pass, keys derived
+  independently rather than checked against the marked one.
+- Difficulty labels corrected: math-deriv-009, math-deriv-011 and
+  math-integ-009 to easy; math-integ-010 and math-integ-011 to medium.
+- docs/REVIEW_FINDINGS.md records the outcome and, plainly, what it does not
+  establish: independent derivation is not a teacher sign-off, and no Ministry
+  of Education textbook check has been done.
 ## 0.22.0
 
 - Second maths review applied: 15 pass, 14 fix, 14 fail of the 43 replacement

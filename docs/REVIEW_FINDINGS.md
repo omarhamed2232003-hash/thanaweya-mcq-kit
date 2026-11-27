@@ -94,3 +94,23 @@ The reviewer judged these topics to sit earlier in the syllabus. They are kept, 
 
 - The reviewer saw the marked key while reading. That makes a wrong key less likely to slip through the key check and more likely to be anchored on the key while reading the explanation. A subject-teacher sign-off is still needed before release, and that is now stated in the packet too.
 - Textbook alignment remains unchecked beyond the ATP case in biology.
+
+## Maths review, round 3 (27 November, evening)
+
+The 14 calculus replacements were reviewed independently: **14 pass, 0 fix, 0 fail**, and the reviewer derived each key independently rather than checking it against the marked one.
+
+Label corrections applied:
+
+| id | Was | Now | Why |
+|---|---|---|---|
+| `math-deriv-009` | medium | easy | single chain-rule step |
+| `math-deriv-011` | medium | easy | single chain-rule step |
+| `math-integ-009` | medium | easy | one definite integral of a power |
+| `math-integ-010` | hard | medium | substitution, but a standard one |
+| `math-integ-011` | hard | medium | area between a parabola and the axis |
+
+### What this review does not establish
+
+- **Independent derivation is not a teacher sign-off.** The reviewer worked the answers out rather than trusting the key, which is the strongest check so far, but the questions still have not been signed off by a subject teacher who teaches the curriculum.
+- **No Ministry of Education textbook check.** Nothing here is confirmed against the current textbook, beyond the ATP case in biology, which follows the book.
+- The borderline placement of complex numbers, sequences and the 2D dot product is still a decision, not a finding.
