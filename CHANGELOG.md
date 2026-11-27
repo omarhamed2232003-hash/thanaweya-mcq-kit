@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.17.0
+
+- Eighth question batch: 16 new original questions (4 physics, 4 chemistry,
+  4 biology, 4 maths), 3 of them multi-answer, taking the bank to 283
+  (76 physics, 72 chemistry, 71 biology, 64 maths; 265 single, 18 multi).
+- Mechanical audit only; listed in `docs/REVIEW_QUEUE.md` for a subject reviewer.
+- The `mcq-bank-lint` cross-check runs clean: 0 errors, 0 warnings, one
+  documented suppression.
 ## 0.16.0
 
 - Seventh question batch: 16 new original questions (4 physics, 4 chemistry,

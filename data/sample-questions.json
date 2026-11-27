@@ -5556,6 +5556,354 @@
         "trigonometry",
         "sine"
       ]
+    },
+    {
+      "id": "phy-momentum-001",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "easy",
+      "stem": "جسم كتلته 4 كجم يتحرك بسرعة 5 م/ث. ما كمية حركته؟",
+      "options": [
+        "20 kg·m/s",
+        "9 kg·m/s",
+        "1.25 kg·m/s",
+        "80 kg·m/s"
+      ],
+      "answerIndex": 0,
+      "explanation": "كمية الحركة = الكتلة × السرعة = 4 × 5 = 20 كجم·م/ث.",
+      "tags": [
+        "mechanics",
+        "momentum"
+      ]
+    },
+    {
+      "id": "phy-pressure-002",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "easy",
+      "stem": "قوة مقدارها 200 نيوتن تؤثر على مساحة 0.5 متر مربع. ما الضغط؟",
+      "options": [
+        "100 Pa",
+        "400 Pa",
+        "0.0025 Pa",
+        "40 Pa"
+      ],
+      "answerIndex": 1,
+      "explanation": "الضغط = القوة ÷ المساحة = 200 ÷ 0.5 = 400 باسكال.",
+      "tags": [
+        "mechanics",
+        "pressure"
+      ]
+    },
+    {
+      "id": "phy-optics-005",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "optics",
+      "difficulty": "medium",
+      "stem": "عدسة بعدها البؤري 0.25 متر. ما قدرتها؟",
+      "options": [
+        "0.25 ديوبتر",
+        "25 ديوبتر",
+        "4 ديوبتر",
+        "2 ديوبتر"
+      ],
+      "answerIndex": 2,
+      "explanation": "قدرة العدسة = 1 ÷ البعد البؤري بالمتر = 1 ÷ 0.25 = 4 ديوبتر.",
+      "tags": [
+        "optics",
+        "lens"
+      ]
+    },
+    {
+      "id": "phy-multi-003",
+      "type": "multi",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "energy",
+      "difficulty": "medium",
+      "stem": "أي مما يلي يزيد طاقة حركة جسم؟ (اختر كل ما ينطبق)",
+      "options": [
+        "زيادة كتلته مع ثبات السرعة",
+        "زيادة سرعته",
+        "زيادة ارتفاعه عن الأرض",
+        "مضاعفة سرعته"
+      ],
+      "answerIndices": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "طاقة الحركة تعتمد على الكتلة ومربع السرعة، فتزيد بزيادة الكتلة أو السرعة، ومضاعفة السرعة تضاعفها أربع مرات، أما الارتفاع فيخص طاقة الوضع.",
+      "tags": [
+        "energy",
+        "kinetic"
+      ]
+    },
+    {
+      "id": "chem-bond-006",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "bonding",
+      "difficulty": "easy",
+      "stem": "ما نوع الرابطة في كلوريد الصوديوم؟",
+      "options": [
+        "تساهمية نقية",
+        "أيونية",
+        "فلزية",
+        "هيدروجينية"
+      ],
+      "answerIndex": 1,
+      "explanation": "كلوريد الصوديوم ينتج من انتقال إلكترون من الصوديوم إلى الكلور، فتتكون رابطة أيونية بين أيونين متضادين الشحنة.",
+      "tags": [
+        "bonding",
+        "ionic"
+      ]
+    },
+    {
+      "id": "chem-electro-001",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "electrochemistry",
+      "difficulty": "medium",
+      "stem": "في التحليل الكهربائي، ما نوع التفاعل الذي يحدث عند المهبط؟",
+      "options": [
+        "اختزال",
+        "أكسدة",
+        "تحلل حراري",
+        "تبخر"
+      ],
+      "answerIndex": 0,
+      "explanation": "المهبط (الكاتود) هو القطب السالب الذي تكتسب عنده الأيونات الموجبة إلكترونات، أي يحدث اختزال.",
+      "tags": [
+        "electrochemistry",
+        "electrolysis"
+      ]
+    },
+    {
+      "id": "chem-organic-003",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "organic",
+      "difficulty": "easy",
+      "stem": "ما الصيغة العامة للألكانات؟",
+      "options": [
+        "CnH2n",
+        "CnH2n+2",
+        "CnH2n-2",
+        "CnHn"
+      ],
+      "answerIndex": 1,
+      "explanation": "الألكانات هيدروكربونات مشبعة بروابط أحادية، وصيغتها العامة CnH2n+2 مثل الميثان CH4 والإيثان C2H6.",
+      "tags": [
+        "organic",
+        "alkanes"
+      ]
+    },
+    {
+      "id": "chem-multi-003",
+      "type": "multi",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "reactions",
+      "difficulty": "easy",
+      "stem": "أي مما يلي دليل على حدوث تفاعل كيميائي؟ (اختر كل ما ينطبق)",
+      "options": [
+        "تصاعد غاز",
+        "تكوين راسب",
+        "تغير اللون",
+        "ذوبان السكر في الماء"
+      ],
+      "answerIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "تصاعد الغاز وتكوين الراسب وتغير اللون علامات على تكوين مواد جديدة، أما ذوبان السكر فتغير فيزيائي.",
+      "tags": [
+        "reactions",
+        "evidence"
+      ]
+    },
+    {
+      "id": "bio-hormone-002",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "hormones",
+      "difficulty": "easy",
+      "stem": "أي هرمون يخفض تركيز الجلوكوز في الدم؟",
+      "options": [
+        "الجلوكاجون",
+        "الأنسولين",
+        "الأدرينالين",
+        "الثيروكسين"
+      ],
+      "answerIndex": 1,
+      "explanation": "الأنسولين يزيد دخول الجلوكوز إلى الخلايا ويحوله إلى جليكوجين، فيخفض تركيزه في الدم، والجلوكاجون يعمل عكسه.",
+      "tags": [
+        "hormones",
+        "insulin"
+      ]
+    },
+    {
+      "id": "bio-enzyme-003",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "enzymes",
+      "difficulty": "medium",
+      "stem": "ماذا يحدث لإنزيم عند رفع درجة الحرارة كثيرا فوق الدرجة المثلى؟",
+      "options": [
+        "يزداد نشاطه بلا حد",
+        "يفقد نشاطه",
+        "لا يتأثر",
+        "يتحول إلى هرمون"
+      ],
+      "answerIndex": 1,
+      "explanation": "الحرارة العالية تغير الشكل الفراغي للإنزيم فتفسد موقعه النشط ويفقد نشاطه، وهذا التغير غير عكوس.",
+      "tags": [
+        "enzymes",
+        "denaturation"
+      ]
+    },
+    {
+      "id": "bio-immunity-004",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "immunity",
+      "difficulty": "medium",
+      "stem": "أي الخلايا تفرز الأجسام المضادة؟",
+      "options": [
+        "كرات الدم الحمراء",
+        "الصفائح الدموية",
+        "الخلايا الليمفاوية البائية",
+        "الخلايا العصبية"
+      ],
+      "answerIndex": 2,
+      "explanation": "الخلايا الليمفاوية البائية تتكاثر وتتحول إلى خلايا بلازمية تفرز الأجسام المضادة، أما كرات الدم الحمراء فنقل الأكسجين وظيفتها.",
+      "tags": [
+        "immunity",
+        "antibodies"
+      ]
+    },
+    {
+      "id": "bio-multi-003",
+      "type": "multi",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "digestion",
+      "difficulty": "medium",
+      "stem": "أي مما يلي من وظائف الكبد؟ (اختر كل ما ينطبق)",
+      "options": [
+        "تحويل الجلوكوز الزائد إلى جليكوجين",
+        "إزالة سموم الدم",
+        "إنتاج الصفراء",
+        "إنتاج الأنسولين"
+      ],
+      "answerIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "الكبد يخزن الجلوكوز في صورة جليكوجين ويزيل السموم وينتج الصفراء، أما الأنسولين فيفرزه البنكرياس.",
+      "tags": [
+        "digestion",
+        "liver"
+      ]
+    },
+    {
+      "id": "math-prob-004",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "probability",
+      "difficulty": "easy",
+      "stem": "ما احتمال ظهور صورة عند إلقاء عملة معدنية مرة واحدة؟",
+      "options": [
+        "1/4",
+        "1",
+        "1/2",
+        "0"
+      ],
+      "answerIndex": 2,
+      "explanation": "العملة لها وجهان متساويا الاحتمال، فاحتمال الصورة = 1 ÷ 2.",
+      "tags": [
+        "probability",
+        "coin"
+      ]
+    },
+    {
+      "id": "math-seq-003",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "medium",
+      "stem": "متتابعة هندسية حدها الأول 3 وأساسها 2. ما حدها الرابع؟",
+      "options": [
+        "12",
+        "16",
+        "24",
+        "48"
+      ],
+      "answerIndex": 2,
+      "explanation": "الحد الرابع = 3 × 2 أس 3 = 3 × 8 = 24.",
+      "tags": [
+        "algebra",
+        "geometric"
+      ]
+    },
+    {
+      "id": "math-vector-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "geometry",
+      "difficulty": "easy",
+      "stem": "إذا كان المتجه أ = (2، 3) والمتجه ب = (1، 4)، فما أ + ب؟",
+      "options": [
+        "(3، 7)",
+        "(2، 12)",
+        "(1، -1)",
+        "(4، 5)"
+      ],
+      "answerIndex": 0,
+      "explanation": "جمع المتجهات يكون بجمع المركبات المتناظرة: 2 + 1 = 3 و3 + 4 = 7، فالناتج (3، 7).",
+      "tags": [
+        "geometry",
+        "vectors"
+      ]
+    },
+    {
+      "id": "math-stat-008",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "statistics",
+      "difficulty": "easy",
+      "stem": "ما متوسط الأعداد 2 و4 و6 و8؟",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "20"
+      ],
+      "answerIndex": 1,
+      "explanation": "المتوسط = مجموع القيم ÷ عددها = 20 ÷ 4 = 5.",
+      "tags": [
+        "statistics",
+        "mean"
+      ]
     }
   ]
 }
