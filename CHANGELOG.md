@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.18.0
+
+- Reviewer packet under `review/`: `questions-by-batch.md` lays out all 283
+  questions grouped by the batch that introduced them (key marked, explanation
+  under each), `batches.json` carries the same grouping as data, and
+  `REVIEWER_GUIDE.md` says what is already checked mechanically, what a
+  reviewer is asked to do and how to report back.
+- Batch membership is derived from the repository history (each commit that
+  touched the bank), not hand-listed, so it cannot drift from the truth.
+- `test/review-packet.test.js` fails if the packet and the bank disagree: every
+  question in exactly one batch, batch counts adding up, and the guide naming
+  the checks it does not replace. Tests 53/53.
+- No new questions in this release; the effort went into review-readiness.
 ## 0.17.0
 
 - Eighth question batch: 16 new original questions (4 physics, 4 chemistry,

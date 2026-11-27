@@ -107,3 +107,7 @@ explanation: the arithmetic shown in the explanation is recomputed, the value
 the explanation finishes on must be the marked option, and no two options may be
 the same answer. Questions where an explanation contains an intermediate
 equation are listed in the test with the reason they are excluded.
+
+## مراجعة المحتوى
+
+قبل أي إصدار، الأسئلة تحتاج مراجعة بشرية من متخصص. حزمة المراجع كاملة في `review/`: كل سؤال مجموعًا بحسب الدفعة التي أضافته (`review/questions-by-batch.md`)، والبيانات نفسها (`review/batches.json`)، ودليل يشرح ما تم فحصه آليًا وما يُطلب من المراجع (`review/REVIEWER_GUIDE.md`).

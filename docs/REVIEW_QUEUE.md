@@ -24,3 +24,13 @@ How to review a batch:
 4. Record the reviewer's name, date and any corrections in this file.
 
 A reviewer pass is a person's judgement, not a test result. Do not describe a batch as reviewed until someone has actually read it.
+
+## The reviewer packet
+
+Everything a reviewer needs is in `review/`:
+
+- `review/questions-by-batch.md` — every question grouped by the batch that introduced it, with the key marked and the explanation under it;
+- `review/batches.json` — the same grouping as data (batch, commit, date, ids), generated from the repository history;
+- `review/REVIEWER_GUIDE.md` — what has already been checked mechanically, what a reviewer is asked to do, and how to report back.
+
+`test/review-packet.test.js` fails if the packet and the bank drift apart, so the packet cannot silently go stale.
