@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.28.2
+
+- `docs/RELEASE_NOTES_DRAFT.md` brought up to date for Omar to read next to the
+  README: the teacher packet and the blind spot check are in it, the test count
+  is the real one (92, not 53), and the "what it does not do" section now says
+  that no teacher has run either packet yet, so they are a way to get the
+  sign-off and not evidence of one.
+
 ## 0.28.1
 
 - README: the "part of a set" section now has an Arabic heading like the rest of
