@@ -30,7 +30,7 @@ An Arabic-first (RTL) multiple-choice quiz engine with no dependencies, plus 241
 ```bash
 git clone https://github.com/omarhamed2232003-hash/thanaweya-mcq-kit.git
 cd thanaweya-mcq-kit
-npm test          # 92 tests
+npm test          # the suite; the CI log carries the count
 npm run build:packet   # the printable teacher packet
 npm run validate  # 241 questions
 npm run serve     # the demo
