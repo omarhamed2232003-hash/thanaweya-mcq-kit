@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.26.2
+
+- README: a short "Part of a set" section naming the three sibling tools, so a
+  reader arriving at one repository can find the others.
 ## 0.26.1
 
 - `docs/QUESTION_AUTHORING.md`: says the allowance file is empty today and why,

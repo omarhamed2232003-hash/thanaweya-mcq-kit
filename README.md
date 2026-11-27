@@ -92,6 +92,14 @@ console.log(result.scorePercent, result.byDifficulty);
 - تشغيل محلي: `npm test`.
 - CI: `.github/workflows/test.yml` على Node 20 و22.
 
+## Part of a set
+
+- [mcq-bank-lint](https://github.com/omarhamed2232003-hash/mcq-bank-lint) — audits each key against its own explanation.
+- [mcq-bank-diff](https://github.com/omarhamed2232003-hash/mcq-bank-diff) — what changed between two versions of a bank.
+- [mcq-exam-paper](https://github.com/omarhamed2232003-hash/mcq-exam-paper) — a printable paper and key from the same bank.
+
+`docs/PIPELINE.md` shows how the four compose, and where each one stops.
+
 ## الترخيص
 
 MIT — راجع [LICENSE](LICENSE).
