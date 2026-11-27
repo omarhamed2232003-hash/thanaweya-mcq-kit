@@ -2,6 +2,15 @@
 
 This repository has content as well as code, so it has one gate the others do not.
 
+## The teacher sign-off artifact
+
+- [ ] `npm run build:packet` and print the result. It is the artifact a teacher
+      actually signs: questions by subject and chapter, marked answers, explanations,
+      a sign-off line per chapter.
+- [ ] Give it to a subject teacher. Their written sign-off is the only thing that
+      turns "mechanically checked" into "reviewed". Until it comes back, the release
+      notes must keep saying no teacher has signed off.
+
 ## Before the tag
 
 - [ ] **Omar reads the README and these release notes.** His 5:44 condition: nothing is tagged or released before he has read both.

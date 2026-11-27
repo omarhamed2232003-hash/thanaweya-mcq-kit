@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.27.0
+
+- `npm run build:packet`: a printable teacher review packet — every question
+  grouped by subject and chapter, the marked answer highlighted and written out,
+  the explanation underneath, and a sign-off line under each chapter. 241
+  questions, 53 chapters, four subjects, one HTML file.
+- The packet says in its introduction what was checked mechanically and what was
+  not, and keeps the bank's chapter keys rather than inventing translations.
+- Verified visually: printed to a 77-page PDF and the first pages read as images
+  (intro, subject heading, keyed question, sign-off line). Tests 89/89.
 ## 0.26.2
 
 - README: a short "Part of a set" section naming the three sibling tools, so a
