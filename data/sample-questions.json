@@ -2259,6 +2259,412 @@
       "tags": [
         "trigonometry"
       ]
+    },
+    {
+      "id": "phy-kin-006",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "hard",
+      "stem": "جسم يتحرك بسرعة 10 م/ث ثم زادت سرعته إلى 30 م/ث في 5 ثوانٍ. ما العجلة؟",
+      "options": [
+        "2 م/ث²",
+        "4 م/ث²",
+        "8 م/ث²",
+        "20 م/ث²"
+      ],
+      "answerIndex": 1,
+      "explanation": "العجلة = (30 - 10) ÷ 5 = 4 م/ث².",
+      "tags": [
+        "acceleration"
+      ]
+    },
+    {
+      "id": "phy-energy-003",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "energy",
+      "difficulty": "medium",
+      "stem": "سيارة كتلتها 1000 كجم تتحرك بسرعة 10 م/ث. ما طاقة حركتها؟",
+      "options": [
+        "10,000 جول",
+        "50,000 جول",
+        "100,000 جول",
+        "5,000 جول"
+      ],
+      "answerIndex": 1,
+      "explanation": "طاقة الحركة = ½ × 1000 × 100 = 50,000 جول.",
+      "tags": [
+        "kinetic-energy"
+      ]
+    },
+    {
+      "id": "phy-elec-009",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "electricity",
+      "difficulty": "hard",
+      "stem": "جهاز قدرته 200 واط يعمل 5 ساعات. ما الطاقة المستهلكة بالكيلوواط·ساعة؟",
+      "options": [
+        "1 ك.و.س",
+        "0.2 ك.و.س",
+        "10 ك.و.س",
+        "40 ك.و.س"
+      ],
+      "answerIndex": 0,
+      "explanation": "الطاقة = القدرة بالكيلوواط × الزمن = 0.2 × 5 = 1 كيلوواط·ساعة.",
+      "tags": [
+        "power",
+        "energy"
+      ]
+    },
+    {
+      "id": "phy-optics-003",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "optics",
+      "difficulty": "easy",
+      "stem": "ما سرعة الضوء في الفراغ تقريبًا؟",
+      "options": [
+        "3×10⁵ م/ث",
+        "3×10⁸ م/ث",
+        "3×10⁶ م/ث",
+        "3×10¹⁰ م/ث"
+      ],
+      "answerIndex": 1,
+      "explanation": "سرعة الضوء في الفراغ 3×10⁸ متر لكل ثانية تقريبًا.",
+      "tags": [
+        "light"
+      ]
+    },
+    {
+      "id": "phy-heat-004",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "heat",
+      "difficulty": "medium",
+      "stem": "أي الطرق التالية تنقل الحرارة في السوائل والغازات؟",
+      "options": [
+        "التوصيل فقط",
+        "الحمل",
+        "الإشعاع فقط",
+        "الانصهار"
+      ],
+      "answerIndex": 1,
+      "explanation": "الحمل هو انتقال الحرارة بحركة الكتل السائلة أو الغازية، بخلاف التوصيل في المواد الصلبة.",
+      "tags": [
+        "heat-transfer"
+      ]
+    },
+    {
+      "id": "chem-mole-006",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "stoichiometry",
+      "difficulty": "hard",
+      "stem": "ما عدد مولات الأكسجين اللازمة لاحتراق 2 مول من الميثان احتراقًا كاملًا؟ (CH₄ + 2O₂ → CO₂ + 2H₂O)",
+      "options": [
+        "1 مول",
+        "2 مول",
+        "4 مول",
+        "6 مول"
+      ],
+      "answerIndex": 2,
+      "explanation": "كل مول ميثان يحتاج 2 مول أكسجين، إذن 2 × 2 = 4 مول.",
+      "tags": [
+        "stoichiometry"
+      ]
+    },
+    {
+      "id": "chem-ph-003",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "acids-bases",
+      "difficulty": "medium",
+      "stem": "ما ناتج تفاعل حمض الهيدروكلوريك مع هيدروكسيد الصوديوم؟",
+      "options": [
+        "كلوريد الصوديوم وماء",
+        "صوديوم وهيدروجين",
+        "كلور وماء",
+        "أكسيد الصوديوم"
+      ],
+      "answerIndex": 0,
+      "explanation": "تفاعل تعادل: HCl + NaOH → NaCl + H₂O.",
+      "tags": [
+        "neutralization"
+      ]
+    },
+    {
+      "id": "chem-bond-004",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "bonding",
+      "difficulty": "medium",
+      "stem": "لماذا يوصّل الجرافيت الكهرباء بينما الألماس لا يوصّل؟",
+      "options": [
+        "لأن الجرافيت فلز",
+        "لأن في الجرافيت إلكترونات حرة بين الطبقات",
+        "لأن الألماس غاز",
+        "لأن الجرافيت أيوني"
+      ],
+      "answerIndex": 1,
+      "explanation": "كل ذرة كربون في الجرافيت مرتبطة بثلاث ذرات وتترك إلكترونًا حرًا، فتوصل الطبقات الكهرباء.",
+      "tags": [
+        "allotropes",
+        "conductivity"
+      ]
+    },
+    {
+      "id": "chem-gas-002",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "gases",
+      "difficulty": "hard",
+      "stem": "عند ثبات درجة الحرارة، إذا تضاعف ضغط غاز فإن حجمه:",
+      "options": [
+        "يتضاعف",
+        "ينخفض إلى النصف",
+        "لا يتغير",
+        "يزيد أربع مرات"
+      ],
+      "answerIndex": 1,
+      "explanation": "قانون بويل: الضغط × الحجم ثابت عند ثبات الحرارة، فمضاعفة الضغط تنصّف الحجم.",
+      "tags": [
+        "boyle-law"
+      ]
+    },
+    {
+      "id": "chem-organic-002",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "organic",
+      "difficulty": "medium",
+      "stem": "ما اسم المركب CH₃OH؟",
+      "options": [
+        "الميثان",
+        "الميثانول",
+        "الإيثانول",
+        "حمض الفورميك"
+      ],
+      "answerIndex": 1,
+      "explanation": "CH₃OH هو الميثانول، وهو كحول بذرة كربون واحدة.",
+      "tags": [
+        "organic",
+        "alcohols"
+      ]
+    },
+    {
+      "id": "bio-cell-003",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "cell",
+      "difficulty": "medium",
+      "stem": "ما وظيفة الغشاء البلازمي؟",
+      "options": [
+        "تخزين الماء فقط",
+        "تنظيم مرور المواد إلى الخلية وخارجها",
+        "تصنيع البروتين",
+        "تكوين الكروموسومات"
+      ],
+      "answerIndex": 1,
+      "explanation": "الغشاء البلازمي شبه منفذ ينظم دخول وخروج المواد ويحمي محتويات الخلية.",
+      "tags": [
+        "membrane"
+      ]
+    },
+    {
+      "id": "bio-gen-003",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "genetics",
+      "difficulty": "hard",
+      "stem": "إذا تزوج فرد هجين Aa بفرد متنحٍ aa، فما نسبة الأفراد المتنحية المتوقعة في الأبناء؟",
+      "options": [
+        "0%",
+        "25%",
+        "50%",
+        "100%"
+      ],
+      "answerIndex": 2,
+      "explanation": "التوزيع المتوقع: Aa وaa بنسبة 1:1، إذن 50% متنحية.",
+      "tags": [
+        "genetics",
+        "crosses"
+      ]
+    },
+    {
+      "id": "bio-photo-004",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "photosynthesis",
+      "difficulty": "medium",
+      "stem": "ما مصدر الأكسجين المنطلق في البناء الضوئي؟",
+      "options": [
+        "ثاني أكسيد الكربون",
+        "تحلل الماء",
+        "الجلوكوز",
+        "الكلوروفيل"
+      ],
+      "answerIndex": 1,
+      "explanation": "الأكسجين المنطلق يأتي من تحلل جزيئات الماء بالضوء، لا من ثاني أكسيد الكربون.",
+      "tags": [
+        "photosynthesis"
+      ]
+    },
+    {
+      "id": "bio-immunity-002",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "immunity",
+      "difficulty": "medium",
+      "stem": "ما وظيفة الكريات البيضاء في الدم؟",
+      "options": [
+        "نقل الأكسجين",
+        "الدفاع عن الجسم ضد المسببات المرضية",
+        "تجلط الدم",
+        "إنتاج الإنسولين"
+      ],
+      "answerIndex": 1,
+      "explanation": "الكريات البيضاء جزء من المناعة، تهاجم الميكروبات وتنتج الأجسام المضادة بأنواعها المختلفة.",
+      "tags": [
+        "immunity",
+        "white-blood-cells"
+      ]
+    },
+    {
+      "id": "bio-eco-004",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "ecology",
+      "difficulty": "medium",
+      "stem": "ما الذي يمثل انتقال الطاقة في النظام البيئي؟",
+      "options": [
+        "دورة الماء",
+        "السلسلة الغذائية",
+        "البناء الضوئي وحده",
+        "التنفس وحده"
+      ],
+      "answerIndex": 1,
+      "explanation": "السلسلة الغذائية توضح انتقال الطاقة من المنتجات إلى المستهلكات ثم المحللات.",
+      "tags": [
+        "food-chain",
+        "energy-flow"
+      ]
+    },
+    {
+      "id": "math-alg-007",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "medium",
+      "stem": "ما حل المتباينة 2س - 3 < 7؟",
+      "options": [
+        "س < 2",
+        "س < 5",
+        "س > 5",
+        "س = 5"
+      ],
+      "answerIndex": 1,
+      "explanation": "2س < 10، إذن س < 5.",
+      "tags": [
+        "inequalities"
+      ]
+    },
+    {
+      "id": "math-geom-005",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "geometry",
+      "difficulty": "medium",
+      "stem": "ما طول وتر مثلث قائم ضلعاه 3 سم و4 سم؟",
+      "options": [
+        "5 سم",
+        "7 سم",
+        "12 سم",
+        "25 سم"
+      ],
+      "answerIndex": 0,
+      "explanation": "فيثاغورس: الوتر = جذر(9 + 16) = جذر 25 = 5 سم.",
+      "tags": [
+        "pythagoras"
+      ]
+    },
+    {
+      "id": "math-calc-004",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "hard",
+      "stem": "ما مشتقة الدالة ص = (2س + 1)²؟",
+      "options": [
+        "2(2س + 1)",
+        "4(2س + 1)",
+        "8س",
+        "4س + 1"
+      ],
+      "answerIndex": 1,
+      "explanation": "بقاعدة السلسلة: 2(2س + 1) × 2 = 4(2س + 1).",
+      "tags": [
+        "chain-rule"
+      ]
+    },
+    {
+      "id": "math-stat-004",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "statistics",
+      "difficulty": "medium",
+      "stem": "ما مدى الأعداد 4، 9، 15، 22؟",
+      "options": [
+        "11",
+        "18",
+        "22",
+        "4"
+      ],
+      "answerIndex": 1,
+      "explanation": "المدى = أكبر قيمة - أصغر قيمة = 22 - 4 = 18.",
+      "tags": [
+        "range"
+      ]
+    },
+    {
+      "id": "math-log-002",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "medium",
+      "stem": "ما قيمة لو 100 للأساس 10؟",
+      "options": [
+        "1",
+        "2",
+        "10",
+        "100"
+      ],
+      "answerIndex": 1,
+      "explanation": "10² = 100، إذن لو₁₀ 100 = 2.",
+      "tags": [
+        "logarithms"
+      ]
     }
   ]
 }
