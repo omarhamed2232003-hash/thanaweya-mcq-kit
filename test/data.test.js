@@ -31,6 +31,16 @@ test('question ids are unique and follow the documented pattern', () => {
 });
 
 test('correct answers are spread across option positions', () => {
-  const positions = new Set(bank.questions.map((question) => question.answerIndex));
+  const singles = bank.questions.filter((question) => (question.type ?? 'single') === 'single');
+  const positions = new Set(singles.map((question) => question.answerIndex));
   assert.equal(positions.size, 4, 'correct answers should cover all four option positions');
+});
+
+test('the bank keeps a few multi-answer questions for the multi type', () => {
+  const multi = bank.questions.filter((question) => question.type === 'multi');
+  assert.ok(multi.length >= 3, 'expected at least three multi-answer questions');
+  multi.forEach((question) => {
+    assert.ok(Array.isArray(question.answerIndices) && question.answerIndices.length >= 2, question.id);
+    assert.equal(question.answerIndex, undefined, question.id);
+  });
 });

@@ -48,11 +48,16 @@ const NAMED_CONSTANT_ANSWERS = new Map([
   ['chem-mole-005', 'the answer is Avogadro number, stated in the explanation by name'],
 ]);
 
+const markedIndices = (question) => (question.type === 'multi' ? question.answerIndices : [question.answerIndex]);
+
 test('every marked answer points at a real option', () => {
   bank.questions.forEach((question) => {
-    assert.ok(Number.isInteger(question.answerIndex), `${question.id}: answerIndex is not an integer`);
-    assert.ok(question.answerIndex >= 0 && question.answerIndex < question.options.length,
-      `${question.id}: answerIndex out of range`);
+    const indices = markedIndices(question);
+    assert.ok(Array.isArray(indices) && indices.length > 0, `${question.id}: no marked answer`);
+    indices.forEach((index) => {
+      assert.ok(Number.isInteger(index), `${question.id}: answer index is not an integer`);
+      assert.ok(index >= 0 && index < question.options.length, `${question.id}: answer index out of range`);
+    });
   });
 });
 
@@ -60,6 +65,7 @@ test('the value an explanation finishes on is the marked option', () => {
   const problems = [];
   bank.questions.forEach((question) => {
     if (INTERMEDIATE_FINAL_VALUES.has(question.id)) return;
+    if (question.type === 'multi') return; // several correct options; checked by the multi tests
     const explanation = normalise(question.explanation);
     const computed = [...explanation.matchAll(/=\s*(\d+(?:\.\d+)?)/g)].map((match) => Number(match[1]));
     const allNumbers = numbersIn(explanation);
@@ -113,6 +119,18 @@ test('a numeric answer appears in its own explanation', () => {
   const problems = [];
   bank.questions.forEach((question) => {
     if (NAMED_CONSTANT_ANSWERS.has(question.id)) return;
+    if (question.type === 'multi') {
+      // Every correct option of a multi-answer question must be named in its explanation.
+      question.answerIndices.forEach((index) => {
+        const option = normalise(question.options[index]);
+        const numbers = numbersIn(option);
+        if (numbers.length === 0) return;
+        const explanationNumbers = numbersIn(question.explanation);
+        assert.ok(numbers.some((value) => explanationNumbers.includes(value)),
+          `${question.id}: correct option "${option}" is never stated in the explanation`);
+      });
+      return;
+    }
     const marked = normalise(question.options[question.answerIndex]);
     const markedNumbers = numbersIn(marked);
     if (markedNumbers.length === 0) return;

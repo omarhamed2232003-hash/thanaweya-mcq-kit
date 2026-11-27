@@ -45,10 +45,11 @@ export function validateQuestion(question, index = 0) {
     }
   }
 
-  if (question.type !== undefined && question.type !== 'single') {
+  const type = question.type ?? 'single';
+  if (type !== 'single' && type !== 'multi') {
     addError(errors, `${at}.type`, 'unsupported_type',
-      'Only "single" (one correct option) is supported by this version.',
-      'هذه النسخة تدعم أسئلة الاختيار الواحد فقط (type = "single").');
+      '"type" must be "single" (one correct option) or "multi" (several correct options).',
+      'نوع السؤال يجب أن يكون "single" (إجابة واحدة) أو "multi" (أكثر من إجابة صحيحة).');
   }
 
   if (!DIFFICULTIES.includes(question.difficulty)) {
@@ -79,13 +80,45 @@ export function validateQuestion(question, index = 0) {
     }
   }
 
-  const { answerIndex } = question;
-  if (!Number.isInteger(answerIndex)) {
-    addError(errors, `${at}.answerIndex`, 'missing_answer',
-      '"answerIndex" must be an integer.', 'الحقل "answerIndex" يجب أن يكون رقمًا صحيحًا.');
-  } else if (Array.isArray(options) && (answerIndex < 0 || answerIndex >= options.length)) {
-    addError(errors, `${at}.answerIndex`, 'answer_out_of_range',
-      '"answerIndex" points outside the options list.', '"answerIndex" يشير إلى خيار غير موجود.');
+  if (type === 'multi') {
+    if (question.answerIndex !== undefined) {
+      addError(errors, `${at}.answerIndex`, 'answer_index_not_allowed',
+        'A "multi" question uses "answerIndices", not "answerIndex".',
+        'سؤال "multi" يستخدم "answerIndices" وليس "answerIndex".');
+    }
+    const { answerIndices } = question;
+    if (!Array.isArray(answerIndices) || answerIndices.length < 2) {
+      addError(errors, `${at}.answerIndices`, 'missing_answer',
+        '"answerIndices" must list at least two correct options.',
+        'الحقل "answerIndices" يجب أن يحتوي على خيارين صحيحين على الأقل.');
+    } else if (answerIndices.some((value) => !Number.isInteger(value))) {
+      addError(errors, `${at}.answerIndices`, 'answer_not_integer',
+        '"answerIndices" must contain integers only.', 'كل القيم في "answerIndices" يجب أن تكون أرقامًا صحيحة.');
+    } else {
+      if (new Set(answerIndices).size !== answerIndices.length) {
+        addError(errors, `${at}.answerIndices`, 'duplicate_answer',
+          '"answerIndices" must not repeat an option.', 'لا يجوز تكرار نفس الخيار في "answerIndices".');
+      }
+      if (Array.isArray(options)) {
+        if (answerIndices.some((value) => value < 0 || value >= options.length)) {
+          addError(errors, `${at}.answerIndices`, 'answer_out_of_range',
+            '"answerIndices" points outside the options list.', '"answerIndices" يشير إلى خيار غير موجود.');
+        } else if (options.length <= answerIndices.length) {
+          addError(errors, `${at}.options`, 'no_wrong_option',
+            'A multi-answer question needs at least one wrong option.',
+            'سؤال متعدد الإجابات يحتاج خيارًا خاطئًا واحدًا على الأقل.');
+        }
+      }
+    }
+  } else {
+    const { answerIndex } = question;
+    if (!Number.isInteger(answerIndex)) {
+      addError(errors, `${at}.answerIndex`, 'missing_answer',
+        '"answerIndex" must be an integer.', 'الحقل "answerIndex" يجب أن يكون رقمًا صحيحًا.');
+    } else if (Array.isArray(options) && (answerIndex < 0 || answerIndex >= options.length)) {
+      addError(errors, `${at}.answerIndex`, 'answer_out_of_range',
+        '"answerIndex" points outside the options list.', '"answerIndex" يشير إلى خيار غير موجود.');
+    }
   }
 
   if (question.tags !== undefined && (!Array.isArray(question.tags)

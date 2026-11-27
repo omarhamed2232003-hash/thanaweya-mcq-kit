@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.11.0
+
+- Add multi-answer questions: `"type": "multi"` with `answerIndices`. Schema
+  validation, option shuffling and grading all handle both types, and grading
+  needs the exact set (no missing and no extra option) with a partial score.
+- Add four multi-answer questions (physics, chemistry, biology, maths); bank is
+  now 192 questions.
+- Add `docs/REVIEW_QUEUE.md`: the batches that have had only the mechanical
+  answer-key audit and still need a subject reviewer before any release.
+- `npm test` now runs every file in `test/`.
 ## 0.10.0
 
 - Add 23 more original questions (physics 6, chemistry 6, biology 7, maths 4),

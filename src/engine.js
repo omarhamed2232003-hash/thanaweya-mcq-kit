@@ -130,12 +130,19 @@ export function selectQuestions(questions, config = {}) {
   };
 }
 
-/** Shuffle a question's options and remap the answer index. */
+/** Shuffle a question's options and remap whichever answer field it uses. */
 export function shuffleOptions(question, rng) {
   const order = rng.shuffle(question.options.map((_, index) => index));
   const options = order.map((index) => question.options[index]);
-  const answerIndex = order.indexOf(question.answerIndex);
-  return { ...question, options, answerIndex, optionOrder: order };
+  const shuffled = { ...question, options, optionOrder: order };
+  if (question.type === 'multi') {
+    shuffled.answerIndices = [...(question.answerIndices ?? [])]
+      .map((index) => order.indexOf(index))
+      .sort((left, right) => left - right);
+  } else {
+    shuffled.answerIndex = order.indexOf(question.answerIndex);
+  }
+  return shuffled;
 }
 
 /**
@@ -169,14 +176,45 @@ export function buildSession(bank, config = {}) {
   };
 }
 
-/** Grade a single answer. `selectedIndex` may be null for a skipped question. */
-export function gradeAnswer(question, selectedIndex) {
-  const answered = Number.isInteger(selectedIndex);
+/**
+ * Grade a single answer.
+ *
+ * A "single" question takes one index (or null when skipped). A "multi"
+ * question takes an array of indices and is correct only when the selected set
+ * is exactly the correct set: no missing option and no extra one.
+ */
+export function gradeAnswer(question, selected) {
+  if (question.type === 'multi') {
+    const correctIndices = [...(question.answerIndices ?? [])].sort((left, right) => left - right);
+    const correctSet = new Set(correctIndices);
+    const picked = Array.isArray(selected) ? selected.filter((value) => Number.isInteger(value)) : [];
+    const selectedIndices = [...new Set(picked)].sort((left, right) => left - right);
+    const hits = selectedIndices.filter((index) => correctSet.has(index)).length;
+    const misses = selectedIndices.length - hits;
+    const answered = selectedIndices.length > 0;
+    const correct = answered && misses === 0 && hits === correctSet.size;
+    // Partial score rewards the options found and subtracts the wrong picks,
+    // so ticking every option cannot earn credit. Range: 0 to 1.
+    const raw = correctSet.size === 0 ? 0 : (hits - misses) / correctSet.size;
+    return {
+      id: question.id,
+      type: 'multi',
+      answered,
+      correct,
+      selectedIndices: answered ? selectedIndices : [],
+      correctIndices,
+      partialScore: Math.round(Math.max(0, Math.min(1, raw)) * 100) / 100,
+      explanation: question.explanation,
+    };
+  }
+
+  const answered = Number.isInteger(selected);
   return {
     id: question.id,
+    type: 'single',
     answered,
-    correct: answered && selectedIndex === question.answerIndex,
-    selectedIndex: answered ? selectedIndex : null,
+    correct: answered && selected === question.answerIndex,
+    selectedIndex: answered ? selected : null,
     correctIndex: question.answerIndex,
     explanation: question.explanation,
   };
