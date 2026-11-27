@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.28.0
+
+- `npm run build:packet -- --blind --sample N`: a blind packet. The same questions
+  with no key, no highlight and no explanation, plus an answer key on the last
+  page. `--sample` takes a deterministic, evenly spread sample (every stride-th
+  question in bank order), so the same command always gives the same twenty.
+- This closes a gap the review record has been carrying since the first round:
+  every reviewer so far saw the marked key, so nobody has shown that a teacher
+  reaches the same answer without it.
+- `docs/TEACHER_REVIEW.md` gains the independent-check section; README shows both
+  commands. Tests 92/92, including blind-mode and sample-determinism tests.
+
 ## 0.27.1
 
 - `docs/TEACHER_REVIEW.md`: the twenty-minute session a subject teacher actually
