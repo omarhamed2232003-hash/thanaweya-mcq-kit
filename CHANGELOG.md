@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.26.0
+
+- `docs/API.md`: every export with its signature and one line on what it does,
+  in groups (building a session, grading, sessions, validation, banks,
+  randomness, text, defaults). `test/readme-covers-api.test.js` fails if an
+  export is missing from it.
 ## 0.25.2
 
 - `npm run validate -- --json` prints one JSON report (`{ ok, banks: [{ file,

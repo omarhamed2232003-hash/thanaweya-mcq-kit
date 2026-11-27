@@ -110,7 +110,7 @@ npm run build:demo          # يكتب demo.html في جذر المستودع
 
 ## بنية الكود
 
-`docs/ARCHITECTURE.md` يشرح الطبقات: المخطط، البنك، المحرك، الواجهة، وأين تنتهي مسؤولية كل ملف. و`schema/question.schema.json` يصف صيغة البنك بصيغة JSON Schema ليستطيع المحرر إكمال الحقول، و`docs/SCHEMA.md` يوضح أنه للوصف فقط وأن `npm run validate` هو المدقق الفعلي.
+`docs/API.md` يسرد كل ما تصدّره المكتبة بدالة وتوقيع لكل اسم. و`docs/ARCHITECTURE.md` يشرح الطبقات: المخطط، البنك، المحرك، الواجهة، وأين تنتهي مسؤولية كل ملف. و`schema/question.schema.json` يصف صيغة البنك بصيغة JSON Schema ليستطيع المحرر إكمال الحقول، و`docs/SCHEMA.md` يوضح أنه للوصف فقط وأن `npm run validate` هو المدقق الفعلي.
 
 ## مراجعة المحتوى
 
