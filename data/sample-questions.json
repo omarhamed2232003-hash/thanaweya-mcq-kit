@@ -1442,6 +1442,415 @@
       "tags": [
         "sequences"
       ]
+    },
+    {
+      "id": "phy-elec-005",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "electricity",
+      "difficulty": "easy",
+      "stem": "مقاومة مقدارها 4 أوم يمر بها تيار 3 أمبير. ما فرق الجهد بين طرفيها؟",
+      "options": [
+        "7 فولت",
+        "12 فولت",
+        "1.3 فولت",
+        "0.75 فولت"
+      ],
+      "answerIndex": 1,
+      "explanation": "من قانون أوم: فرق الجهد = التيار × المقاومة = 3 × 4 = 12 فولت.",
+      "tags": [
+        "ohm-law"
+      ]
+    },
+    {
+      "id": "phy-kin-004",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "medium",
+      "stem": "جسم يبدأ من السكون بعجلة ثابتة 2 م/ث². ما سرعته بعد 6 ثوانٍ؟",
+      "options": [
+        "3 م/ث",
+        "8 م/ث",
+        "12 م/ث",
+        "36 م/ث"
+      ],
+      "answerIndex": 2,
+      "explanation": "السرعة = السرعة الابتدائية + العجلة × الزمن = 0 + 2 × 6 = 12 م/ث.",
+      "tags": [
+        "acceleration"
+      ]
+    },
+    {
+      "id": "phy-wave-003",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "waves",
+      "difficulty": "medium",
+      "stem": "عند ثبات سرعة الموجة، ما العلاقة بين التردد والطول الموجي؟",
+      "options": [
+        "طردية",
+        "عكسية",
+        "لا علاقة بينهما",
+        "تساوي دائم"
+      ],
+      "answerIndex": 1,
+      "explanation": "السرعة = التردد × الطول الموجي، فإذا ثبتت السرعة زاد أحدهما بنقص الآخر، أي علاقة عكسية.",
+      "tags": [
+        "waves"
+      ]
+    },
+    {
+      "id": "phy-optics-002",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "optics",
+      "difficulty": "hard",
+      "stem": "ما صفات الصورة المتكونة من عدسة مقعرة لجسم حقيقي؟",
+      "options": [
+        "حقيقية مقلوبة مكبرة",
+        "تقديرية معتدلة مصغرة",
+        "حقيقية معتدلة مساوية",
+        "تقديرية مقلوبة مكبرة"
+      ],
+      "answerIndex": 1,
+      "explanation": "العدسة المقعرة مفرقة للأشعة، فصورتها دائمًا تقديرية معتدلة مصغرة.",
+      "tags": [
+        "lenses"
+      ]
+    },
+    {
+      "id": "phy-heat-002",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "heat",
+      "difficulty": "easy",
+      "stem": "ما الوحدة الدولية لقياس كمية الحرارة؟",
+      "options": [
+        "الكالوري",
+        "الجول",
+        "الواط",
+        "الدرجة المئوية"
+      ],
+      "answerIndex": 1,
+      "explanation": "الوحدة الدولية للطاقة والحرارة هي الجول، والكالوري وحدة قديمة تساوي 4.18 جول تقريبًا.",
+      "tags": [
+        "units",
+        "heat"
+      ]
+    },
+    {
+      "id": "chem-mole-004",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "gases",
+      "difficulty": "medium",
+      "stem": "ما عدد مولات 11.2 لتر من غاز مثالي في الظروف القياسية؟ (الحجم المولي 22.4 لتر/مول)",
+      "options": [
+        "1 مول",
+        "0.5 مول",
+        "2 مول",
+        "11.2 مول"
+      ],
+      "answerIndex": 1,
+      "explanation": "عدد المولات = الحجم ÷ الحجم المولي = 11.2 ÷ 22.4 = 0.5 مول.",
+      "tags": [
+        "mole",
+        "gases"
+      ]
+    },
+    {
+      "id": "chem-eq-003",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "equations",
+      "difficulty": "easy",
+      "stem": "أي التفاعلات التالية تفاعل تعادل؟",
+      "options": [
+        "حمض + قاعدة ← ملح + ماء",
+        "فلز + أكسجين ← أكسيد",
+        "ملح + ملح ← ملحان",
+        "ماء ← هيدروجين + أكسجين"
+      ],
+      "answerIndex": 0,
+      "explanation": "تفاعل التعادل بين حمض وقاعدة ينتج ملحًا وماءً، وهو تفاعل تام في المحاليل المائية.",
+      "tags": [
+        "neutralization"
+      ]
+    },
+    {
+      "id": "chem-period-002",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "periodic-table",
+      "difficulty": "medium",
+      "stem": "كم إلكترونًا في المستوى الأخير لعنصر عدده الذري 17؟",
+      "options": [
+        "1",
+        "7",
+        "8",
+        "17"
+      ],
+      "answerIndex": 1,
+      "explanation": "التوزيع 2، 8، 7، فالمستوى الأخير يحمل 7 إلكترونات، وهو الكلور في المجموعة السابعة.",
+      "tags": [
+        "electron-configuration"
+      ]
+    },
+    {
+      "id": "chem-bond-002",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "bonding",
+      "difficulty": "medium",
+      "stem": "ما نوع الرابطة بين الهيدروجين والأكسجين في جزيء الماء؟",
+      "options": [
+        "أيونية",
+        "فلزية",
+        "تساهمية قطبية",
+        "هيدروجينية"
+      ],
+      "answerIndex": 2,
+      "explanation": "الأكسجين أكثر سالبية كهربية من الهيدروجين، فتتشارك الإلكترونات بانحياز نحو الأكسجين، وهي رابطة تساهمية قطبية.",
+      "tags": [
+        "covalent-bond",
+        "polarity"
+      ]
+    },
+    {
+      "id": "chem-ph-002",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "acids-bases",
+      "difficulty": "easy",
+      "stem": "محلول رقمه الهيدروجيني 9 يكون:",
+      "options": [
+        "حمضيًا قويًا",
+        "متعادلًا",
+        "قاعديًا ضعيفًا",
+        "حمضيًا ضعيفًا"
+      ],
+      "answerIndex": 2,
+      "explanation": "pH أكبر من 7 يعني وسطًا قاعديًا، و9 قاعدي ضعيف لأن الهيدروكسيد قليل التركيز.",
+      "tags": [
+        "ph"
+      ]
+    },
+    {
+      "id": "bio-photo-002",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "photosynthesis",
+      "difficulty": "easy",
+      "stem": "في أي عضية يحدث البناء الضوئي في الخلية النباتية؟",
+      "options": [
+        "الميتوكوندريا",
+        "البلاستيدة الخضراء",
+        "الريبوسوم",
+        "النواة"
+      ],
+      "answerIndex": 1,
+      "explanation": "البلاستيدة الخضراء تحتوي الكلوروفيل وتمتص الضوء، وفيها تحدث تفاعلات البناء الضوئي.",
+      "tags": [
+        "chloroplast",
+        "photosynthesis"
+      ]
+    },
+    {
+      "id": "bio-dna-002",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "genetics",
+      "difficulty": "medium",
+      "stem": "من أي ثلاثة أجزاء تتكون النيوكليوتيدة في DNA؟",
+      "options": [
+        "سكر خمسي وقاعدة نيتروجينية ومجموعة فوسفات",
+        "حمض أميني وسكر وقاعدة",
+        "دهن وسكر وفوسفات",
+        "بروتين وقاعدة وفوسفات"
+      ],
+      "answerIndex": 0,
+      "explanation": "النيوكليوتيدة = سكر ديؤكسي ريبوز + قاعدة نيتروجينية + مجموعة فوسفات، وتتكرر لتكوين سلسلة DNA.",
+      "tags": [
+        "dna",
+        "nucleotide"
+      ]
+    },
+    {
+      "id": "bio-immunity-001",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "immunity",
+      "difficulty": "medium",
+      "stem": "أي الخلايا تنتج الأجسام المضادة؟",
+      "options": [
+        "كريات الدم الحمراء",
+        "الخلايا الليمفاوية البائية",
+        "الصفائح الدموية",
+        "الخلايا العصبية"
+      ],
+      "answerIndex": 1,
+      "explanation": "الخلايا الليمفاوية البائية تتحول إلى خلايا بلازمية تفرز الأجسام المضادة النوعية للمولد الضدي.",
+      "tags": [
+        "immunity",
+        "antibodies"
+      ]
+    },
+    {
+      "id": "bio-eco-002",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "ecology",
+      "difficulty": "easy",
+      "stem": "ما دور المحللات في النظام البيئي؟",
+      "options": [
+        "تصنع الغذاء من الضوء",
+        "تأكل المنتجات فقط",
+        "تحلل المواد العضوية إلى مواد بسيطة",
+        "تنقل الأكسجين"
+      ],
+      "answerIndex": 2,
+      "explanation": "المحللات كالبكتيريا والفطريات تحلل بقايا الكائنات إلى مواد بسيطة تعود إلى التربة وتُستخدم من جديد.",
+      "tags": [
+        "decomposers"
+      ]
+    },
+    {
+      "id": "bio-repro-001",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "cell-division",
+      "difficulty": "medium",
+      "stem": "ما نوع الخلايا الناتجة عن الانقسام الميوزي؟",
+      "options": [
+        "ثنائية المجموعة الكروموسومية",
+        "أحادية المجموعة الكروموسومية",
+        "متطابقة تمامًا مع الخلية الأم",
+        "ثلاثية المجموعة"
+      ],
+      "answerIndex": 1,
+      "explanation": "الميوزي يختزل عدد الكروموسومات إلى النصف، فتنتج أمشاج أحادية المجموعة (n) مختلفة وراثيًا.",
+      "tags": [
+        "meiosis",
+        "gametes"
+      ]
+    },
+    {
+      "id": "math-alg-005",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "medium",
+      "stem": "إذا كان س + ص = 10 و س - ص = 4، فما قيمة س؟",
+      "options": [
+        "3",
+        "6",
+        "7",
+        "14"
+      ],
+      "answerIndex": 2,
+      "explanation": "بجمع المعادلتين: 2س = 14، إذن س = 7، ومنها ص = 3.",
+      "tags": [
+        "systems"
+      ]
+    },
+    {
+      "id": "math-geom-003",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "geometry",
+      "difficulty": "medium",
+      "stem": "ما مساحة دائرة نصف قطرها 7 سم؟ (π = 22/7)",
+      "options": [
+        "44 سم²",
+        "154 سم²",
+        "49 سم²",
+        "308 سم²"
+      ],
+      "answerIndex": 1,
+      "explanation": "المساحة = π × مربع نصف القطر = 22/7 × 49 = 154 سم².",
+      "tags": [
+        "circle",
+        "area"
+      ]
+    },
+    {
+      "id": "math-calc-002",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "ما مشتقة الدالة ص = جا س؟",
+      "options": [
+        "جتا س",
+        "- جا س",
+        "- جتا س",
+        "ظا س"
+      ],
+      "answerIndex": 0,
+      "explanation": "مشتقة الجيب هي جيب التمام، ومشتقة جيب التمام هي سالب الجيب.",
+      "tags": [
+        "derivatives",
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "math-log-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "medium",
+      "stem": "ما قيمة لو₂ 8؟",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "8"
+      ],
+      "answerIndex": 1,
+      "explanation": "لو₂ 8 يعني الأس الذي نرفع له 2 لنحصل على 8، و2³ = 8، إذن القيمة 3.",
+      "tags": [
+        "logarithms"
+      ]
+    },
+    {
+      "id": "math-stat-002",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "statistics",
+      "difficulty": "easy",
+      "stem": "ما وسيط الأعداد 3، 7، 9، 12، 15؟",
+      "options": [
+        "7",
+        "9",
+        "9.2",
+        "12"
+      ],
+      "answerIndex": 1,
+      "explanation": "الوسيط هو القيمة الوسطى بعد الترتيب، والأعداد مرتبة بالفعل وعددها خمسة، فالقيمة الوسطى 9.",
+      "tags": [
+        "median"
+      ]
     }
   ]
 }
