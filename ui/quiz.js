@@ -292,13 +292,16 @@ function startQuiz(event) {
   const countValue = el('count-select').value;
   const count = countValue === 'all' ? state.bank.questions.length : Number(countValue);
 
-  // The demo UI is verified for single-answer questions only. Multi-answer
-  // rendering exists below but has not been through a visual check yet, so the
-  // demo does not put those questions in front of a user until it has.
-  const uiBank = {
-    ...state.bank,
-    questions: state.bank.questions.filter((question) => (question.type ?? 'single') === 'single'),
-  };
+  const uiBank = state.bank;
+
+  if (uiBank.questions.length === 0) {
+    // Nothing to ask: say so instead of building an empty session and crashing
+    // on the first render.
+    el('bank-summary').textContent = state.language === 'ar'
+      ? 'لا توجد أسئلة متاحة بهذه الاختيارات.'
+      : 'No questions match these choices.';
+    return;
+  }
 
   state.session = buildSession(uiBank, {
     count,

@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.14.0
+
+- The demo UI now plays multi-answer questions: options toggle instead of
+  locking on the first click, the check moves to the end of the question, and
+  the reveal and the review list show every correct option.
+- Verified by rendering the demo in a headless browser against a bank of only
+  multi-answer questions and reading the screenshots: selection state, reveal
+  with correct/wrong marks, and the result review listing all correct options.
+- An empty question pool now shows a message instead of building an empty
+  session and crashing on the first render.
 ## 0.13.1
 
 - Fix the demo UI: it assumed every question has `answerIndex`, so a session
