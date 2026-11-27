@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.21.0
+
+- Maths replacement, on Omar's decision: the 43 questions the maths reviewer
+  judged prep-stage level are replaced with 43 new Thanaweya Amma-level
+  questions (limits, derivatives and applications, integration, complex
+  numbers, sequences and series, logarithms, trigonometric identities and
+  equations, vectors, solid geometry, probability, statistics).
+- 32 of the 43 flagged ids were still in the bank (11 had already been dropped
+  as duplicates); those 32 are gone and the 43 new questions carry new ids, so
+  no verdict in `docs/REVIEW_FINDINGS.md` is ambiguous. The bank is now 241.
+- The new questions have had the mechanical checks only. They are batch 15 in
+  the reviewer packet and are waiting for an independent subject review.
+- The stale linter suppression for `math-alg-005` is removed, since that
+  question no longer exists; the linter now runs with no suppressions at all.
 ## 0.20.0
 
 - Independent review applied. Two reviewers read the bank (physics and

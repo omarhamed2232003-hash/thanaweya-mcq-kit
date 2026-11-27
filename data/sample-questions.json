@@ -750,26 +750,6 @@
       ]
     },
     {
-      "id": "math-alg-001",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "algebra",
-      "difficulty": "easy",
-      "stem": "ما حل المعادلة 2س + 5 = 17؟",
-      "options": [
-        "4",
-        "6",
-        "11",
-        "8.5"
-      ],
-      "answerIndex": 1,
-      "explanation": "2س = 17 - 5 = 12، إذن س = 6.",
-      "tags": [
-        "linear-equations"
-      ]
-    },
-    {
       "id": "math-alg-002",
       "type": "single",
       "subject": "math",
@@ -790,47 +770,6 @@
       ]
     },
     {
-      "id": "math-trig-001",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "trigonometry",
-      "difficulty": "easy",
-      "stem": "ما قيمة جا 30°؟",
-      "options": [
-        "1",
-        "0.5",
-        "0.866",
-        "0"
-      ],
-      "answerIndex": 1,
-      "explanation": "جا 30° = 0.5، وهي من النسب المثلثية الأساسية للزوايا الخاصة.",
-      "tags": [
-        "trigonometry"
-      ]
-    },
-    {
-      "id": "math-geom-001",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "geometry",
-      "difficulty": "easy",
-      "stem": "مثلث طول قاعدته 8 سم وارتفاعه 5 سم. ما مساحته؟",
-      "options": [
-        "40 سم²",
-        "13 سم²",
-        "20 سم²",
-        "26 سم²"
-      ],
-      "answerIndex": 2,
-      "explanation": "مساحة المثلث = ½ × القاعدة × الارتفاع = ½ × 8 × 5 = 20 سم².",
-      "tags": [
-        "area",
-        "triangles"
-      ]
-    },
-    {
       "id": "math-calc-001",
       "type": "single",
       "subject": "math",
@@ -848,27 +787,6 @@
       "explanation": "بقاعدة القوة: مشتقة 3س² = 3 × 2 × س = 6س.",
       "tags": [
         "derivatives"
-      ]
-    },
-    {
-      "id": "math-stat-001",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "statistics",
-      "difficulty": "easy",
-      "stem": "ما المتوسط الحسابي للأعداد 4، 7، 9، 10؟",
-      "options": [
-        "7.5",
-        "7",
-        "8",
-        "6.5"
-      ],
-      "answerIndex": 0,
-      "explanation": "المجموع = 30، وعدد القيم 4، إذن المتوسط = 30 ÷ 4 = 7.5.",
-      "tags": [
-        "mean",
-        "statistics"
       ]
     },
     {
@@ -1221,107 +1139,6 @@
       ]
     },
     {
-      "id": "math-alg-003",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "algebra",
-      "difficulty": "easy",
-      "stem": "ما قيمة س في المعادلة 3^س = 27؟",
-      "options": [
-        "2",
-        "3",
-        "9",
-        "27"
-      ],
-      "answerIndex": 1,
-      "explanation": "27 = 3³، إذن س = 3.",
-      "tags": [
-        "exponents"
-      ]
-    },
-    {
-      "id": "math-geom-002",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "geometry",
-      "difficulty": "easy",
-      "stem": "ما محيط دائرة نصف قطرها 7 سم؟ (π = 22/7)",
-      "options": [
-        "22 سم",
-        "44 سم",
-        "154 سم",
-        "49 سم"
-      ],
-      "answerIndex": 1,
-      "explanation": "المحيط = 2 × π × نصف القطر = 2 × 22/7 × 7 = 44 سم.",
-      "tags": [
-        "circle",
-        "perimeter"
-      ]
-    },
-    {
-      "id": "math-prob-001",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "probability",
-      "difficulty": "easy",
-      "stem": "ما احتمال ظهور صورة عند إلقاء عملة معدنية مرة واحدة؟",
-      "options": [
-        "1",
-        "1/2",
-        "1/4",
-        "0"
-      ],
-      "answerIndex": 1,
-      "explanation": "النتيجتان المتساويتان (صورة وكتابة) تجعلان احتمال الصورة 1/2.",
-      "tags": [
-        "probability"
-      ]
-    },
-    {
-      "id": "math-alg-004",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "algebra",
-      "difficulty": "easy",
-      "stem": "ما ناتج ضرب (س + 2)(س - 2)؟",
-      "options": [
-        "س² - 4",
-        "س² + 4",
-        "س² - 4س + 4",
-        "س² + 4س + 4"
-      ],
-      "answerIndex": 0,
-      "explanation": "الفرق بين مربعين: (س + 2)(س - 2) = س² - 4.",
-      "tags": [
-        "factoring"
-      ]
-    },
-    {
-      "id": "math-trig-002",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "trigonometry",
-      "difficulty": "medium",
-      "stem": "في مثلث قائم، ما النسبة التي تمثل جيب الزاوية؟",
-      "options": [
-        "المجاور ÷ الوتر",
-        "المقابل ÷ الوتر",
-        "المقابل ÷ المجاور",
-        "الوتر ÷ المقابل"
-      ],
-      "answerIndex": 1,
-      "explanation": "جيب الزاوية = طول الضلع المقابل لها ÷ طول الوتر.",
-      "tags": [
-        "trigonometry"
-      ]
-    },
-    {
       "id": "math-seq-001",
       "type": "single",
       "subject": "math",
@@ -1649,47 +1466,6 @@
       ]
     },
     {
-      "id": "math-alg-005",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "algebra",
-      "difficulty": "medium",
-      "stem": "إذا كان س + ص = 10 و س - ص = 4، فما قيمة س؟",
-      "options": [
-        "3",
-        "6",
-        "7",
-        "14"
-      ],
-      "answerIndex": 2,
-      "explanation": "بجمع المعادلتين: 2س = 14، إذن س = 7، ومنها ص = 3.",
-      "tags": [
-        "systems"
-      ]
-    },
-    {
-      "id": "math-geom-003",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "geometry",
-      "difficulty": "medium",
-      "stem": "ما مساحة دائرة نصف قطرها 7 سم؟ (π = 22/7)",
-      "options": [
-        "44 سم²",
-        "154 سم²",
-        "49 سم²",
-        "308 سم²"
-      ],
-      "answerIndex": 1,
-      "explanation": "المساحة = π × مربع نصف القطر = 22/7 × 49 = 154 سم².",
-      "tags": [
-        "circle",
-        "area"
-      ]
-    },
-    {
       "id": "math-calc-002",
       "type": "single",
       "subject": "math",
@@ -1728,26 +1504,6 @@
       "explanation": "لو₂ 8 يعني الأس الذي نرفع له 2 لنحصل على 8، و2³ = 8، إذن القيمة 3.",
       "tags": [
         "logarithms"
-      ]
-    },
-    {
-      "id": "math-stat-002",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "statistics",
-      "difficulty": "easy",
-      "stem": "ما وسيط الأعداد 3، 7، 9، 12، 15؟",
-      "options": [
-        "7",
-        "9",
-        "9.2",
-        "12"
-      ],
-      "answerIndex": 1,
-      "explanation": "الوسيط هو القيمة الوسطى بعد الترتيب، والأعداد مرتبة بالفعل وعددها خمسة، فالقيمة الوسطى 9.",
-      "tags": [
-        "median"
       ]
     },
     {
@@ -2039,46 +1795,6 @@
       ]
     },
     {
-      "id": "math-alg-006",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "algebra",
-      "difficulty": "medium",
-      "stem": "ما حلول المعادلة |س| = 5؟",
-      "options": [
-        "5 فقط",
-        "-5 فقط",
-        "5 أو -5",
-        "25 أو -25"
-      ],
-      "answerIndex": 2,
-      "explanation": "القيمة المطلقة تساوي 5 لكل عدد بعده عن الصفر 5، أي 5 و-5.",
-      "tags": [
-        "absolute-value"
-      ]
-    },
-    {
-      "id": "math-geom-004",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "geometry",
-      "difficulty": "easy",
-      "stem": "ما مجموع قياسات الزوايا الداخلية لأي مثلث؟",
-      "options": [
-        "90°",
-        "180°",
-        "270°",
-        "360°"
-      ],
-      "answerIndex": 1,
-      "explanation": "مجموع زوايا المثلث الداخلية 180 درجة في الهندسة الإقليدية.",
-      "tags": [
-        "triangles"
-      ]
-    },
-    {
       "id": "math-calc-003",
       "type": "single",
       "subject": "math",
@@ -2096,46 +1812,6 @@
       "explanation": "بقاعدة القوة: 5 × 3 × س² = 15س².",
       "tags": [
         "derivatives"
-      ]
-    },
-    {
-      "id": "math-stat-003",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "statistics",
-      "difficulty": "easy",
-      "stem": "ما منوال الأعداد 2، 3، 3، 5، 7؟",
-      "options": [
-        "2",
-        "3",
-        "5",
-        "7"
-      ],
-      "answerIndex": 1,
-      "explanation": "المنوال هو القيمة الأكثر تكرارًا، والعدد 3 تكرر مرتين.",
-      "tags": [
-        "mode"
-      ]
-    },
-    {
-      "id": "math-trig-003",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "trigonometry",
-      "difficulty": "easy",
-      "stem": "ما قيمة ظا 45°؟",
-      "options": [
-        "0",
-        "0.5",
-        "1",
-        "غير معرّفة"
-      ],
-      "answerIndex": 2,
-      "explanation": "ظا 45° = جا 45° ÷ جتا 45° = 1، لأن الضلعين المقابل والمجاور متساويان.",
-      "tags": [
-        "trigonometry"
       ]
     },
     {
@@ -2445,46 +2121,6 @@
       ]
     },
     {
-      "id": "math-alg-007",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "algebra",
-      "difficulty": "medium",
-      "stem": "ما حل المتباينة 2س - 3 < 7؟",
-      "options": [
-        "س < 2",
-        "س < 5",
-        "س > 5",
-        "س = 5"
-      ],
-      "answerIndex": 1,
-      "explanation": "2س < 10، إذن س < 5.",
-      "tags": [
-        "inequalities"
-      ]
-    },
-    {
-      "id": "math-geom-005",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "geometry",
-      "difficulty": "medium",
-      "stem": "ما طول وتر مثلث قائم ضلعاه 3 سم و4 سم؟",
-      "options": [
-        "5 سم",
-        "7 سم",
-        "12 سم",
-        "25 سم"
-      ],
-      "answerIndex": 0,
-      "explanation": "فيثاغورس: الوتر = جذر(9 + 16) = جذر 25 = 5 سم.",
-      "tags": [
-        "pythagoras"
-      ]
-    },
-    {
       "id": "math-calc-004",
       "type": "single",
       "subject": "math",
@@ -2502,26 +2138,6 @@
       "explanation": "بقاعدة السلسلة: 2(2س + 1) × 2 = 4(2س + 1).",
       "tags": [
         "chain-rule"
-      ]
-    },
-    {
-      "id": "math-stat-004",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "statistics",
-      "difficulty": "medium",
-      "stem": "ما مدى الأعداد 4، 9، 15، 22؟",
-      "options": [
-        "11",
-        "18",
-        "22",
-        "4"
-      ],
-      "answerIndex": 1,
-      "explanation": "المدى = أكبر قيمة - أصغر قيمة = 22 - 4 = 18.",
-      "tags": [
-        "range"
       ]
     },
     {
@@ -2897,27 +2513,6 @@
       ]
     },
     {
-      "id": "math-geom-006",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "geometry",
-      "difficulty": "easy",
-      "stem": "ما مساحة مستطيل طوله 8 سم وعرضه 5 سم؟",
-      "options": [
-        "40 سم²",
-        "26 سم²",
-        "13 سم²",
-        "80 سم²"
-      ],
-      "answerIndex": 0,
-      "explanation": "مساحة المستطيل = الطول × العرض = 8 × 5 = 40 سم².",
-      "tags": [
-        "area",
-        "geometry"
-      ]
-    },
-    {
       "id": "math-seq-002",
       "type": "single",
       "subject": "math",
@@ -2977,27 +2572,6 @@
       "explanation": "لو₁₀ 1000 هو الأس الذي نرفع له 10 لنحصل على 1000، وهو 3.",
       "tags": [
         "logarithms"
-      ]
-    },
-    {
-      "id": "math-stat-005",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "statistics",
-      "difficulty": "easy",
-      "stem": "ما المتوسط الحسابي للأعداد 4، 6، 8، 10؟",
-      "options": [
-        "7",
-        "6",
-        "8",
-        "28"
-      ],
-      "answerIndex": 0,
-      "explanation": "المتوسط = مجموع الأعداد ÷ عددها = 28 ÷ 4 = 7.",
-      "tags": [
-        "mean",
-        "statistics"
       ]
     },
     {
@@ -3287,47 +2861,6 @@
       ]
     },
     {
-      "id": "math-alg-010",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "algebra",
-      "difficulty": "medium",
-      "stem": "ما حل المتباينة: 2س + 3 < 11؟",
-      "options": [
-        "س < 4",
-        "س > 4",
-        "س < 7",
-        "س > 7"
-      ],
-      "answerIndex": 0,
-      "explanation": "بطرح 3: 2س < 8، وبالقسمة على 2: س < 4.",
-      "tags": [
-        "inequalities"
-      ]
-    },
-    {
-      "id": "math-trig-005",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "trigonometry",
-      "difficulty": "medium",
-      "stem": "ما قيمة جتا 60 درجة؟",
-      "options": [
-        "0.5",
-        "0.866",
-        "1",
-        "0"
-      ],
-      "answerIndex": 0,
-      "explanation": "جتا 60 درجة = 0.5، وهي نسبة الضلع المجاور للوتر.",
-      "tags": [
-        "trigonometry",
-        "cosine"
-      ]
-    },
-    {
       "id": "math-calc-006",
       "type": "single",
       "subject": "math",
@@ -3345,26 +2878,6 @@
       "explanation": "مشتقة 5س هي معامل س، أي 5.",
       "tags": [
         "derivatives"
-      ]
-    },
-    {
-      "id": "math-prob-003",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "probability",
-      "difficulty": "medium",
-      "stem": "ما احتمال ظهور عدد زوجي عند رمي حجر نرد مرة واحدة؟",
-      "options": [
-        "1/2",
-        "1/3",
-        "1/6",
-        "2/3"
-      ],
-      "answerIndex": 0,
-      "explanation": "الأعداد الزوجية 2 و4 و6 أي ثلاث نتائج من ست، فاحتمالها = 3 ÷ 6 = 0.5.",
-      "tags": [
-        "probability"
       ]
     },
     {
@@ -3440,30 +2953,6 @@
       "tags": [
         "cell",
         "plant-cell"
-      ]
-    },
-    {
-      "id": "math-multi-001",
-      "type": "multi",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "numbers",
-      "difficulty": "easy",
-      "stem": "أي من الأعداد التالية عدد أولي؟ (اختر كل ما ينطبق)",
-      "options": [
-        "2",
-        "4",
-        "7",
-        "9"
-      ],
-      "answerIndices": [
-        0,
-        2
-      ],
-      "explanation": "2 و7 عددان أوليان لا يقبلان القسمة إلا على واحد ونفسيهما، أما 4 و9 فمضاعفات (2×2 و3×3).",
-      "tags": [
-        "primes",
-        "numbers"
       ]
     },
     {
@@ -3712,67 +3201,6 @@
       ]
     },
     {
-      "id": "math-alg-011",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "algebra",
-      "difficulty": "medium",
-      "stem": "إذا كان 5س = 45، فما قيمة س؟",
-      "options": [
-        "9",
-        "40",
-        "50",
-        "225"
-      ],
-      "answerIndex": 0,
-      "explanation": "بقسمة الطرفين على 5: س = 9.",
-      "tags": [
-        "equations"
-      ]
-    },
-    {
-      "id": "math-geom-008",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "geometry",
-      "difficulty": "medium",
-      "stem": "ما مساحة مثلث قاعدته 10 سم وارتفاعه 6 سم؟",
-      "options": [
-        "30 سم²",
-        "60 سم²",
-        "16 سم²",
-        "80 سم²"
-      ],
-      "answerIndex": 0,
-      "explanation": "مساحة المثلث = ½ × القاعدة × الارتفاع = ½ × 10 × 6 = 30 سم².",
-      "tags": [
-        "area",
-        "triangles"
-      ]
-    },
-    {
-      "id": "math-trig-006",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "trigonometry",
-      "difficulty": "medium",
-      "stem": "ما قيمة جا 90 درجة؟",
-      "options": [
-        "1",
-        "0",
-        "0.5",
-        "0.866"
-      ],
-      "answerIndex": 0,
-      "explanation": "جا 90 درجة = 1، وهي أكبر قيمة لدالة الجيب.",
-      "tags": [
-        "trigonometry"
-      ]
-    },
-    {
       "id": "math-calc-007",
       "type": "single",
       "subject": "math",
@@ -3790,27 +3218,6 @@
       "explanation": "مشتقة س² هي 2س ومشتقة 3س هي 3، فالمشتقة 2س + 3.",
       "tags": [
         "derivatives"
-      ]
-    },
-    {
-      "id": "math-stat-007",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "statistics",
-      "difficulty": "easy",
-      "stem": "ما مدى الأعداد 5، 8، 12، 20؟",
-      "options": [
-        "15",
-        "20",
-        "5",
-        "12"
-      ],
-      "answerIndex": 0,
-      "explanation": "المدى = أكبر قيمة − أصغر قيمة = 20 − 5 = 15.",
-      "tags": [
-        "range",
-        "statistics"
       ]
     },
     {
@@ -4013,46 +3420,6 @@
       "explanation": "النبات يستهلك ثاني أكسيد الكربون والماء في البناء الضوئي وينتج الجلوكوز والأكسجين.",
       "tags": [
         "photosynthesis"
-      ]
-    },
-    {
-      "id": "math-alg-012",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "algebra",
-      "difficulty": "medium",
-      "stem": "ما حل المعادلة: 4س − 7 = 9؟",
-      "options": [
-        "4",
-        "2",
-        "16",
-        "1"
-      ],
-      "answerIndex": 0,
-      "explanation": "بإضافة 7: 4س = 16، وبالقسمة على 4: س = 4.",
-      "tags": [
-        "equations"
-      ]
-    },
-    {
-      "id": "math-geom-009",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "geometry",
-      "difficulty": "medium",
-      "stem": "ما حجم مكعب طول حرفه 3 سم؟",
-      "options": [
-        "27 سم³",
-        "9 سم³",
-        "12 سم³",
-        "18 سم³"
-      ],
-      "answerIndex": 0,
-      "explanation": "حجم المكعب = طول الحرف تكعيب = 3 × 3 × 3 = 27 سم³.",
-      "tags": [
-        "volume"
       ]
     },
     {
@@ -4778,23 +4145,876 @@
       ]
     },
     {
-      "id": "math-stat-008",
+      "id": "math-limit-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "limits",
+      "difficulty": "medium",
+      "stem": "ما قيمة نها(س←2) للمقدار (س² − 4) ÷ (س − 2)؟",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "غير موجودة"
+      ],
+      "answerIndex": 2,
+      "explanation": "بالتحليل: (س − 2)(س + 2) ÷ (س − 2) = س + 2، وعند الاقتراب من 2 تكون النهاية 4.",
+      "tags": [
+        "limits"
+      ]
+    },
+    {
+      "id": "math-limit-002",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "limits",
+      "difficulty": "medium",
+      "stem": "ما قيمة نها(س←0) للمقدار جا(3س) ÷ س؟",
+      "options": [
+        "0",
+        "1",
+        "3",
+        "غير موجودة"
+      ],
+      "answerIndex": 2,
+      "explanation": "نضرب البسط والمقام في 3: جا(3س) ÷ س = 3 × (جا(3س) ÷ 3س)، ونهاية القوس تساوي 1، فتكون النهاية 3.",
+      "tags": [
+        "limits",
+        "trig"
+      ]
+    },
+    {
+      "id": "math-limit-003",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "limits",
+      "difficulty": "medium",
+      "stem": "ما قيمة نها(س←∞) للمقدار (2س² + 1) ÷ (س² − 3)؟",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "∞"
+      ],
+      "answerIndex": 2,
+      "explanation": "نقسم البسط والمقام على س²، فتصبح النهاية 2 ÷ 1 = 2، لأن الحدود الأقل درجة تهمل عند اللانهاية.",
+      "tags": [
+        "limits"
+      ]
+    },
+    {
+      "id": "math-limit-004",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "limits",
+      "difficulty": "hard",
+      "stem": "ما قيمة نها(س←0) للمقدار (1 − جتا س) ÷ س²؟",
+      "options": [
+        "0",
+        "0.5",
+        "1",
+        "∞"
+      ],
+      "answerIndex": 1,
+      "explanation": "باستخدام المتطابقة 1 − جتا س = 2 جا²(س ÷ 2)، تصبح النهاية 0.5.",
+      "tags": [
+        "limits",
+        "trig"
+      ]
+    },
+    {
+      "id": "math-limit-005",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "limits",
+      "difficulty": "easy",
+      "stem": "ما قيمة نها(س←3) للمقدار (س² − 9) ÷ (س − 3)؟",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "غير موجودة"
+      ],
+      "answerIndex": 1,
+      "explanation": "بالتحليل: (س − 3)(س + 3) ÷ (س − 3) = س + 3، وعند الاقتراب من 3 تكون النهاية 6.",
+      "tags": [
+        "limits"
+      ]
+    },
+    {
+      "id": "math-deriv-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "easy",
+      "stem": "ما مشتقة الدالة ص = 3س⁴؟",
+      "options": [
+        "12س³",
+        "3س³",
+        "12س⁴",
+        "4س³"
+      ],
+      "answerIndex": 0,
+      "explanation": "مشتقة س أس ن هي ن × س أس (ن − 1)، فمشتقة 3س⁴ هي 12س³.",
+      "tags": [
+        "derivative"
+      ]
+    },
+    {
+      "id": "math-deriv-002",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "ما مشتقة الدالة ص = جا(2س)؟",
+      "options": [
+        "جتا(2س)",
+        "2 جتا(2س)",
+        "−2 جتا(2س)",
+        "2 جا(2س)"
+      ],
+      "answerIndex": 1,
+      "explanation": "بقاعدة السلسلة: مشتقة جا(2س) = جتا(2س) × 2 = 2 جتا(2س).",
+      "tags": [
+        "derivative",
+        "trig"
+      ]
+    },
+    {
+      "id": "math-deriv-003",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "ما مشتقة الدالة ص = ه^(3س)؟",
+      "options": [
+        "ه^(3س)",
+        "3 ه^(3س)",
+        "3س ه^(3س)",
+        "ه^(3)"
+      ],
+      "answerIndex": 1,
+      "explanation": "مشتقة ه^(أ س) هي أ × ه^(أ س)، فالمشتقة هنا 3 ه^(3س).",
+      "tags": [
+        "derivative",
+        "exponential"
+      ]
+    },
+    {
+      "id": "math-deriv-004",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "easy",
+      "stem": "ما مشتقة الدالة ص = لو س (اللوغاريتم الطبيعي)؟",
+      "options": [
+        "1 ÷ س",
+        "س",
+        "لو س",
+        "−1 ÷ س"
+      ],
+      "answerIndex": 0,
+      "explanation": "مشتقة اللوغاريتم الطبيعي لو س هي 1 ÷ س، وهذا أحد المشتقات القياسية.",
+      "tags": [
+        "derivative",
+        "log"
+      ]
+    },
+    {
+      "id": "math-deriv-005",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "hard",
+      "stem": "ما مشتقة الدالة ص = س² ه^س؟",
+      "options": [
+        "2س ه^س",
+        "ه^س (س² + 2س)",
+        "س² ه^س",
+        "ه^س (س + 2)"
+      ],
+      "answerIndex": 1,
+      "explanation": "بقاعدة الضرب: المشتقة = 2س × ه^س + س² × ه^س = ه^س (س² + 2س).",
+      "tags": [
+        "derivative",
+        "product"
+      ]
+    },
+    {
+      "id": "math-deriv-006",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "easy",
+      "stem": "ما مشتقة الدالة ص = ظا س؟",
+      "options": [
+        "ظا²س",
+        "قا²س",
+        "جتا²س",
+        "−قا²س"
+      ],
+      "answerIndex": 1,
+      "explanation": "مشتقة ظا س هي قا²س، أي 1 ÷ جتا²س.",
+      "tags": [
+        "derivative",
+        "trig"
+      ]
+    },
+    {
+      "id": "math-deriv-007",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "إذا كانت ص = س³ − 3س، فما قيمة المشتقة عند س = 1؟",
+      "options": [
+        "−3",
+        "0",
+        "3",
+        "6"
+      ],
+      "answerIndex": 1,
+      "explanation": "المشتقة = 3س² − 3، وعند س = 1 تكون 3 − 3 = 0.",
+      "tags": [
+        "derivative"
+      ]
+    },
+    {
+      "id": "math-deriv-008",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "easy",
+      "stem": "ما مشتقة الدالة الثابتة ص = 5؟",
+      "options": [
+        "5",
+        "1",
+        "0",
+        "5س"
+      ],
+      "answerIndex": 2,
+      "explanation": "مشتقة أي مقدار ثابت تساوي 0 لأن معدل التغير لا يتغير.",
+      "tags": [
+        "derivative"
+      ]
+    },
+    {
+      "id": "math-appl-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "أين توجد نقطة القيمة الصغرى للدالة ص = س² − 4س + 1؟",
+      "options": [
+        "س = 1",
+        "س = 2",
+        "س = 4",
+        "س = −2"
+      ],
+      "answerIndex": 1,
+      "explanation": "المشتقة = 2س − 4، وبمساواتها بالصفر نحصل على س = 2، وهي قيمة صغرى لأن المشتقة الثانية موجبة.",
+      "tags": [
+        "applications"
+      ]
+    },
+    {
+      "id": "math-appl-002",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "ما ميل المماس لمنحنى ص = س³ عند س = 2؟",
+      "options": [
+        "6",
+        "8",
+        "12",
+        "24"
+      ],
+      "answerIndex": 2,
+      "explanation": "ميل المماس هو المشتقة 3س²، وعند س = 2 تكون 3 × 4 = 12.",
+      "tags": [
+        "applications"
+      ]
+    },
+    {
+      "id": "math-appl-003",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "easy",
+      "stem": "إذا كانت المشتقة الأولى للدالة موجبة على فترة، فما سلوك الدالة عليها؟",
+      "options": [
+        "متزايدة",
+        "متناقصة",
+        "ثابتة",
+        "غير معرفة"
+      ],
+      "answerIndex": 0,
+      "explanation": "المشتقة الموجبة تعني أن الدالة متزايدة على هذه الفترة، لأن معدل التغير موجب.",
+      "tags": [
+        "applications"
+      ]
+    },
+    {
+      "id": "math-integ-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "easy",
+      "stem": "ما ناتج تكامل س² بالنسبة إلى س؟",
+      "options": [
+        "س³ + ث",
+        "3س² + ث",
+        "س³ ÷ 3 + ث",
+        "2س + ث"
+      ],
+      "answerIndex": 2,
+      "explanation": "تكامل س أس ن هو س أس (ن + 1) ÷ (ن + 1)، فتكامل س² هو س³ ÷ 3 زائد الثابت.",
+      "tags": [
+        "integral"
+      ]
+    },
+    {
+      "id": "math-integ-002",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "easy",
+      "stem": "ما ناتج تكامل (2س + 1) بالنسبة إلى س؟",
+      "options": [
+        "س² + س + ث",
+        "2س² + س + ث",
+        "س² + ث",
+        "2 + ث"
+      ],
+      "answerIndex": 0,
+      "explanation": "نكامل كل حد: تكامل 2س هو س²، وتكامل 1 هو س، فيكون الناتج س² + س + ث.",
+      "tags": [
+        "integral"
+      ]
+    },
+    {
+      "id": "math-integ-003",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "easy",
+      "stem": "ما ناتج تكامل جتا س بالنسبة إلى س؟",
+      "options": [
+        "جا س + ث",
+        "−جا س + ث",
+        "جتا س + ث",
+        "ظا س + ث"
+      ],
+      "answerIndex": 0,
+      "explanation": "مشتقة جا س هي جتا س، فتكامل جتا س هو جا س زائد الثابت.",
+      "tags": [
+        "integral",
+        "trig"
+      ]
+    },
+    {
+      "id": "math-integ-004",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "ما قيمة التكامل المحدود من 0 إلى 1 للمقدار 3س²؟",
+      "options": [
+        "0",
+        "1",
+        "3",
+        "6"
+      ],
+      "answerIndex": 1,
+      "explanation": "التكامل = س³، وبالتعويض بالحدين: 1 − 0 = 1.",
+      "tags": [
+        "integral",
+        "definite"
+      ]
+    },
+    {
+      "id": "math-integ-005",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "easy",
+      "stem": "ما ناتج تكامل ه^س بالنسبة إلى س؟",
+      "options": [
+        "ه^س + ث",
+        "س ه^س + ث",
+        "ه^س ÷ س + ث",
+        "لو س + ث"
+      ],
+      "answerIndex": 0,
+      "explanation": "مشتقة ه^س هي ه^س نفسها، فتكاملها ه^س زائد الثابت.",
+      "tags": [
+        "integral",
+        "exponential"
+      ]
+    },
+    {
+      "id": "math-integ-006",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "hard",
+      "stem": "ما قيمة التكامل المحدود من 1 إلى 2 للمقدار 1 ÷ س؟",
+      "options": [
+        "1",
+        "لو 2",
+        "2",
+        "0.5"
+      ],
+      "answerIndex": 1,
+      "explanation": "تكامل 1 ÷ س هو لو س، وبالتعويض: لو 2 − لو 1 = لو 2.",
+      "tags": [
+        "integral",
+        "log"
+      ]
+    },
+    {
+      "id": "math-cplx-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "complex",
+      "difficulty": "easy",
+      "stem": "ما قيمة تربيعة الوحدة التخيلية ت²؟",
+      "options": [
+        "1",
+        "−1",
+        "ت",
+        "0"
+      ],
+      "answerIndex": 1,
+      "explanation": "الوحدة التخيلية ت معرفة بأن ت² = −1.",
+      "tags": [
+        "complex"
+      ]
+    },
+    {
+      "id": "math-cplx-002",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "complex",
+      "difficulty": "easy",
+      "stem": "ما ناتج (3 + 2ت) + (1 − 4ت)؟",
+      "options": [
+        "4 − 2ت",
+        "2 + 6ت",
+        "4 + 6ت",
+        "3 − 2ت"
+      ],
+      "answerIndex": 0,
+      "explanation": "نجمع الأجزاء الحقيقية والتخيلية منفصلة: 3 + 1 = 4، و2 − 4 = −2، فالناتج 4 − 2ت.",
+      "tags": [
+        "complex"
+      ]
+    },
+    {
+      "id": "math-cplx-003",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "complex",
+      "difficulty": "medium",
+      "stem": "ما مقياس العدد المركب 3 + 4ت؟",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "7"
+      ],
+      "answerIndex": 2,
+      "explanation": "المقياس = جذر(3² + 4²) = جذر 25 = 5.",
+      "tags": [
+        "complex"
+      ]
+    },
+    {
+      "id": "math-cplx-004",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "complex",
+      "difficulty": "medium",
+      "stem": "ما ناتج (1 + ت)²؟",
+      "options": [
+        "2ت",
+        "1 + 2ت",
+        "2",
+        "0"
+      ],
+      "answerIndex": 0,
+      "explanation": "بالفك: 1 + 2ت + ت²، وبما أن ت² = −1 فالناتج 2ت.",
+      "tags": [
+        "complex"
+      ]
+    },
+    {
+      "id": "math-series-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "sequences",
+      "difficulty": "medium",
+      "stem": "في متتابعة حسابية حدها الأول 1 وأساسها 2، ما مجموع أول 20 حدا؟",
+      "options": [
+        "210",
+        "400",
+        "420",
+        "380"
+      ],
+      "answerIndex": 1,
+      "explanation": "المجموع = (20 ÷ 2) × (2 × 1 + 19 × 2) = 10 × 40 = 400.",
+      "tags": [
+        "series",
+        "arithmetic"
+      ]
+    },
+    {
+      "id": "math-series-002",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "sequences",
+      "difficulty": "medium",
+      "stem": "ما مجموع المتتابعة الهندسية اللانهائية التي حدها الأول 4 وأساسها 0.5؟",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "لا نهائي"
+      ],
+      "answerIndex": 2,
+      "explanation": "مجموع المتتابعة الهندسية اللانهائية = أ ÷ (1 − ر) = 4 ÷ 0.5 = 8.",
+      "tags": [
+        "series",
+        "geometric"
+      ]
+    },
+    {
+      "id": "math-series-003",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "sequences",
+      "difficulty": "easy",
+      "stem": "في متتابعة حسابية حدها الأول 5 وأساسها 3، ما صيغة الحد النوني؟",
+      "options": [
+        "3ن + 2",
+        "3ن + 5",
+        "5ن + 3",
+        "2ن + 3"
+      ],
+      "answerIndex": 0,
+      "explanation": "الحد النوني = أ + (ن − 1)د = 5 + 3(ن − 1) = 3ن + 2.",
+      "tags": [
+        "series",
+        "arithmetic"
+      ]
+    },
+    {
+      "id": "math-series-004",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "sequences",
+      "difficulty": "easy",
+      "stem": "ما مجموع أول ن من الأعداد الطبيعية؟",
+      "options": [
+        "ن(ن + 1) ÷ 2",
+        "ن²",
+        "ن(ن − 1) ÷ 2",
+        "2ن"
+      ],
+      "answerIndex": 0,
+      "explanation": "مجموع أول ن من الأعداد الطبيعية يساوي ن(ن + 1) ÷ 2، وهي متتابعة حسابية أساسها 1.",
+      "tags": [
+        "series"
+      ]
+    },
+    {
+      "id": "math-logx-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "easy",
+      "stem": "ما قيمة لو₂ 32؟",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "32"
+      ],
+      "answerIndex": 1,
+      "explanation": "لو₂ 32 هو الأس الذي نحتاج رفع 2 إليه لنحصل على 32، وهو 5 لأن 2 أس 5 يساوي 32.",
+      "tags": [
+        "log"
+      ]
+    },
+    {
+      "id": "math-logx-002",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "easy",
+      "stem": "ما قيمة لو 1000 (بالأساس 10)؟",
+      "options": [
+        "2",
+        "3",
+        "10",
+        "100"
+      ],
+      "answerIndex": 1,
+      "explanation": "1000 = 10 أس 3، فلوغاريتمها بالأساس 10 يساوي 3.",
+      "tags": [
+        "log"
+      ]
+    },
+    {
+      "id": "math-logx-003",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "medium",
+      "stem": "ما حل المعادلة 2^س = 8؟",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "8"
+      ],
+      "answerIndex": 1,
+      "explanation": "بكتابة 8 في صورة 2 أس 3 تصبح المعادلة 2^س = 2^3، ومنها س = 3.",
+      "tags": [
+        "exponential"
+      ]
+    },
+    {
+      "id": "math-trigo-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "trigonometry",
+      "difficulty": "easy",
+      "stem": "ما المتطابقة الصحيحة لكل زاوية؟",
+      "options": [
+        "جا²س + جتا²س = 1",
+        "جا²س − جتا²س = 1",
+        "جا س + جتا س = 1",
+        "جا²س + جتا²س = 0"
+      ],
+      "answerIndex": 0,
+      "explanation": "المتطابقة الأساسية هي جا²س + جتا²س = 1، وهي مشتقة من نظرية فيثاغورس في دائرة الوحدة.",
+      "tags": [
+        "identities"
+      ]
+    },
+    {
+      "id": "math-trigo-002",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "trigonometry",
+      "difficulty": "easy",
+      "stem": "ما صيغة جا 2س؟",
+      "options": [
+        "2 جا س",
+        "2 جا س جتا س",
+        "جا²س − جتا²س",
+        "جتا²س − جا²س"
+      ],
+      "answerIndex": 1,
+      "explanation": "جا 2س = 2 جا س جتا س، وهي متطابقة ضعف الزاوية للجيب.",
+      "tags": [
+        "identities"
+      ]
+    },
+    {
+      "id": "math-trigo-003",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "trigonometry",
+      "difficulty": "easy",
+      "stem": "ما قيمة جتا 60 درجة؟",
+      "options": [
+        "0.5",
+        "0.87",
+        "1",
+        "0"
+      ],
+      "answerIndex": 0,
+      "explanation": "جتا 60 درجة = 0.5، وهي نسبة الضلع المجاور للوتر في مثلث 30 و60 و90.",
+      "tags": [
+        "values"
+      ]
+    },
+    {
+      "id": "math-trigo-004",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "trigonometry",
+      "difficulty": "medium",
+      "stem": "ما أصغر حل موجب للمعادلة جا س = 0.5؟",
+      "options": [
+        "30 درجة",
+        "45 درجة",
+        "60 درجة",
+        "150 درجة"
+      ],
+      "answerIndex": 0,
+      "explanation": "جا 30 درجة = 0.5، و30 درجة هي أصغر زاوية موجبة تحقق ذلك، ويوجد حل آخر عند 150 درجة.",
+      "tags": [
+        "equations"
+      ]
+    },
+    {
+      "id": "math-trigo-005",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "trigonometry",
+      "difficulty": "easy",
+      "stem": "ما قيمة ظا 45 درجة؟",
+      "options": [
+        "0",
+        "0.5",
+        "1",
+        "غير معرفة"
+      ],
+      "answerIndex": 2,
+      "explanation": "ظا 45 درجة = 1، لأن الضلع المقابل يساوي الضلع المجاور عند هذه الزاوية.",
+      "tags": [
+        "values"
+      ]
+    },
+    {
+      "id": "math-vec-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "geometry",
+      "difficulty": "medium",
+      "stem": "ما مقياس المتجه (5، 12)؟",
+      "options": [
+        "7",
+        "13",
+        "17",
+        "60"
+      ],
+      "answerIndex": 1,
+      "explanation": "المقياس = جذر(5² + 12²) = جذر 169 = 13.",
+      "tags": [
+        "vectors"
+      ]
+    },
+    {
+      "id": "math-vec-002",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "geometry",
+      "difficulty": "medium",
+      "stem": "ما ناتج الضرب القياسي للمتجهين (2، 3) و(4، −1)؟",
+      "options": [
+        "5",
+        "8",
+        "11",
+        "−5"
+      ],
+      "answerIndex": 0,
+      "explanation": "الضرب القياسي = 2 × 4 + 3 × (−1) = 8 − 3 = 5.",
+      "tags": [
+        "vectors"
+      ]
+    },
+    {
+      "id": "math-solid-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "geometry",
+      "difficulty": "medium",
+      "stem": "ما حجم كرة نصف قطرها 3؟ (خذ ط = 3.14)",
+      "options": [
+        "36ط",
+        "12ط",
+        "27ط",
+        "9ط"
+      ],
+      "answerIndex": 0,
+      "explanation": "حجم الكرة = (4 ÷ 3) × ط × نق³ = (4 ÷ 3) × ط × 27 = 36ط.",
+      "tags": [
+        "solid"
+      ]
+    },
+    {
+      "id": "math-prob2-001",
       "type": "single",
       "subject": "math",
       "grade": "3",
       "chapter": "statistics",
       "difficulty": "easy",
-      "stem": "ما متوسط الأعداد 2 و4 و6 و8؟",
+      "stem": "ما احتمال ظهور عدد زوجي عند إلقاء حجر نرد منتظم مرة واحدة؟",
       "options": [
-        "4",
-        "5",
-        "6",
-        "20"
+        "1 ÷ 6",
+        "1 ÷ 3",
+        "1 ÷ 2",
+        "2 ÷ 3"
+      ],
+      "answerIndex": 2,
+      "explanation": "الأعداد الزوجية 2 و4 و6 أي ثلاثة من ستة، فاحتمالها 3 ÷ 6 = 0.5.",
+      "tags": [
+        "probability"
+      ]
+    },
+    {
+      "id": "math-stat2-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "statistics",
+      "difficulty": "easy",
+      "stem": "ما متوسط الأعداد 3 و7 و8 و10 و12؟",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "40"
       ],
       "answerIndex": 1,
-      "explanation": "المتوسط = مجموع القيم ÷ عددها = 20 ÷ 4 = 5.",
+      "explanation": "المتوسط = مجموع القيم ÷ عددها = 40 ÷ 5 = 8.",
       "tags": [
-        "statistics",
         "mean"
       ]
     }

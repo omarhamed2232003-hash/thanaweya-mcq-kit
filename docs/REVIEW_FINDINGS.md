@@ -51,3 +51,18 @@ The next step is a decision, not a quiet edit: either relabel them with a `grade
 - **Book alignment is unverified.** Neither reviewer checked against Ministry of Education textbooks; `bio-resp-005` was the one place where a textbook figure was known to differ, and it now follows the book. Treat the rest as reviewed for science and wording, not for curriculum alignment.
 - Neither reviewer read the code, the engine or the demo UI.
 - The reviewers worked from the packet (`review/questions-by-batch.md`), so a question dropped before they read it was never seen by them; there were none.
+
+## Maths replacement (27 November, evening)
+
+Omar decided the 43 flagged maths questions should be replaced rather than relabelled.
+
+- Of the 43 flagged ids, 11 had already been dropped in the duplicate pass above, so 32 were still in the bank.
+- Those 32 were removed and replaced with 43 new Thanaweya Amma-level maths questions (limits, derivatives and their applications, integration, complex numbers, sequences and series, logarithms and exponentials, trigonometric identities and equations, vectors, solid geometry, probability and statistics).
+- The bank is now **241 questions**, 62 of them maths.
+- The new questions carry new ids (batch 15 in `review/batches.json`) rather than reusing the old ones, so nothing in this document is ambiguous about which question a verdict referred to.
+
+Replaced ids:
+
+math-alg-001, math-alg-003, math-alg-004, math-alg-005, math-alg-006, math-alg-007, math-alg-008, math-alg-009, math-alg-010, math-alg-011, math-alg-012, math-geom-001, math-geom-002, math-geom-003, math-geom-004, math-geom-005, math-geom-006, math-geom-007, math-geom-008, math-geom-009, math-geom-010, math-multi-001, math-num-007, math-prob-001, math-prob-002, math-prob-003, math-prob-004, math-stat-001, math-stat-002, math-stat-003, math-stat-004, math-stat-005, math-stat-006, math-stat-007, math-stat-008, math-trig-001, math-trig-002, math-trig-003, math-trig-004, math-trig-005, math-trig-006, math-trig-007, math-trig-008
+
+The 43 new questions have had the mechanical checks only (shape, key against explanation, arithmetic, answer stated, the external linter). They need an independent subject review before they count as reviewed, and that review is arranged separately.

@@ -2,7 +2,7 @@
  "bank": {
   "title": "بنك أسئلة تجريبي (محتوى أصلي)",
   "licenseNote": "All questions in this file were written for this kit. They are not taken from any official exam, textbook or ministry material, and they are not presented as curriculum-aligned.",
-  "total": 230
+  "total": 241
  },
  "batches": [
   {
@@ -37,7 +37,7 @@
    "commit": "315e7ecf2549587167adfc2e106b17dd3ae8fc7b",
    "date": "2026-11-27T03:59:51Z",
    "message": "thanaweya-mcq-kit 0.2.0: grow the original question bank 18 -> 46",
-   "count": 24,
+   "count": 20,
    "ids": [
     "phy-kin-001",
     "phy-kin-002",
@@ -57,12 +57,8 @@
     "bio-dna-001",
     "bio-osmosis-001",
     "bio-enzyme-001",
-    "math-alg-001",
     "math-alg-002",
-    "math-trig-001",
-    "math-geom-001",
-    "math-calc-001",
-    "math-stat-001"
+    "math-calc-001"
    ]
   },
   {
@@ -70,7 +66,7 @@
    "commit": "f66aabbc9b0b4be147770ce0a3fbb99be405ebdb",
    "date": "2026-11-27T04:03:20Z",
    "message": "thanaweya-mcq-kit 0.3.0: question bank 46 -> 70",
-   "count": 23,
+   "count": 18,
    "ids": [
     "phy-elec-003",
     "phy-kin-003",
@@ -89,11 +85,6 @@
     "bio-hormone-001",
     "bio-eco-001",
     "bio-mitosis-001",
-    "math-alg-003",
-    "math-geom-002",
-    "math-prob-001",
-    "math-alg-004",
-    "math-trig-002",
     "math-seq-001"
    ]
   },
@@ -102,7 +93,7 @@
    "commit": "cdd357c254ac4d8a5b235645b8170bf2b11b8bee",
    "date": "2026-11-27T04:05:40Z",
    "message": "thanaweya-mcq-kit 0.4.0: question bank 70 -> 90 plus an authoring guide",
-   "count": 20,
+   "count": 17,
    "ids": [
     "phy-elec-005",
     "phy-kin-004",
@@ -119,11 +110,8 @@
     "bio-immunity-001",
     "bio-eco-002",
     "bio-repro-001",
-    "math-alg-005",
-    "math-geom-003",
     "math-calc-002",
-    "math-log-001",
-    "math-stat-002"
+    "math-log-001"
    ]
   },
   {
@@ -131,7 +119,7 @@
    "commit": "f792f38416489b142c0598eff2aaf87d496c34b5",
    "date": "2026-11-27T04:10:07Z",
    "message": "thanaweya-mcq-kit 0.5.0: question bank 90 -> 110",
-   "count": 19,
+   "count": 15,
    "ids": [
     "phy-elec-006",
     "phy-kin-005",
@@ -147,11 +135,7 @@
     "bio-photo-003",
     "bio-gen-002",
     "bio-resp-002",
-    "math-alg-006",
-    "math-geom-004",
-    "math-calc-003",
-    "math-stat-003",
-    "math-trig-003"
+    "math-calc-003"
    ]
   },
   {
@@ -159,7 +143,7 @@
    "commit": "1e82ad29eea40114f0e4032678f38d2dc947090e",
    "date": "2026-11-27T04:18:12Z",
    "message": "thanaweya-mcq-kit 0.7.0: question bank 110 -> 130",
-   "count": 20,
+   "count": 17,
    "ids": [
     "phy-kin-006",
     "phy-energy-003",
@@ -176,10 +160,7 @@
     "bio-photo-004",
     "bio-immunity-002",
     "bio-eco-004",
-    "math-alg-007",
-    "math-geom-005",
     "math-calc-004",
-    "math-stat-004",
     "math-log-002"
    ]
   },
@@ -188,7 +169,7 @@
    "commit": "495292023061f354d1998af5c3f6f0540342e532",
    "date": "2026-11-27T04:22:59Z",
    "message": "Grow question bank to 165 original questions (0.9.0)",
-   "count": 22,
+   "count": 20,
    "ids": [
     "phy-ohm-006",
     "phy-power-003",
@@ -207,11 +188,9 @@
     "bio-gen-004",
     "bio-blood-002",
     "bio-enzyme-002",
-    "math-geom-006",
     "math-seq-002",
     "math-calc-005",
-    "math-log-003",
-    "math-stat-005"
+    "math-log-003"
    ]
   },
   {
@@ -219,7 +198,7 @@
    "commit": "b43ea3a9cf30fd3527e31a1436fc85d5392961fb",
    "date": "2026-11-27T04:32:28Z",
    "message": "Grow the bank to 188 original questions (0.10.0)",
-   "count": 18,
+   "count": 15,
    "ids": [
     "phy-density-001",
     "phy-work-006",
@@ -235,10 +214,7 @@
     "bio-resp-004",
     "bio-gen-005",
     "bio-plant-001",
-    "math-alg-010",
-    "math-trig-005",
-    "math-calc-006",
-    "math-prob-003"
+    "math-calc-006"
    ]
   },
   {
@@ -246,12 +222,11 @@
    "commit": "4ba45abe9cb45e4fcafb732f3b75208d04517ad2",
    "date": "2026-11-27T04:36:01Z",
    "message": "Add multi-answer questions and a review queue (0.11.0)",
-   "count": 4,
+   "count": 3,
    "ids": [
     "phy-multi-001",
     "chem-multi-001",
-    "bio-multi-001",
-    "math-multi-001"
+    "bio-multi-001"
    ]
   },
   {
@@ -259,7 +234,7 @@
    "commit": "4f9470bdce4727b51087d70c6ffaec8aae2c5103",
    "date": "2026-11-27T04:39:43Z",
    "message": "Grow the bank to 212 original questions (0.12.0)",
-   "count": 17,
+   "count": 13,
    "ids": [
     "phy-res-001",
     "phy-energy-005",
@@ -273,11 +248,7 @@
     "bio-gen-006",
     "bio-resp-005",
     "bio-eco-005",
-    "math-alg-011",
-    "math-geom-008",
-    "math-trig-006",
-    "math-calc-007",
-    "math-stat-007"
+    "math-calc-007"
    ]
   },
   {
@@ -285,7 +256,7 @@
    "commit": "0f4d1250cc35603e762059646be45843e355bc83",
    "date": "2026-11-27T04:47:55Z",
    "message": "Grow the bank to 227 original questions (0.13.0)",
-   "count": 12,
+   "count": 10,
    "ids": [
     "phy-accel-002",
     "phy-density-002",
@@ -296,9 +267,7 @@
     "bio-gen-007",
     "bio-cell-007",
     "bio-blood-003",
-    "bio-photo-008",
-    "math-alg-012",
-    "math-geom-009"
+    "bio-photo-008"
    ]
   },
   {
@@ -348,7 +317,7 @@
    "commit": "68431318cec706ff6c9d81dd9783c60847832653",
    "date": "2026-11-27T07:44:32Z",
    "message": "thanaweya-mcq-kit 0.17.0: eighth question batch, bank at 283",
-   "count": 9,
+   "count": 8,
    "ids": [
     "phy-pressure-002",
     "phy-optics-005",
@@ -357,8 +326,59 @@
     "chem-multi-003",
     "bio-multi-003",
     "math-seq-003",
-    "math-vector-001",
-    "math-stat-008"
+    "math-vector-001"
+   ]
+  },
+  {
+   "batch": 15,
+   "commit": "pending",
+   "date": "2026-11-27",
+   "message": "maths replacement: Thanaweya Amma-level questions for the 43 flagged prep-stage items",
+   "count": 43,
+   "ids": [
+    "math-limit-001",
+    "math-limit-002",
+    "math-limit-003",
+    "math-limit-004",
+    "math-limit-005",
+    "math-deriv-001",
+    "math-deriv-002",
+    "math-deriv-003",
+    "math-deriv-004",
+    "math-deriv-005",
+    "math-deriv-006",
+    "math-deriv-007",
+    "math-deriv-008",
+    "math-appl-001",
+    "math-appl-002",
+    "math-appl-003",
+    "math-integ-001",
+    "math-integ-002",
+    "math-integ-003",
+    "math-integ-004",
+    "math-integ-005",
+    "math-integ-006",
+    "math-cplx-001",
+    "math-cplx-002",
+    "math-cplx-003",
+    "math-cplx-004",
+    "math-series-001",
+    "math-series-002",
+    "math-series-003",
+    "math-series-004",
+    "math-logx-001",
+    "math-logx-002",
+    "math-logx-003",
+    "math-trigo-001",
+    "math-trigo-002",
+    "math-trigo-003",
+    "math-trigo-004",
+    "math-trigo-005",
+    "math-vec-001",
+    "math-vec-002",
+    "math-solid-001",
+    "math-prob2-001",
+    "math-stat2-001"
    ]
   }
  ],
@@ -416,5 +436,50 @@
   "phy-ohm-010",
   "phy-wave-006",
   "phy-wave-008"
+ ],
+ "replacedByReview": [
+  "math-alg-001",
+  "math-alg-003",
+  "math-alg-004",
+  "math-alg-005",
+  "math-alg-006",
+  "math-alg-007",
+  "math-alg-008",
+  "math-alg-009",
+  "math-alg-010",
+  "math-alg-011",
+  "math-alg-012",
+  "math-geom-001",
+  "math-geom-002",
+  "math-geom-003",
+  "math-geom-004",
+  "math-geom-005",
+  "math-geom-006",
+  "math-geom-007",
+  "math-geom-008",
+  "math-geom-009",
+  "math-geom-010",
+  "math-multi-001",
+  "math-num-007",
+  "math-prob-001",
+  "math-prob-002",
+  "math-prob-003",
+  "math-prob-004",
+  "math-stat-001",
+  "math-stat-002",
+  "math-stat-003",
+  "math-stat-004",
+  "math-stat-005",
+  "math-stat-006",
+  "math-stat-007",
+  "math-stat-008",
+  "math-trig-001",
+  "math-trig-002",
+  "math-trig-003",
+  "math-trig-004",
+  "math-trig-005",
+  "math-trig-006",
+  "math-trig-007",
+  "math-trig-008"
  ]
 }
