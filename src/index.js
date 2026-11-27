@@ -8,3 +8,4 @@ export {
   buildSession, gradeAnswer, gradeSession, serializeSession, parseSession, formatSummary,
 } from './engine.js';
 export { STRINGS, t, direction } from './i18n.js';
+export { bankStats, mergeBanks } from './bank.js';

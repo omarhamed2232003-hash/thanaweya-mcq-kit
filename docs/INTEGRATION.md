@@ -53,3 +53,24 @@ npm run validate
 ```
 
 يفشل الأمر (exit code 1) عند أول بنك غير صالح، ويطبع كل الأخطاء مع مسارها. اربطه بـ CI قبل أي نشر.
+
+## دمج أكثر من ملف أسئلة
+
+إذا كان لديك بنك لكل مادة أو لكل فصل، ادمجها في الذاكرة قبل بناء الجلسة:
+
+```js
+import { mergeBanks, bankStats, buildSession } from 'thanaweya-mcq-kit';
+
+const merged = mergeBanks([physicsBank, chemistryBank, mathsBank]);
+if (!merged.ok) {
+  // merged.errors فيه كل مشكلة مع رقم الملف، اعرضها للمحرر
+  console.error(merged.errors);
+} else {
+  console.log(bankStats(merged.bank).bySubject);
+  const session = buildSession(merged.bank, { count: 20 });
+}
+```
+
+- `mergeBanks` يتحقق من كل ملف أولًا ويجمع كل الأخطاء بدل أن يتوقف عند أول خطأ.
+- المعرّف المكرر بين ملفين خطأ افتراضيًا، ويمكن تجاهله بـ `{ onDuplicateId: 'skip' }`.
+- `bankStats` يعطي العدد الكلي والتوزيع حسب المادة والصعوبة والفصل والصف، مفيد لعرض ملخص قبل الاختبار.
