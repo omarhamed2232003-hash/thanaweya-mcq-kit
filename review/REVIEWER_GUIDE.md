@@ -16,7 +16,7 @@ These run on every commit and do not need a reviewer's time:
 - **Answer key against the explanation**: when the explanation finishes on a value and exactly one option carries that value, that option must be the marked answer. A key that points one option off is caught here.
 - **Arithmetic**: the final arithmetic step an explanation shows must recompute (`15 ÷ 5 = 3` fails if it says 4).
 - **Answer stated**: a numeric answer has to appear in its own explanation.
-- **A second opinion**: the separate `mcq-bank-lint` tool runs against the bank with one documented suppression (`.mcq-lint-allow.json`).
+- **A second opinion**: the separate `mcq-bank-lint` tool runs against the bank with no suppressions today (`.mcq-lint-allow.json` is empty, and an entry there needs a written reason).
 
 None of that can tell whether an explanation is scientifically right, whether a question is at the right level for the grade, or whether the wording is unambiguous. That is the reviewer's job.
 

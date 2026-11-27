@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.26.1
+
+- `docs/QUESTION_AUTHORING.md`: says the allowance file is empty today and why,
+  adds the schema file so an editor knows the fields, and states the rule that a
+  batch is not reviewed until a person has read it (with a pointer to
+  `docs/REVIEW_QUEUE.md`).
+- `review/REVIEWER_GUIDE.md` no longer claims the linter runs with one
+  suppression; there are none.
 ## 0.26.0
 
 - `docs/API.md`: every export with its signature and one line on what it does,

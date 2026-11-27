@@ -43,4 +43,12 @@
 node ../mcq-bank-lint/bin/mcq-bank-lint.js data/sample-questions.json --allow-file .mcq-lint-allow.json
 ```
 
-`.mcq-lint-allow.json` holds the findings that are the linter being wrong rather than the bank being wrong. Each entry needs a `reason`, and the linter reports an entry that suppresses nothing as `unused-allowance`, so the file cannot rot quietly. Add an entry only after checking the question by hand.
+`.mcq-lint-allow.json` holds the findings that are the linter being wrong rather than the bank being wrong. It is **empty today**: the three cases that once needed an entry were fixed at the source instead, which is the outcome to aim for. Each entry needs a `reason`, and the linter reports an entry that suppresses nothing as `unused-allowance`, so the file cannot rot quietly. Add an entry only after checking the question by hand.
+
+## محرر يعرف الحقول
+
+`schema/question.schema.json` يصف صيغة السؤال بـ JSON Schema، فيقترح المحرر الحقول ويشتكي من مستوى صعوبة غير معروف قبل أن تشغّل أي أمر. الملف للوصف فقط: `npm run validate` هو المدقق الفعلي، و`docs/SCHEMA.md` يشرح كيف تربط المحرر به.
+
+## قبل أن يُعدّ السؤال مقروءًا
+
+إضافة سؤال لا تعني أنه رُوجع. القاعدة في `docs/REVIEW_QUEUE.md`: الدفعة تحتاج قارئًا بشريًا، ومراجعة آلية لا تُسمى مراجعة. سجّل الدفعة الجديدة في `docs/REVIEW_QUEUE.md` وفي `CHANGELOG.md`، واذكر ما لم يُفحص (مطابقة الكتاب المدرسي مثلًا).
