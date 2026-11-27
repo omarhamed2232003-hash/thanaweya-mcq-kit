@@ -952,6 +952,496 @@
         "mean",
         "statistics"
       ]
+    },
+    {
+      "id": "phy-elec-003",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "electricity",
+      "difficulty": "easy",
+      "stem": "ثلاث مقاومات، كل واحدة 2 أوم، موصلة على التوالي. ما المقاومة المكافئة؟",
+      "options": [
+        "2 أوم",
+        "6 أوم",
+        "0.67 أوم",
+        "1.5 أوم"
+      ],
+      "answerIndex": 1,
+      "explanation": "على التوالي تُجمع المقاومات مباشرة: 2 + 2 + 2 = 6 أوم.",
+      "tags": [
+        "resistors",
+        "series"
+      ]
+    },
+    {
+      "id": "phy-kin-003",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "easy",
+      "stem": "جسم يتحرك بسرعة ثابتة 5 م/ث لمدة 12 ثانية. ما المسافة التي قطعها؟",
+      "options": [
+        "17 م",
+        "2.4 م",
+        "60 م",
+        "120 م"
+      ],
+      "answerIndex": 2,
+      "explanation": "المسافة = السرعة × الزمن = 5 × 12 = 60 مترًا.",
+      "tags": [
+        "motion",
+        "speed"
+      ]
+    },
+    {
+      "id": "phy-energy-002",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "energy",
+      "difficulty": "easy",
+      "stem": "جسم كتلته 5 كجم مرفوع إلى ارتفاع 4 أمتار (g = 10 م/ث²). ما طاقة وضعه؟",
+      "options": [
+        "20 جول",
+        "200 جول",
+        "100 جول",
+        "50 جول"
+      ],
+      "answerIndex": 1,
+      "explanation": "طاقة الوضع = الكتلة × العجلة × الارتفاع = 5 × 10 × 4 = 200 جول.",
+      "tags": [
+        "potential-energy"
+      ]
+    },
+    {
+      "id": "phy-wave-002",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "waves",
+      "difficulty": "medium",
+      "stem": "ما الزمن الدوري لموجة ترددها 4 هرتز؟",
+      "options": [
+        "4 ثوانٍ",
+        "2 ثانية",
+        "0.25 ثانية",
+        "0.4 ثانية"
+      ],
+      "answerIndex": 2,
+      "explanation": "الزمن الدوري = 1 ÷ التردد = 1 ÷ 4 = 0.25 ثانية.",
+      "tags": [
+        "period",
+        "waves"
+      ]
+    },
+    {
+      "id": "phy-pressure-001",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "medium",
+      "stem": "تؤثر قوة مقدارها 60 نيوتن عموديًا على مساحة 0.03 متر مربع. ما الضغط؟",
+      "options": [
+        "2000 باسكال",
+        "20 باسكال",
+        "1800 باسكال",
+        "1.8 باسكال"
+      ],
+      "answerIndex": 0,
+      "explanation": "الضغط = القوة ÷ المساحة = 60 ÷ 0.03 = 2000 باسكال.",
+      "tags": [
+        "pressure"
+      ]
+    },
+    {
+      "id": "phy-elec-004",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "electricity",
+      "difficulty": "easy",
+      "stem": "ما وحدة قياس المقاومة الكهربائية؟",
+      "options": [
+        "الفولت",
+        "الأوم",
+        "الأمبير",
+        "الواط"
+      ],
+      "answerIndex": 1,
+      "explanation": "المقاومة تُقاس بالأوم، والفولت للجهد، والأمبير للتيار، والواط للقدرة.",
+      "tags": [
+        "units",
+        "resistance"
+      ]
+    },
+    {
+      "id": "chem-eq-002",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "equations",
+      "difficulty": "medium",
+      "stem": "في احتراق الميثان CH₄ + 2O₂ → CO₂ + 2H₂O، كم مول ماء ينتج من احتراق 3 مول من الميثان؟",
+      "options": [
+        "3 مول",
+        "2 مول",
+        "6 مول",
+        "1 مول"
+      ],
+      "answerIndex": 2,
+      "explanation": "كل مول ميثان ينتج 2 مول ماء، إذن 3 × 2 = 6 مول ماء.",
+      "tags": [
+        "stoichiometry"
+      ]
+    },
+    {
+      "id": "chem-acid-001",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "acids-bases",
+      "difficulty": "easy",
+      "stem": "أي المحاليل التالية قاعدي؟",
+      "options": [
+        "محلول حمض الهيدروكلوريك",
+        "محلول هيدروكسيد الصوديوم",
+        "محلول الخل",
+        "محلول عصير الليمون"
+      ],
+      "answerIndex": 1,
+      "explanation": "هيدروكسيد الصوديوم قاعدة قوية تعطي أيونات هيدروكسيد في الماء، أما الباقي فأحماض.",
+      "tags": [
+        "bases",
+        "acids"
+      ]
+    },
+    {
+      "id": "chem-mole-003",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "stoichiometry",
+      "difficulty": "hard",
+      "stem": "ما كتلة 0.25 مول من كلوريد الصوديوم؟ (الكتلة المولية 58.5 جم/مول)",
+      "options": [
+        "58.5 جم",
+        "29.25 جم",
+        "14.63 جم",
+        "117 جم"
+      ],
+      "answerIndex": 2,
+      "explanation": "الكتلة = عدد المولات × الكتلة المولية = 0.25 × 58.5 = 14.625 ≈ 14.63 جم.",
+      "tags": [
+        "mole",
+        "mass"
+      ]
+    },
+    {
+      "id": "chem-period-001",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "periodic-table",
+      "difficulty": "easy",
+      "stem": "ما العنصر الذي عدده الذري 11؟",
+      "options": [
+        "المغنيسيوم",
+        "الصوديوم",
+        "البوتاسيوم",
+        "الألومنيوم"
+      ],
+      "answerIndex": 1,
+      "explanation": "العدد الذري 11 يعني 11 بروتونًا، وهو الصوديوم في الدورة الثالثة والمجموعة الأولى.",
+      "tags": [
+        "periodic-table"
+      ]
+    },
+    {
+      "id": "chem-solub-001",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "solutions",
+      "difficulty": "medium",
+      "stem": "أي الملح التالي شحيح الذوبان في الماء؟",
+      "options": [
+        "كلوريد الصوديوم",
+        "نترات البوتاسيوم",
+        "كلوريد الفضة",
+        "كبريتات الصوديوم"
+      ],
+      "answerIndex": 2,
+      "explanation": "كلوريد الفضة من الأملاح شحيحة الذوبان، ويُستخدم ذلك في الكشف عن أيونات الكلوريد.",
+      "tags": [
+        "solubility"
+      ]
+    },
+    {
+      "id": "chem-rate-001",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "kinetics",
+      "difficulty": "medium",
+      "stem": "ماذا يحدث لسرعة تفاعل كيميائي عند رفع درجة الحرارة؟",
+      "options": [
+        "تقل لأن الجزيئات تتباطأ",
+        "تزيد لزيادة عدد التصادمات الفعالة",
+        "لا تتأثر",
+        "تتوقف تمامًا"
+      ],
+      "answerIndex": 1,
+      "explanation": "رفع الحرارة يزيد طاقة الجزيئات وسرعتها، فيزيد عدد التصادمات الفعالة وبالتالي سرعة التفاعل.",
+      "tags": [
+        "reaction-rate"
+      ]
+    },
+    {
+      "id": "bio-resp-001",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "respiration",
+      "difficulty": "easy",
+      "stem": "ما النواتج النهائية للتنفس الهوائي الكامل لجزيء جلوكوز؟",
+      "options": [
+        "ثاني أكسيد الكربون والماء",
+        "الأكسجين والجلوكوز",
+        "حمض اللاكتيك فقط",
+        "النيتروجين والماء"
+      ],
+      "answerIndex": 0,
+      "explanation": "التنفس الهوائي الكامل يحول الجلوكوز والأكسجين إلى ثاني أكسيد كربون وماء مع إطلاق طاقة.",
+      "tags": [
+        "respiration"
+      ]
+    },
+    {
+      "id": "bio-blood-001",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "circulation",
+      "difficulty": "easy",
+      "stem": "أي خلايا الدم مسؤولة عن نقل الأكسجين؟",
+      "options": [
+        "الكريات البيضاء",
+        "الصفائح الدموية",
+        "الكريات الحمراء",
+        "البلازما وحدها"
+      ],
+      "answerIndex": 2,
+      "explanation": "الكريات الحمراء تحتوي الهيموجلوبين الذي يرتبط بالأكسجين وينقله إلى الأنسجة.",
+      "tags": [
+        "blood",
+        "hemoglobin"
+      ]
+    },
+    {
+      "id": "bio-nerve-001",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "nervous-system",
+      "difficulty": "easy",
+      "stem": "ما الوحدة الوظيفية للجهاز العصبي؟",
+      "options": [
+        "العصبون",
+        "الخلية العضلية",
+        "الخلية الدموية",
+        "الخلية الطلائية"
+      ],
+      "answerIndex": 0,
+      "explanation": "العصبون هو الخلية العصبية التي تستقبل الإشارة وتنقلها، وهو الوحدة الوظيفية للجهاز العصبي.",
+      "tags": [
+        "neurons"
+      ]
+    },
+    {
+      "id": "bio-hormone-001",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "endocrine",
+      "difficulty": "medium",
+      "stem": "أي هرمون يخفض مستوى الجلوكوز في الدم؟",
+      "options": [
+        "الجلوكاجون",
+        "الإنسولين",
+        "الأدرينالين",
+        "الثيروكسين"
+      ],
+      "answerIndex": 1,
+      "explanation": "الإنسولين يزيد دخول الجلوكوز إلى الخلايا ويقلل سكر الدم، والجلوكاجون يعمل في الاتجاه المعاكس.",
+      "tags": [
+        "hormones",
+        "insulin"
+      ]
+    },
+    {
+      "id": "bio-eco-001",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "ecology",
+      "difficulty": "easy",
+      "stem": "ماذا نسمي الكائنات التي تصنع غذاءها بنفسها في النظام البيئي؟",
+      "options": [
+        "المستهلكات",
+        "المحللات",
+        "المنتجات",
+        "الطفيليات"
+      ],
+      "answerIndex": 2,
+      "explanation": "المنتجات كائنات ذاتية التغذية تصنع غذاءها بالبناء الضوئي، وتغذي بقية السلسلة الغذائية.",
+      "tags": [
+        "ecology",
+        "producers"
+      ]
+    },
+    {
+      "id": "bio-mitosis-001",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "cell-division",
+      "difficulty": "medium",
+      "stem": "كم خلية تنتج عن انقسام ميتوزي واحد لخلية واحدة؟",
+      "options": [
+        "أربع خلايا",
+        "خليتان",
+        "ثلاث خلايا",
+        "ثماني خلايا"
+      ],
+      "answerIndex": 1,
+      "explanation": "الميتوزي ينتج خليتين متطابقتين وراثيًا مع الخلية الأصلية، بخلاف الميوزي الذي ينتج أربعًا.",
+      "tags": [
+        "mitosis"
+      ]
+    },
+    {
+      "id": "math-alg-003",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "easy",
+      "stem": "ما قيمة س في المعادلة 3^س = 27؟",
+      "options": [
+        "2",
+        "3",
+        "9",
+        "27"
+      ],
+      "answerIndex": 1,
+      "explanation": "27 = 3³، إذن س = 3.",
+      "tags": [
+        "exponents"
+      ]
+    },
+    {
+      "id": "math-geom-002",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "geometry",
+      "difficulty": "easy",
+      "stem": "ما محيط دائرة نصف قطرها 7 سم؟ (π = 22/7)",
+      "options": [
+        "22 سم",
+        "44 سم",
+        "154 سم",
+        "49 سم"
+      ],
+      "answerIndex": 1,
+      "explanation": "المحيط = 2 × π × نصف القطر = 2 × 22/7 × 7 = 44 سم.",
+      "tags": [
+        "circle",
+        "perimeter"
+      ]
+    },
+    {
+      "id": "math-prob-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "probability",
+      "difficulty": "easy",
+      "stem": "ما احتمال ظهور صورة عند إلقاء عملة معدنية مرة واحدة؟",
+      "options": [
+        "1",
+        "1/2",
+        "1/4",
+        "0"
+      ],
+      "answerIndex": 1,
+      "explanation": "النتيجتان المتساويتان (صورة وكتابة) تجعلان احتمال الصورة 1/2.",
+      "tags": [
+        "probability"
+      ]
+    },
+    {
+      "id": "math-alg-004",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "easy",
+      "stem": "ما ناتج ضرب (س + 2)(س - 2)؟",
+      "options": [
+        "س² - 4",
+        "س² + 4",
+        "س² - 4س + 4",
+        "س² + 4س + 4"
+      ],
+      "answerIndex": 0,
+      "explanation": "الفرق بين مربعين: (س + 2)(س - 2) = س² - 4.",
+      "tags": [
+        "factoring"
+      ]
+    },
+    {
+      "id": "math-trig-002",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "trigonometry",
+      "difficulty": "medium",
+      "stem": "في مثلث قائم، ما النسبة التي تمثل جيب الزاوية؟",
+      "options": [
+        "المجاور ÷ الوتر",
+        "المقابل ÷ الوتر",
+        "المقابل ÷ المجاور",
+        "الوتر ÷ المقابل"
+      ],
+      "answerIndex": 1,
+      "explanation": "جيب الزاوية = طول الضلع المقابل لها ÷ طول الوتر.",
+      "tags": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "math-seq-001",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "sequences",
+      "difficulty": "medium",
+      "stem": "في المتتابعة الحسابية 3، 7، 11، ... ما الحد الخامس؟",
+      "options": [
+        "15",
+        "19",
+        "23",
+        "16"
+      ],
+      "answerIndex": 1,
+      "explanation": "الأساس 4، إذن الحد الخامس = 3 + 4×4 = 19.",
+      "tags": [
+        "sequences"
+      ]
     }
   ]
 }
