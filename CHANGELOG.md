@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.23.0
+
+- `schema/question.schema.json`: the bank format as JSON Schema (draft 2020-12),
+  for editors and for another language reading the shape without running
+  JavaScript. `docs/SCHEMA.md` says how to point an editor at it and that
+  `npm run validate` stays the authoritative check.
+- `test/schema-file.test.js`: fails if the schema file drifts from the
+  validator — schemaVersion, the difficulty list and the type list must match
+  `src/schema.js` — and checks the real bank against the constraints the file
+  states. Tests 56/56.
 ## 0.22.3
 
 - `RELEASE_CHECKLIST.md`: what has to happen before the first tag, split into

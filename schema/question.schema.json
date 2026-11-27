@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/omarhamed2232003-hash/thanaweya-mcq-kit/schema/question.schema.json",
+  "title": "thanaweya-mcq-kit question bank",
+  "description": "Editor and cross-language description of the bank format. The authoritative check is `npm run validate`; this file exists so an editor can complete fields and another language can read the shape without running JavaScript.",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "questions"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "language": {
+      "type": "string",
+      "description": "BCP 47 language tag, e.g. ar"
+    },
+    "direction": {
+      "enum": [
+        "rtl",
+        "ltr"
+      ]
+    },
+    "licenseNote": {
+      "type": "string",
+      "description": "What the content licence allows; states that the questions are original"
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/question"
+      }
+    }
+  },
+  "$defs": {
+    "question": {
+      "type": "object",
+      "required": [
+        "id",
+        "subject",
+        "stem",
+        "options",
+        "explanation",
+        "difficulty"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Unique across the bank"
+        },
+        "type": {
+          "enum": [
+            "single",
+            "multi"
+          ],
+          "default": "single"
+        },
+        "subject": {
+          "type": "string",
+          "description": "physics, chemistry, biology or maths"
+        },
+        "grade": {
+          "type": "string"
+        },
+        "chapter": {
+          "type": "string"
+        },
+        "difficulty": {
+          "enum": [
+            "easy",
+            "medium",
+            "hard",
+            "advanced"
+          ]
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "stem": {
+          "type": "string",
+          "minLength": 1
+        },
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "answerIndex": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Index into options; single-answer questions"
+        },
+        "answerIndices": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "uniqueItems": true,
+          "description": "Indices into options; multi-answer questions"
+        },
+        "explanation": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Worked reasoning that finishes on the marked answer"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "multi"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "answerIndices"
+            ]
+          },
+          "else": {
+            "required": [
+              "answerIndex"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

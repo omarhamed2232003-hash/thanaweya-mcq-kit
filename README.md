@@ -12,7 +12,7 @@ Arabic-first multiple-choice quiz engine with zero dependencies and original sam
 ## البدء السريع
 
 ```bash
-npm test          # 53 اختبارًا للمحرك والمخطط والبيانات وتدقيق المفاتيح
+npm test          # 56 اختبارًا للمحرك والمخطط والبيانات وتدقيق المفاتيح
 npm run validate  # التحقق من كل بنوك الأسئلة داخل data/
 npm run serve     # خادم محلي على المنفذ 8080
 # ثم افتح http://localhost:8080/ui/
@@ -88,7 +88,7 @@ console.log(result.scorePercent, result.byDifficulty);
 
 ## الاختبارات
 
-- 53 اختبارًا عبر `node:test` (محرك، مخطط، بيانات، تدقيق المفاتيح، حزمة المراجعة).
+- 56 اختبارًا عبر `node:test` (محرك، مخطط، بيانات، تدقيق المفاتيح، حزمة المراجعة).
 - تشغيل محلي: `npm test`.
 - CI: `.github/workflows/test.yml` على Node 20 و22.
 
@@ -98,7 +98,7 @@ MIT — راجع [LICENSE](LICENSE).
 
 ## بنية الكود
 
-`docs/ARCHITECTURE.md` يشرح الطبقات: المخطط، البنك، المحرك، الواجهة، وأين تنتهي مسؤولية كل ملف.
+`docs/ARCHITECTURE.md` يشرح الطبقات: المخطط، البنك، المحرك، الواجهة، وأين تنتهي مسؤولية كل ملف. و`schema/question.schema.json` يصف صيغة البنك بصيغة JSON Schema ليستطيع المحرر إكمال الحقول، و`docs/SCHEMA.md` يوضح أنه للوصف فقط وأن `npm run validate` هو المدقق الفعلي.
 
 ## مراجعة المحتوى
 
