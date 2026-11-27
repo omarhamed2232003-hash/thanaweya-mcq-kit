@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.25.1
+
+- `docs/REVIEW_QUEUE.md` rewritten to say what actually happened: every batch is
+  now in one table with its mechanical check and its review, the maths
+  replacements carry both rounds, and a separate section lists what the reviews
+  did not do (no teacher sign-off, no textbook check, the two rounds where the
+  reviewer saw the marked key). It was still describing the pre-review state.
+- README no longer prints a test count, which had gone stale twice; the count is
+  in the `npm test` output and in CI.
 ## 0.25.0
 
 - `docs/EXAM_SITE_EMBED.md`: the embedding guide for a site — three shapes

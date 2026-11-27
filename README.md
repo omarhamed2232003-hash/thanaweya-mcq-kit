@@ -12,7 +12,7 @@ Arabic-first multiple-choice quiz engine with zero dependencies and original sam
 ## البدء السريع
 
 ```bash
-npm test          # 56 اختبارًا للمحرك والمخطط والبيانات وتدقيق المفاتيح
+npm test          # المحرك والمخطط والبيانات وتدقيق المفاتيح
 npm run validate  # التحقق من كل بنوك الأسئلة داخل data/
 npm run serve     # خادم محلي على المنفذ 8080
 # ثم افتح http://localhost:8080/ui/
@@ -88,7 +88,7 @@ console.log(result.scorePercent, result.byDifficulty);
 
 ## الاختبارات
 
-- 56 اختبارًا عبر `node:test` (محرك، مخطط، بيانات، تدقيق المفاتيح، حزمة المراجعة).
+- الاختبارات عبر `node:test` بلا أي تبعيات: المحرك، المخطط، البيانات، تدقيق المفاتيح، حزمة المراجعة، وروابط الوثائق. العدد يظهر في مخرجات `npm test` وفي CI.
 - تشغيل محلي: `npm test`.
 - CI: `.github/workflows/test.yml` على Node 20 و22.
 
