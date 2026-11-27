@@ -3962,6 +3962,415 @@
         "primes",
         "numbers"
       ]
+    },
+    {
+      "id": "phy-res-001",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "electricity",
+      "difficulty": "medium",
+      "stem": "ثلاث مقاومات 6 أوم موصلة على التوازي. ما المقاومة المكافئة؟",
+      "options": [
+        "2 أوم",
+        "18 أوم",
+        "6 أوم",
+        "3 أوم"
+      ],
+      "answerIndex": 0,
+      "explanation": "في التوازي: 1/م = 1/6 + 1/6 + 1/6 = 3/6، إذن المقاومة المكافئة = 2 أوم.",
+      "tags": [
+        "resistance",
+        "parallel"
+      ]
+    },
+    {
+      "id": "phy-energy-005",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "medium",
+      "stem": "جسم كتلته 4 كجم يتحرك بسرعة 5 م/ث. ما طاقة حركته؟",
+      "options": [
+        "50 جول",
+        "20 جول",
+        "100 جول",
+        "10 جول"
+      ],
+      "answerIndex": 0,
+      "explanation": "طاقة الحركة = ½ × الكتلة × مربع السرعة = ½ × 4 × 25 = 50 جول.",
+      "tags": [
+        "kinetic-energy"
+      ]
+    },
+    {
+      "id": "phy-elec-007",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "electricity",
+      "difficulty": "medium",
+      "stem": "مقاومة 12 أوم يمر بها تيار 0.5 أمبير. ما فرق الجهد بين طرفيها؟",
+      "options": [
+        "6 فولت",
+        "24 فولت",
+        "12.5 فولت",
+        "0.04 فولت"
+      ],
+      "answerIndex": 0,
+      "explanation": "من قانون أوم: فرق الجهد = شدة التيار × المقاومة = 0.5 × 12 = 6 فولت.",
+      "tags": [
+        "ohm-law"
+      ]
+    },
+    {
+      "id": "phy-wave-005",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "waves",
+      "difficulty": "medium",
+      "stem": "موجة سرعتها 340 م/ث وترددها 170 هرتز. ما طولها الموجي؟",
+      "options": [
+        "2 متر",
+        "57800 متر",
+        "0.5 متر",
+        "170 متر"
+      ],
+      "answerIndex": 0,
+      "explanation": "الطول الموجي = السرعة ÷ التردد = 340 ÷ 170 = 2 متر.",
+      "tags": [
+        "waves",
+        "wavelength"
+      ]
+    },
+    {
+      "id": "phy-heat-006",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "heat",
+      "difficulty": "medium",
+      "stem": "ما كمية الحرارة اللازمة لرفع حرارة 2 كجم من الماء 10 درجات؟ (الحرارة النوعية 4200 جول/كجم·درجة)",
+      "options": [
+        "84 كيلوجول",
+        "42 كيلوجول",
+        "420 كيلوجول",
+        "8.4 كيلوجول"
+      ],
+      "answerIndex": 0,
+      "explanation": "الحرارة = الكتلة × الحرارة النوعية × فرق الحرارة = 2 × 4200 × 10 = 84000 جول = 84 كيلوجول.",
+      "tags": [
+        "specific-heat"
+      ]
+    },
+    {
+      "id": "chem-mole-010",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "moles",
+      "difficulty": "medium",
+      "stem": "ما عدد مولات 11.2 لتر من غاز في الظروف القياسية؟ (حجم المول 22.4 لتر)",
+      "options": [
+        "0.5 مول",
+        "1 مول",
+        "2 مول",
+        "11.2 مول"
+      ],
+      "answerIndex": 0,
+      "explanation": "عدد المولات = الحجم ÷ حجم المول = 11.2 ÷ 22.4 = 0.5 مول.",
+      "tags": [
+        "mole",
+        "molar-volume"
+      ]
+    },
+    {
+      "id": "chem-ph-005",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "acids",
+      "difficulty": "medium",
+      "stem": "ما الأس الهيدروجيني لمحلول تركيز أيون الهيدروجين فيه 10 أس سالب 5؟",
+      "options": [
+        "5",
+        "9",
+        "4",
+        "10"
+      ],
+      "answerIndex": 0,
+      "explanation": "الأس الهيدروجيني يساوي سالب لوغاريتم تركيز أيون الهيدروجين، فيكون 5.",
+      "tags": [
+        "ph"
+      ]
+    },
+    {
+      "id": "chem-conc-004",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "solutions",
+      "difficulty": "medium",
+      "stem": "أُذيب 0.2 مول من ملح في 4 لترات من المحلول. ما التركيز المولاري؟",
+      "options": [
+        "0.05 مول/لتر",
+        "0.5 مول/لتر",
+        "0.8 مول/لتر",
+        "5 مول/لتر"
+      ],
+      "answerIndex": 0,
+      "explanation": "التركيز = عدد المولات ÷ الحجم = 0.2 ÷ 4 = 0.05 مول/لتر.",
+      "tags": [
+        "concentration"
+      ]
+    },
+    {
+      "id": "chem-gas-004",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "gases",
+      "difficulty": "medium",
+      "stem": "ما حجم 2 مول من غاز مثالي في الظروف القياسية؟ (حجم المول 22.4 لتر)",
+      "options": [
+        "44.8 لتر",
+        "22.4 لتر",
+        "11.2 لتر",
+        "2 لتر"
+      ],
+      "answerIndex": 0,
+      "explanation": "الحجم = عدد المولات × حجم المول = 2 × 22.4 = 44.8 لتر.",
+      "tags": [
+        "molar-volume"
+      ]
+    },
+    {
+      "id": "chem-atomic-003",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "atomic-structure",
+      "difficulty": "medium",
+      "stem": "ما عدد النيوترونات في ذرة الكربون التي عددها الذري 6 وعددها الكتلي 12؟",
+      "options": [
+        "6",
+        "12",
+        "18",
+        "4"
+      ],
+      "answerIndex": 0,
+      "explanation": "عدد النيوترونات = العدد الكتلي − العدد الذري = 12 − 6 = 6.",
+      "tags": [
+        "atomic-structure",
+        "neutrons"
+      ]
+    },
+    {
+      "id": "bio-gen-006",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "genetics",
+      "difficulty": "medium",
+      "stem": "عند تزاوج فردين هجينين Aa × Aa، ما نسبة الأفراد السائدة ظاهريًا؟",
+      "options": [
+        "75%",
+        "50%",
+        "25%",
+        "100%"
+      ],
+      "answerIndex": 0,
+      "explanation": "الطراز 1:2:1 يعطي ثلاثة أفراد يظهر عليهم الأليل السائد من أربعة، أي 75%.",
+      "tags": [
+        "genetics"
+      ]
+    },
+    {
+      "id": "bio-cell-006",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "cell",
+      "difficulty": "easy",
+      "stem": "ما الغشاء الذي يحيط بالخلية ويتحكم في مرور المواد؟",
+      "options": [
+        "الغشاء البلازمي",
+        "الجدار الخلوي",
+        "النواة",
+        "الرايبوسوم"
+      ],
+      "answerIndex": 0,
+      "explanation": "الغشاء البلازمي غشاء شبه منفذ يتحكم في دخول وخروج المواد.",
+      "tags": [
+        "cell-membrane"
+      ]
+    },
+    {
+      "id": "bio-resp-005",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "respiration",
+      "difficulty": "medium",
+      "stem": "كم جزيء ATP ينتج تقريبًا من أكسدة جزيء جلوكوز واحد في التنفس الهوائي؟",
+      "options": [
+        "حوالي 30",
+        "حوالي 2",
+        "حوالي 100",
+        "حوالي 8"
+      ],
+      "answerIndex": 0,
+      "explanation": "التنفس الهوائي الكامل لجزيء جلوكوز ينتج نحو 30 إلى 32 جزيء ATP بحسب المصدر، وأقلها 30.",
+      "tags": [
+        "respiration",
+        "atp"
+      ]
+    },
+    {
+      "id": "bio-photo-007",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "photosynthesis",
+      "difficulty": "medium",
+      "stem": "في أي عضي تحدث تفاعلات البناء الضوئي؟",
+      "options": [
+        "البلاستيدات الخضراء",
+        "الميتوكوندريا",
+        "النواة",
+        "الليسوسوم"
+      ],
+      "answerIndex": 0,
+      "explanation": "البلاستيدات الخضراء تحتوي الكلوروفيل وهي موقع البناء الضوئي.",
+      "tags": [
+        "photosynthesis",
+        "chloroplast"
+      ]
+    },
+    {
+      "id": "bio-eco-005",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "ecology",
+      "difficulty": "easy",
+      "stem": "ما العلاقة بين نبات الأكاسيا والنمل الذي يعيش عليه؟",
+      "options": [
+        "تبادل منفعة",
+        "تطفل",
+        "افتراس",
+        "تنافس"
+      ],
+      "answerIndex": 0,
+      "explanation": "النمل يحمي النبات من العواشب والنبات يوفر له المأوى والغذاء، وهي علاقة تبادل منفعة.",
+      "tags": [
+        "ecology",
+        "symbiosis"
+      ]
+    },
+    {
+      "id": "math-alg-011",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "medium",
+      "stem": "إذا كان 5س = 45، فما قيمة س؟",
+      "options": [
+        "9",
+        "40",
+        "50",
+        "225"
+      ],
+      "answerIndex": 0,
+      "explanation": "بقسمة الطرفين على 5: س = 9.",
+      "tags": [
+        "equations"
+      ]
+    },
+    {
+      "id": "math-geom-008",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "geometry",
+      "difficulty": "medium",
+      "stem": "ما مساحة مثلث قاعدته 10 سم وارتفاعه 6 سم؟",
+      "options": [
+        "30 سم²",
+        "60 سم²",
+        "16 سم²",
+        "80 سم²"
+      ],
+      "answerIndex": 0,
+      "explanation": "مساحة المثلث = ½ × القاعدة × الارتفاع = ½ × 10 × 6 = 30 سم².",
+      "tags": [
+        "area",
+        "triangles"
+      ]
+    },
+    {
+      "id": "math-trig-006",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "trigonometry",
+      "difficulty": "medium",
+      "stem": "ما قيمة جا 90 درجة؟",
+      "options": [
+        "1",
+        "0",
+        "0.5",
+        "0.866"
+      ],
+      "answerIndex": 0,
+      "explanation": "جا 90 درجة = 1، وهي أكبر قيمة لدالة الجيب.",
+      "tags": [
+        "trigonometry"
+      ]
+    },
+    {
+      "id": "math-calc-007",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "ما مشتقة الدالة ص = س² + 3س؟",
+      "options": [
+        "2س + 3",
+        "2س",
+        "3",
+        "س² + 3"
+      ],
+      "answerIndex": 0,
+      "explanation": "مشتقة س² هي 2س ومشتقة 3س هي 3، فالمشتقة 2س + 3.",
+      "tags": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "math-stat-007",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "statistics",
+      "difficulty": "easy",
+      "stem": "ما مدى الأعداد 5، 8، 12، 20؟",
+      "options": [
+        "15",
+        "20",
+        "5",
+        "12"
+      ],
+      "answerIndex": 0,
+      "explanation": "المدى = أكبر قيمة − أصغر قيمة = 20 − 5 = 15.",
+      "tags": [
+        "range",
+        "statistics"
+      ]
     }
   ]
 }

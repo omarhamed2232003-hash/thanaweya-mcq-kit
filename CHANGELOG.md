@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.12.0
+
+- Add 20 more original questions (physics 5, chemistry 5, biology 5, maths 5),
+  taking the bank to 212. All pass the answer-key audit.
+- Add the batch to docs/REVIEW_QUEUE.md: it still needs a subject reviewer.
 ## 0.11.0
 
 - Add multi-answer questions: `"type": "multi"` with `answerIndices`. Schema
