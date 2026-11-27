@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.25.2
+
+- `npm run validate -- --json` prints one JSON report (`{ ok, banks: [{ file,
+  ok, questions, errors }] }`), so a build can read the result instead of
+  scraping the text. The text report is unchanged.
+- The script lists the banks in a stable order and keeps the exit code: 1 when
+  any bank is invalid.
 ## 0.25.1
 
 - `docs/REVIEW_QUEUE.md` rewritten to say what actually happened: every batch is
