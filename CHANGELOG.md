@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.15.1
+
+- `chem-mole-005` states its answer in the explanation now ("6.02×10²³ ذرة"),
+  so the cross-check with `mcq-bank-lint` runs clean apart from the one
+  documented suppression.
+- Added `.mcq-lint-allow.json` with that suppression and its reason, and a
+  short section in `docs/QUESTION_AUTHORING.md` on running the linter as a
+  second opinion before a batch goes to review.
 ## 0.15.0
 
 - Sixth question batch: 24 new original questions (8 physics, 6 chemistry,

@@ -34,3 +34,13 @@
 - [ ] الوحدات والرموز مكتوبة صحيحة.
 - [ ] `npm run validate` و`npm test` يمران.
 - [ ] توزيع `answerIndex` ما زال يغطي المواضع الأربعة.
+
+## Second opinion from the linter
+
+`npm test` audits keys with this repo's own checker. A separate tool, `mcq-bank-lint`, does the same job from the outside and catches things this one does not, so it is worth running before a batch goes to review:
+
+```bash
+node ../mcq-bank-lint/bin/mcq-bank-lint.js data/sample-questions.json --allow-file .mcq-lint-allow.json
+```
+
+`.mcq-lint-allow.json` holds the findings that are the linter being wrong rather than the bank being wrong. Each entry needs a `reason`, and the linter reports an entry that suppresses nothing as `unused-allowance`, so the file cannot rot quietly. Add an entry only after checking the question by hand.

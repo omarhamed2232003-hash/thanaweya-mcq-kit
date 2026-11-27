@@ -1,0 +1,9 @@
+{
+  "allow": [
+    {
+      "id": "math-alg-005",
+      "check": "key-mismatch",
+      "reason": "the explanation solves for x (7) and then states y = 3, so 3 is the last number but 7 is the answer"
+    }
+  ]
+}
