@@ -66,3 +66,31 @@ Replaced ids:
 math-alg-001, math-alg-003, math-alg-004, math-alg-005, math-alg-006, math-alg-007, math-alg-008, math-alg-009, math-alg-010, math-alg-011, math-alg-012, math-geom-001, math-geom-002, math-geom-003, math-geom-004, math-geom-005, math-geom-006, math-geom-007, math-geom-008, math-geom-009, math-geom-010, math-multi-001, math-num-007, math-prob-001, math-prob-002, math-prob-003, math-prob-004, math-stat-001, math-stat-002, math-stat-003, math-stat-004, math-stat-005, math-stat-006, math-stat-007, math-stat-008, math-trig-001, math-trig-002, math-trig-003, math-trig-004, math-trig-005, math-trig-006, math-trig-007, math-trig-008
 
 The 43 new questions have had the mechanical checks only (shape, key against explanation, arithmetic, answer stated, the external linter). They need an independent subject review before they count as reviewed, and that review is arranged separately.
+
+## Maths review, round 2 (27 November, evening)
+
+The 43 replacement questions were reviewed independently: **15 pass, 14 fix, 14 fail**, no wrong keys. The failures were level failures, not correctness failures: items a prep or first-secondary student could answer.
+
+### The 14 failed items were replaced
+
+math-cplx-001, math-deriv-008, math-limit-005, math-logx-001, math-logx-002, math-logx-003, math-prob2-001, math-series-004, math-solid-001, math-stat2-001, math-trigo-001, math-trigo-003, math-trigo-005, math-vec-001
+
+They are replaced by 14 calculus questions at medium or hard level (chain rule, quotient rule, tangent line, optimisation, stationary points, substitution integrals, a definite integral by substitution, two areas under a curve, and two limits needing rationalising or a double-angle identity). New ids again (`math-deriv-009` to `math-integ-011`, `math-limit-006`, `math-limit-007`), so no verdict is ambiguous. The bank stays at **241 questions**.
+
+### The 14 fix items were fixed
+
+- `math-limit-001` was a near-duplicate of `math-limit-005` (same factor-and-cancel template), so it now asks for the limit of `(س³ − 8) ÷ (س − 2)`, a different factorisation.
+- `math-limit-004` and `math-integ-006` were labelled hard and are standard items: both are now medium.
+- `math-appl-003` had an implausible option ("not defined"); it now offers "has a minimum at every point" instead.
+- `math-series-002` had a weak distractor ("infinite"); it is now 12.
+- `math-series-003` and `math-trigo-002` were too basic for the grade and are now labelled medium.
+- `math-trigo-004` stays as is: "smallest positive solution" is correct even though 150° also solves the equation, and it is labelled medium.
+
+### Placement marked borderline, not silently kept
+
+The reviewer judged these topics to sit earlier in the syllabus. They are kept, and marked borderline here rather than pretended to be certain: `math-cplx-002`, `math-cplx-003`, `math-cplx-004` (complex numbers, largely second secondary), `math-series-001` (sequences), `math-vec-002` (2D dot product, second secondary). If the placement is wrong, the fix is to move them to the grade that matches, not to delete them.
+
+### What this review still does not cover
+
+- The reviewer saw the marked key while reading. That makes a wrong key less likely to slip through the key check and more likely to be anchored on the key while reading the explanation. A subject-teacher sign-off is still needed before release, and that is now stated in the packet too.
+- Textbook alignment remains unchecked beyond the ATP case in biology.

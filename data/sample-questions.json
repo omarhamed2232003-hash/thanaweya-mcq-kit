@@ -4151,15 +4151,15 @@
       "grade": "3",
       "chapter": "limits",
       "difficulty": "medium",
-      "stem": "ما قيمة نها(س←2) للمقدار (س² − 4) ÷ (س − 2)؟",
+      "stem": "ما قيمة نها(س←2) للمقدار (س³ − 8) ÷ (س − 2)؟",
       "options": [
-        "0",
-        "2",
         "4",
+        "8",
+        "12",
         "غير موجودة"
       ],
       "answerIndex": 2,
-      "explanation": "بالتحليل: (س − 2)(س + 2) ÷ (س − 2) = س + 2، وعند الاقتراب من 2 تكون النهاية 4.",
+      "explanation": "بالتحليل: س³ − 8 = (س − 2)(س² + 2س + 4)، وبالقسمة على (س − 2) يتبقى س² + 2س + 4، وعند س = 2 تكون النهاية 12.",
       "tags": [
         "limits"
       ]
@@ -4211,7 +4211,7 @@
       "subject": "math",
       "grade": "3",
       "chapter": "limits",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "ما قيمة نها(س←0) للمقدار (1 − جتا س) ÷ س²؟",
       "options": [
         "0",
@@ -4224,26 +4224,6 @@
       "tags": [
         "limits",
         "trig"
-      ]
-    },
-    {
-      "id": "math-limit-005",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "limits",
-      "difficulty": "easy",
-      "stem": "ما قيمة نها(س←3) للمقدار (س² − 9) ÷ (س − 3)؟",
-      "options": [
-        "3",
-        "6",
-        "9",
-        "غير موجودة"
-      ],
-      "answerIndex": 1,
-      "explanation": "بالتحليل: (س − 3)(س + 3) ÷ (س − 3) = س + 3، وعند الاقتراب من 3 تكون النهاية 6.",
-      "tags": [
-        "limits"
       ]
     },
     {
@@ -4392,26 +4372,6 @@
       ]
     },
     {
-      "id": "math-deriv-008",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "calculus",
-      "difficulty": "easy",
-      "stem": "ما مشتقة الدالة الثابتة ص = 5؟",
-      "options": [
-        "5",
-        "1",
-        "0",
-        "5س"
-      ],
-      "answerIndex": 2,
-      "explanation": "مشتقة أي مقدار ثابت تساوي 0 لأن معدل التغير لا يتغير.",
-      "tags": [
-        "derivative"
-      ]
-    },
-    {
       "id": "math-appl-001",
       "type": "single",
       "subject": "math",
@@ -4463,7 +4423,7 @@
         "متزايدة",
         "متناقصة",
         "ثابتة",
-        "غير معرفة"
+        "لها قيمة صغرى عند كل نقطة"
       ],
       "answerIndex": 0,
       "explanation": "المشتقة الموجبة تعني أن الدالة متزايدة على هذه الفترة، لأن معدل التغير موجب.",
@@ -4580,7 +4540,7 @@
       "subject": "math",
       "grade": "3",
       "chapter": "calculus",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "stem": "ما قيمة التكامل المحدود من 1 إلى 2 للمقدار 1 ÷ س؟",
       "options": [
         "1",
@@ -4593,26 +4553,6 @@
       "tags": [
         "integral",
         "log"
-      ]
-    },
-    {
-      "id": "math-cplx-001",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "complex",
-      "difficulty": "easy",
-      "stem": "ما قيمة تربيعة الوحدة التخيلية ت²؟",
-      "options": [
-        "1",
-        "−1",
-        "ت",
-        "0"
-      ],
-      "answerIndex": 1,
-      "explanation": "الوحدة التخيلية ت معرفة بأن ت² = −1.",
-      "tags": [
-        "complex"
       ]
     },
     {
@@ -4708,7 +4648,7 @@
         "4",
         "6",
         "8",
-        "لا نهائي"
+        "12"
       ],
       "answerIndex": 2,
       "explanation": "مجموع المتتابعة الهندسية اللانهائية = أ ÷ (1 − ر) = 4 ÷ 0.5 = 8.",
@@ -4723,7 +4663,7 @@
       "subject": "math",
       "grade": "3",
       "chapter": "sequences",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "في متتابعة حسابية حدها الأول 5 وأساسها 3، ما صيغة الحد النوني؟",
       "options": [
         "3ن + 2",
@@ -4739,112 +4679,12 @@
       ]
     },
     {
-      "id": "math-series-004",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "sequences",
-      "difficulty": "easy",
-      "stem": "ما مجموع أول ن من الأعداد الطبيعية؟",
-      "options": [
-        "ن(ن + 1) ÷ 2",
-        "ن²",
-        "ن(ن − 1) ÷ 2",
-        "2ن"
-      ],
-      "answerIndex": 0,
-      "explanation": "مجموع أول ن من الأعداد الطبيعية يساوي ن(ن + 1) ÷ 2، وهي متتابعة حسابية أساسها 1.",
-      "tags": [
-        "series"
-      ]
-    },
-    {
-      "id": "math-logx-001",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "algebra",
-      "difficulty": "easy",
-      "stem": "ما قيمة لو₂ 32؟",
-      "options": [
-        "4",
-        "5",
-        "6",
-        "32"
-      ],
-      "answerIndex": 1,
-      "explanation": "لو₂ 32 هو الأس الذي نحتاج رفع 2 إليه لنحصل على 32، وهو 5 لأن 2 أس 5 يساوي 32.",
-      "tags": [
-        "log"
-      ]
-    },
-    {
-      "id": "math-logx-002",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "algebra",
-      "difficulty": "easy",
-      "stem": "ما قيمة لو 1000 (بالأساس 10)؟",
-      "options": [
-        "2",
-        "3",
-        "10",
-        "100"
-      ],
-      "answerIndex": 1,
-      "explanation": "1000 = 10 أس 3، فلوغاريتمها بالأساس 10 يساوي 3.",
-      "tags": [
-        "log"
-      ]
-    },
-    {
-      "id": "math-logx-003",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "algebra",
-      "difficulty": "medium",
-      "stem": "ما حل المعادلة 2^س = 8؟",
-      "options": [
-        "2",
-        "3",
-        "4",
-        "8"
-      ],
-      "answerIndex": 1,
-      "explanation": "بكتابة 8 في صورة 2 أس 3 تصبح المعادلة 2^س = 2^3، ومنها س = 3.",
-      "tags": [
-        "exponential"
-      ]
-    },
-    {
-      "id": "math-trigo-001",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "trigonometry",
-      "difficulty": "easy",
-      "stem": "ما المتطابقة الصحيحة لكل زاوية؟",
-      "options": [
-        "جا²س + جتا²س = 1",
-        "جا²س − جتا²س = 1",
-        "جا س + جتا س = 1",
-        "جا²س + جتا²س = 0"
-      ],
-      "answerIndex": 0,
-      "explanation": "المتطابقة الأساسية هي جا²س + جتا²س = 1، وهي مشتقة من نظرية فيثاغورس في دائرة الوحدة.",
-      "tags": [
-        "identities"
-      ]
-    },
-    {
       "id": "math-trigo-002",
       "type": "single",
       "subject": "math",
       "grade": "3",
       "chapter": "trigonometry",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "stem": "ما صيغة جا 2س؟",
       "options": [
         "2 جا س",
@@ -4856,26 +4696,6 @@
       "explanation": "جا 2س = 2 جا س جتا س، وهي متطابقة ضعف الزاوية للجيب.",
       "tags": [
         "identities"
-      ]
-    },
-    {
-      "id": "math-trigo-003",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "trigonometry",
-      "difficulty": "easy",
-      "stem": "ما قيمة جتا 60 درجة؟",
-      "options": [
-        "0.5",
-        "0.87",
-        "1",
-        "0"
-      ],
-      "answerIndex": 0,
-      "explanation": "جتا 60 درجة = 0.5، وهي نسبة الضلع المجاور للوتر في مثلث 30 و60 و90.",
-      "tags": [
-        "values"
       ]
     },
     {
@@ -4899,46 +4719,6 @@
       ]
     },
     {
-      "id": "math-trigo-005",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "trigonometry",
-      "difficulty": "easy",
-      "stem": "ما قيمة ظا 45 درجة؟",
-      "options": [
-        "0",
-        "0.5",
-        "1",
-        "غير معرفة"
-      ],
-      "answerIndex": 2,
-      "explanation": "ظا 45 درجة = 1، لأن الضلع المقابل يساوي الضلع المجاور عند هذه الزاوية.",
-      "tags": [
-        "values"
-      ]
-    },
-    {
-      "id": "math-vec-001",
-      "type": "single",
-      "subject": "math",
-      "grade": "3",
-      "chapter": "geometry",
-      "difficulty": "medium",
-      "stem": "ما مقياس المتجه (5، 12)؟",
-      "options": [
-        "7",
-        "13",
-        "17",
-        "60"
-      ],
-      "answerIndex": 1,
-      "explanation": "المقياس = جذر(5² + 12²) = جذر 169 = 13.",
-      "tags": [
-        "vectors"
-      ]
-    },
-    {
       "id": "math-vec-002",
       "type": "single",
       "subject": "math",
@@ -4959,63 +4739,297 @@
       ]
     },
     {
-      "id": "math-solid-001",
+      "id": "math-deriv-009",
       "type": "single",
       "subject": "math",
       "grade": "3",
-      "chapter": "geometry",
+      "chapter": "calculus",
       "difficulty": "medium",
-      "stem": "ما حجم كرة نصف قطرها 3؟ (خذ ط = 3.14)",
+      "stem": "ما مشتقة الدالة ص = (2س + 1)⁵؟",
       "options": [
-        "36ط",
-        "12ط",
-        "27ط",
-        "9ط"
+        "10(2س + 1)⁴",
+        "5(2س + 1)⁴",
+        "2(2س + 1)⁴",
+        "10(2س + 1)⁵"
       ],
       "answerIndex": 0,
-      "explanation": "حجم الكرة = (4 ÷ 3) × ط × نق³ = (4 ÷ 3) × ط × 27 = 36ط.",
+      "explanation": "بقاعدة السلسلة: 5 × (2س + 1)⁴ × 2 = 10(2س + 1)⁴.",
       "tags": [
-        "solid"
+        "derivative",
+        "chain"
       ]
     },
     {
-      "id": "math-prob2-001",
+      "id": "math-deriv-010",
       "type": "single",
       "subject": "math",
       "grade": "3",
-      "chapter": "statistics",
-      "difficulty": "easy",
-      "stem": "ما احتمال ظهور عدد زوجي عند إلقاء حجر نرد منتظم مرة واحدة؟",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "ما مشتقة الدالة ص = س ÷ (س + 1)؟",
       "options": [
-        "1 ÷ 6",
-        "1 ÷ 3",
-        "1 ÷ 2",
-        "2 ÷ 3"
+        "1 ÷ (س + 1)²",
+        "س ÷ (س + 1)²",
+        "1 ÷ (س + 1)",
+        "−1 ÷ (س + 1)²"
       ],
-      "answerIndex": 2,
-      "explanation": "الأعداد الزوجية 2 و4 و6 أي ثلاثة من ستة، فاحتمالها 3 ÷ 6 = 0.5.",
+      "answerIndex": 0,
+      "explanation": "بقاعدة القسمة: [(س + 1) × 1 − س × 1] ÷ (س + 1)² = 1 ÷ (س + 1)².",
       "tags": [
-        "probability"
+        "derivative",
+        "quotient"
       ]
     },
     {
-      "id": "math-stat2-001",
+      "id": "math-deriv-011",
       "type": "single",
       "subject": "math",
       "grade": "3",
-      "chapter": "statistics",
-      "difficulty": "easy",
-      "stem": "ما متوسط الأعداد 3 و7 و8 و10 و12؟",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "ما مشتقة الدالة ص = جا(س²)؟",
       "options": [
-        "7",
-        "8",
-        "9",
-        "40"
+        "جتا(س²)",
+        "2س جتا(س²)",
+        "2س جا(س²)",
+        "−2س جتا(س²)"
       ],
       "answerIndex": 1,
-      "explanation": "المتوسط = مجموع القيم ÷ عددها = 40 ÷ 5 = 8.",
+      "explanation": "بقاعدة السلسلة: جتا(س²) × 2س = 2س جتا(س²).",
       "tags": [
-        "mean"
+        "derivative",
+        "chain"
+      ]
+    },
+    {
+      "id": "math-deriv-012",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "hard",
+      "stem": "ما مشتقة الدالة ص = س² ه^(2س)؟",
+      "options": [
+        "2س ه^(2س)(1 + س)",
+        "2س ه^(2س)",
+        "س² ه^(2س)",
+        "2س ه^(2س)(2 + س)"
+      ],
+      "answerIndex": 0,
+      "explanation": "بقاعدة الضرب: 2س ه^(2س) + س² × 2 ه^(2س) = 2س ه^(2س)(1 + س).",
+      "tags": [
+        "derivative",
+        "product"
+      ]
+    },
+    {
+      "id": "math-appl-004",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "مستطيل محيطه 20 سم. ما أكبر مساحة ممكنة له؟",
+      "options": [
+        "20",
+        "24",
+        "25",
+        "100"
+      ],
+      "answerIndex": 2,
+      "explanation": "إذا كان الطول س فالعرض 10 − س، والمساحة س(10 − س)، ومشتقتها 10 − 2س، وبمساواتها بالصفر س = 5، فالمساحة 5 × 5 = 25.",
+      "tags": [
+        "applications",
+        "optimisation"
+      ]
+    },
+    {
+      "id": "math-appl-005",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "ما معادلة المماس لمنحنى ص = س² − 3س عند س = 2؟",
+      "options": [
+        "ص = س − 4",
+        "ص = س + 4",
+        "ص = 4س − 4",
+        "ص = −س + 4"
+      ],
+      "answerIndex": 0,
+      "explanation": "الميل = 2س − 3 = 1 عند س = 2، والنقطة (2، −2)، فالمعادلة ص + 2 = 1(س − 2) أي ص = س − 4.",
+      "tags": [
+        "applications",
+        "tangent"
+      ]
+    },
+    {
+      "id": "math-appl-006",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "أين توجد النقاط الحرجة للدالة ص = س³ − 3س² + 1؟",
+      "options": [
+        "س = 0 و س = 2",
+        "س = 1 و س = −1",
+        "س = 3 و س = 0",
+        "لا توجد نقاط حرجة"
+      ],
+      "answerIndex": 0,
+      "explanation": "المشتقة 3س² − 6س = 3س(س − 2)، وبمساواتها بالصفر نحصل على س = 0 و س = 2.",
+      "tags": [
+        "applications",
+        "stationary"
+      ]
+    },
+    {
+      "id": "math-integ-007",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "ما ناتج تكامل 2س(س² + 1)³ بالنسبة إلى س؟",
+      "options": [
+        "(س² + 1)⁴ ÷ 4 + ث",
+        "(س² + 1)⁴ + ث",
+        "(س² + 1)³ ÷ 3 + ث",
+        "2(س² + 1)⁴ + ث"
+      ],
+      "answerIndex": 0,
+      "explanation": "بالتعويض ب = س² + 1 يكون دب = 2س دس، فالتكامل ب³ دب = ب⁴ ÷ 4، أي (س² + 1)⁴ ÷ 4 زائد الثابت.",
+      "tags": [
+        "integral",
+        "substitution"
+      ]
+    },
+    {
+      "id": "math-integ-008",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "ما ناتج تكامل جا س جتا س بالنسبة إلى س؟",
+      "options": [
+        "جا²س ÷ 2 + ث",
+        "جتا²س ÷ 2 + ث",
+        "جا²س + ث",
+        "−جا²س ÷ 2 + ث"
+      ],
+      "answerIndex": 0,
+      "explanation": "بالتعويض ب = جا س يكون دب = جتا س دس، فالتكامل ب دب = ب² ÷ 2، أي جا²س ÷ 2 زائد الثابت.",
+      "tags": [
+        "integral",
+        "substitution"
+      ]
+    },
+    {
+      "id": "math-integ-009",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "ما مساحة المنطقة المحصورة تحت منحنى ص = س² ومحور السينات بين س = 0 و س = 3؟",
+      "options": [
+        "3",
+        "9",
+        "27",
+        "6"
+      ],
+      "answerIndex": 1,
+      "explanation": "المساحة = التكامل المحدود لـ س² = س³ ÷ 3، وبالتعويض: 27 ÷ 3 = 9.",
+      "tags": [
+        "integral",
+        "area"
+      ]
+    },
+    {
+      "id": "math-integ-010",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "hard",
+      "stem": "ما قيمة التكامل المحدود من 0 إلى 1 للمقدار 2س(س² + 1)؟",
+      "options": [
+        "1",
+        "1.5",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1,
+      "explanation": "بالتعويض ب = س² + 1 تصبح الحدود من 1 إلى 2، والتكامل ب دب = ب² ÷ 2، أي (4 − 1) ÷ 2 = 1.5.",
+      "tags": [
+        "integral",
+        "definite"
+      ]
+    },
+    {
+      "id": "math-integ-011",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "hard",
+      "stem": "ما مساحة المنطقة المحصورة بين منحنى ص = 4 − س² ومحور السينات؟",
+      "options": [
+        "16 ÷ 3",
+        "32 ÷ 3",
+        "8",
+        "16"
+      ],
+      "answerIndex": 1,
+      "explanation": "المنحنى يقطع المحور عند 2 و−2، والمساحة = التكامل من −2 إلى 2 للمقدار (4 − س²) = 16 − 16 ÷ 3 = 32 ÷ 3.",
+      "tags": [
+        "integral",
+        "area"
+      ]
+    },
+    {
+      "id": "math-limit-006",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "limits",
+      "difficulty": "medium",
+      "stem": "ما قيمة نها(س←0) للمقدار (جذر(س + 4) − 2) ÷ س؟",
+      "options": [
+        "0",
+        "0.25",
+        "0.5",
+        "1"
+      ],
+      "answerIndex": 1,
+      "explanation": "بالضرب في المرافق: [(س + 4) − 4] ÷ [س × (جذر(س + 4) + 2)] = 1 ÷ (جذر(س + 4) + 2)، وعند الاقتراب من 0 تكون النهاية 0.25.",
+      "tags": [
+        "limits",
+        "rationalising"
+      ]
+    },
+    {
+      "id": "math-limit-007",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "limits",
+      "difficulty": "medium",
+      "stem": "ما قيمة نها(س←0) للمقدار (1 − جتا 2س) ÷ س²؟",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "answerIndex": 2,
+      "explanation": "باستخدام 1 − جتا 2س = 2 جا²س تصبح النهاية 2 × (جا س ÷ س)²، ونهاية القوس تساوي 1، فتكون النهاية 2.",
+      "tags": [
+        "limits",
+        "trig"
       ]
     }
   ]

@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.22.0
+
+- Second maths review applied: 15 pass, 14 fix, 14 fail of the 43 replacement
+  questions, no wrong keys. The 14 failures were level failures.
+- The 14 failed items are replaced with 14 calculus questions at medium or hard
+  level (chain and quotient rules, tangent, optimisation, stationary points,
+  substitution integrals, definite integral by substitution, two areas under a
+  curve, two limits needing rationalising or a double-angle identity). Bank
+  stays at 241.
+- The 14 fix items are fixed: a near-duplicate limit rewritten to a different
+  factorisation, two difficulty labels lowered, one implausible option
+  replaced, one weak distractor replaced, two basic items relabelled medium.
+- Complex numbers, sequences and the 2D dot product are marked borderline for
+  placement in `docs/REVIEW_FINDINGS.md` rather than quietly kept.
+- Recorded in the docs and in the packet: the reviewer saw the marked key, so a
+  subject-teacher sign-off is still required before release.
 ## 0.21.0
 
 - Maths replacement, on Omar's decision: the 43 questions the maths reviewer
