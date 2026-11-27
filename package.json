@@ -1,6 +1,6 @@
 {
   "name": "thanaweya-mcq-kit",
-  "version": "0.23.1",
+  "version": "0.24.0",
   "description": "Arabic-first (RTL) multiple-choice quiz engine with original sample content. Zero dependencies.",
   "type": "module",
   "license": "MIT",
@@ -19,7 +19,8 @@
   "scripts": {
     "test": "node --test test/*.test.js",
     "validate": "node scripts/validate-data.mjs",
-    "serve": "python3 -m http.server 8080"
+    "serve": "python3 -m http.server 8080",
+    "build:demo": "node scripts/build-demo.mjs"
   },
   "keywords": [
     "arabic",

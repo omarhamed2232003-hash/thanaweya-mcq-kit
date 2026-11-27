@@ -11,8 +11,8 @@ import {
 
 const STORAGE_KEY = 'thanaweya-mcq-kit:session';
 const SUBJECT_LABELS = {
-  ar: { physics: 'فيزياء', chemistry: 'كيمياء', biology: 'أحياء' },
-  en: { physics: 'Physics', chemistry: 'Chemistry', biology: 'Biology' },
+  ar: { physics: 'فيزياء', chemistry: 'كيمياء', biology: 'أحياء', math: 'رياضيات' },
+  en: { physics: 'Physics', chemistry: 'Chemistry', biology: 'Biology', math: 'Maths' },
 };
 
 const state = {
@@ -334,8 +334,9 @@ function resumeIfSaved() {
 }
 
 async function boot() {
-  const response = await fetch('../data/sample-questions.json');
-  state.bank = await response.json();
+  // A single-file build inlines the bank as window.__BANK__; the served demo
+  // fetches it. One code path, two delivery methods.
+  state.bank = window.__BANK__ ?? await (await fetch('../data/sample-questions.json')).json();
   applyLanguage();
 
   el('start-form').addEventListener('submit', startQuiz);

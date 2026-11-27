@@ -96,6 +96,14 @@ console.log(result.scorePercent, result.byDifficulty);
 
 MIT — راجع [LICENSE](LICENSE).
 
+## نسخة بملف واحد
+
+```bash
+npm run build:demo          # يكتب demo.html في جذر المستودع
+```
+
+`demo.html` يحمل التنسيق والسكربت والبنك كله داخله، فيفتح من القرص مباشرة بلا خادم وبلا شبكة. مفيد لمن يريد تجربة الأسئلة على جهاز بلا إنترنت، وللتأكد من أن الواجهة تعمل مع البنك كما هو.
+
 ## بنية الكود
 
 `docs/ARCHITECTURE.md` يشرح الطبقات: المخطط، البنك، المحرك، الواجهة، وأين تنتهي مسؤولية كل ملف. و`schema/question.schema.json` يصف صيغة البنك بصيغة JSON Schema ليستطيع المحرر إكمال الحقول، و`docs/SCHEMA.md` يوضح أنه للوصف فقط وأن `npm run validate` هو المدقق الفعلي.

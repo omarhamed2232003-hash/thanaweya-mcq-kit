@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.24.0
+
+- `npm run build:demo`: one self-contained `demo.html` with the CSS, the script
+  and the whole bank inlined, so it opens from a file path with no server and no
+  network. No bundler dependency: the modules have no top-level name collisions,
+  so the build is a topological concatenation with the module syntax removed, and
+  a test fails if module syntax survives or the inlined bank does not parse.
+- The demo reads `window.__BANK__` when it is present, so the served demo and the
+  single-file build run the same code path.
+- Fixed: the subject label map had no entry for maths, so the subject showed as
+  `math` in both languages. It now reads رياضيات / Maths. A test fails if a
+  subject appears in the bank with no UI label.
+- Verified visually: the built file opened in headless Chrome from a file path,
+  the subject list filled with 241 questions (66 physics, 60 chemistry,
+  53 biology, 62 maths) and the maths label rendered in Arabic.
 ## 0.23.1
 
 - `docs/PIPELINE.md`: how the four tools compose (author, lint, diff, print,
