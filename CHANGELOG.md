@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.10.0
+
+- Add 23 more original questions (physics 6, chemistry 6, biology 7, maths 4),
+  taking the bank to 188. Two drafts duplicated existing stems and were dropped.
+- One new explanation (chem-eq-006) was rewritten so its oxygen count is stated
+  as a number; the answer-key audit caught that it only described it in words.
 ## 0.9.0
 
 - Add 35 original questions (physics 7, chemistry 8, biology 8, maths 12), each

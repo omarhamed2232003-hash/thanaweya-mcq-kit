@@ -3392,6 +3392,477 @@
         "equations",
         "algebra"
       ]
+    },
+    {
+      "id": "phy-accel-001",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "easy",
+      "stem": "سيارة تتحرك من السكون ووصلت سرعتها إلى 20 م/ث خلال 5 ثوانٍ. ما عجلتها؟",
+      "options": [
+        "4 م/ث²",
+        "100 م/ث²",
+        "0.25 م/ث²",
+        "25 م/ث²"
+      ],
+      "answerIndex": 0,
+      "explanation": "العجلة = التغير في السرعة ÷ الزمن = 20 ÷ 5 = 4 م/ث².",
+      "tags": [
+        "acceleration"
+      ]
+    },
+    {
+      "id": "phy-density-001",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "easy",
+      "stem": "كتلة جسم 600 جرام وحجمه 200 سم مكعب. ما كثافته؟",
+      "options": [
+        "3 جرام/سم³",
+        "0.33 جرام/سم³",
+        "120000 جرام/سم³",
+        "400 جرام/سم³"
+      ],
+      "answerIndex": 0,
+      "explanation": "الكثافة = الكتلة ÷ الحجم = 600 ÷ 200 = 3 جرام/سم³.",
+      "tags": [
+        "density"
+      ]
+    },
+    {
+      "id": "phy-work-006",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "medium",
+      "stem": "رفعت قوة 50 نيوتن جسمًا مسافة 3 أمتار في اتجاه القوة. ما الشغل المبذول؟",
+      "options": [
+        "150 جول",
+        "53 جول",
+        "16.7 جول",
+        "450 جول"
+      ],
+      "answerIndex": 0,
+      "explanation": "الشغل = القوة × المسافة = 50 × 3 = 150 جول.",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": "phy-power-004",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "electricity",
+      "difficulty": "medium",
+      "stem": "مصباح قدرته 100 واط يعمل 5 ساعات. ما الطاقة المستهلكة بالكيلوواط ساعة؟",
+      "options": [
+        "0.5 كيلوواط ساعة",
+        "500 كيلوواط ساعة",
+        "20 كيلوواط ساعة",
+        "5 كيلوواط ساعة"
+      ],
+      "answerIndex": 0,
+      "explanation": "الطاقة = القدرة × الزمن = 0.1 كيلوواط × 5 ساعات = 0.5 كيلوواط ساعة.",
+      "tags": [
+        "energy",
+        "power"
+      ]
+    },
+    {
+      "id": "phy-freq-001",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "waves",
+      "difficulty": "easy",
+      "stem": "ما تردد موجة زمنها الدوري 0.02 ثانية؟",
+      "options": [
+        "50 هرتز",
+        "0.02 هرتز",
+        "20 هرتز",
+        "2 هرتز"
+      ],
+      "answerIndex": 0,
+      "explanation": "التردد = 1 ÷ الزمن الدوري = 1 ÷ 0.02 = 50 هرتز.",
+      "tags": [
+        "frequency",
+        "waves"
+      ]
+    },
+    {
+      "id": "phy-heat-005",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "heat",
+      "difficulty": "medium",
+      "stem": "ما الحرارة اللازمة لصهر 2 كجم من الجليد؟ (الحرارة الكامنة للانصهار 334000 جول/كجم)",
+      "options": [
+        "668000 جول",
+        "167000 جول",
+        "334000 جول",
+        "6680 جول"
+      ],
+      "answerIndex": 0,
+      "explanation": "الحرارة = الكتلة × الحرارة الكامنة = 2 × 334000 = 668000 جول.",
+      "tags": [
+        "latent-heat"
+      ]
+    },
+    {
+      "id": "chem-mole-009",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "moles",
+      "difficulty": "easy",
+      "stem": "ما كتلة 2 مول من الماء؟ (الكتلة المولية 18 جرام/مول)",
+      "options": [
+        "36 جرامًا",
+        "18 جرامًا",
+        "9 جرامات",
+        "20 جرامًا"
+      ],
+      "answerIndex": 0,
+      "explanation": "الكتلة = عدد المولات × الكتلة المولية = 2 × 18 = 36 جرامًا.",
+      "tags": [
+        "mole",
+        "molar-mass"
+      ]
+    },
+    {
+      "id": "chem-conc-003",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "solutions",
+      "difficulty": "medium",
+      "stem": "أُذيب 4 جرامات من هيدروكسيد الصوديوم (كتلته المولية 40) في ماء حتى صار الحجم لترًا واحدًا. ما التركيز المولاري؟",
+      "options": [
+        "0.1 مول/لتر",
+        "0.4 مول/لتر",
+        "4 مول/لتر",
+        "10 مول/لتر"
+      ],
+      "answerIndex": 0,
+      "explanation": "عدد المولات = 4 ÷ 40 = 0.1 مول، والتركيز = 0.1 مول في لتر = 0.1 مول/لتر.",
+      "tags": [
+        "concentration"
+      ]
+    },
+    {
+      "id": "chem-eq-006",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "equations",
+      "difficulty": "medium",
+      "stem": "عند موازنة: CH₄ + 2O₂ ← CO₂ + 2H₂O، كم ذرة أكسجين في الطرفين؟",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "8"
+      ],
+      "answerIndex": 0,
+      "explanation": "عدد ذرات الأكسجين في المتفاعلات = 2 × 2 = 4، وفي النواتج = 2 + 2 = 4، فالطرفان متوازنان.",
+      "tags": [
+        "balancing"
+      ]
+    },
+    {
+      "id": "chem-periodic-001",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "periodic-table",
+      "difficulty": "easy",
+      "stem": "إلى أي مجموعة تنتمي الفلزات القلوية في الجدول الدوري؟",
+      "options": [
+        "المجموعة الأولى",
+        "المجموعة الثانية",
+        "المجموعة السابعة عشرة",
+        "المجموعة الثامنة عشرة"
+      ],
+      "answerIndex": 0,
+      "explanation": "الفلزات القلوية مثل الصوديوم والبوتاسيوم تقع في المجموعة الأولى.",
+      "tags": [
+        "periodic-table"
+      ]
+    },
+    {
+      "id": "chem-oxid-003",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "redox",
+      "difficulty": "medium",
+      "stem": "ما عدد تأكسد الأكسجين في معظم مركباته؟",
+      "options": [
+        "-2",
+        "+2",
+        "0",
+        "-1"
+      ],
+      "answerIndex": 0,
+      "explanation": "الأكسجين يأخذ عدد تأكسد -2 في معظم مركباته، ما عدا فوق الأكاسيد.",
+      "tags": [
+        "oxidation-number"
+      ]
+    },
+    {
+      "id": "bio-cell-005",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "cell",
+      "difficulty": "easy",
+      "stem": "ما العضي المسؤول عن تخليق البروتين في الخلية؟",
+      "options": [
+        "الرايبوسوم",
+        "الميتوكوندريا",
+        "الليسوسوم",
+        "الفجوة"
+      ],
+      "answerIndex": 0,
+      "explanation": "الرايبوسومات هي موقع تخليق البروتين في الخلية.",
+      "tags": [
+        "ribosome",
+        "cell"
+      ]
+    },
+    {
+      "id": "bio-dna-004",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "genetics",
+      "difficulty": "medium",
+      "stem": "ما عدد الكروموسومات في الخلية الجنسية البشرية؟",
+      "options": [
+        "23",
+        "46",
+        "92",
+        "12"
+      ],
+      "answerIndex": 0,
+      "explanation": "الخلايا الجنسية تحتوي نصف العدد الجسمي، أي 46 ÷ 2 = 23 كروموسومًا.",
+      "tags": [
+        "chromosomes",
+        "meiosis"
+      ]
+    },
+    {
+      "id": "bio-photo-006",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "photosynthesis",
+      "difficulty": "medium",
+      "stem": "ما الصبغة المسؤولة عن امتصاص الضوء في البناء الضوئي؟",
+      "options": [
+        "الكلوروفيل",
+        "الهيموجلوبين",
+        "الميلانين",
+        "الكاروتين في الجذور"
+      ],
+      "answerIndex": 0,
+      "explanation": "الكلوروفيل صبغة خضراء تمتص الضوء اللازم للبناء الضوئي.",
+      "tags": [
+        "chlorophyll",
+        "photosynthesis"
+      ]
+    },
+    {
+      "id": "bio-resp-004",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "respiration",
+      "difficulty": "medium",
+      "stem": "ما الغاز الناتج عن التنفس الخلوي الهوائي؟",
+      "options": [
+        "ثاني أكسيد الكربون",
+        "الأكسجين",
+        "النيتروجين",
+        "الهيدروجين"
+      ],
+      "answerIndex": 0,
+      "explanation": "التنفس الهوائي يستهلك الأكسجين وينتج ثاني أكسيد الكربون والماء والطاقة.",
+      "tags": [
+        "respiration"
+      ]
+    },
+    {
+      "id": "bio-gen-005",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "genetics",
+      "difficulty": "medium",
+      "stem": "إذا كان الأليل A سائدًا على a، فما الطراز الظاهري للفرد Aa؟",
+      "options": [
+        "سائد",
+        "متنحٍ",
+        "خليط بينهما",
+        "لا يمكن تحديده"
+      ],
+      "answerIndex": 0,
+      "explanation": "الأليل السائد A يظهر في الطراز الظاهري عند وجوده مع المتنحي a، فالفرد Aa سائد.",
+      "tags": [
+        "genetics",
+        "dominance"
+      ]
+    },
+    {
+      "id": "bio-immunity-003",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "immunity",
+      "difficulty": "easy",
+      "stem": "ما الخلايا التي تنتج الأجسام المضادة؟",
+      "options": [
+        "الخلايا الليمفاوية البائية",
+        "خلايا الدم الحمراء",
+        "الصفائح الدموية",
+        "الخلايا العصبية"
+      ],
+      "answerIndex": 0,
+      "explanation": "الخلايا الليمفاوية البائية تتحول إلى خلايا بلازمية تنتج الأجسام المضادة.",
+      "tags": [
+        "immunity",
+        "antibodies"
+      ]
+    },
+    {
+      "id": "bio-plant-001",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "plants",
+      "difficulty": "easy",
+      "stem": "ما الجزء المسؤول عن امتصاص الماء والأملاح في النبات؟",
+      "options": [
+        "الجذور",
+        "الأوراق",
+        "الأزهار",
+        "الساق"
+      ],
+      "answerIndex": 0,
+      "explanation": "الجذور تمتص الماء والأملاح المعدنية من التربة.",
+      "tags": [
+        "roots",
+        "plants"
+      ]
+    },
+    {
+      "id": "math-alg-010",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "medium",
+      "stem": "ما حل المتباينة: 2س + 3 < 11؟",
+      "options": [
+        "س < 4",
+        "س > 4",
+        "س < 7",
+        "س > 7"
+      ],
+      "answerIndex": 0,
+      "explanation": "بطرح 3: 2س < 8، وبالقسمة على 2: س < 4.",
+      "tags": [
+        "inequalities"
+      ]
+    },
+    {
+      "id": "math-trig-005",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "trigonometry",
+      "difficulty": "medium",
+      "stem": "ما قيمة جتا 60 درجة؟",
+      "options": [
+        "0.5",
+        "0.866",
+        "1",
+        "0"
+      ],
+      "answerIndex": 0,
+      "explanation": "جتا 60 درجة = 0.5، وهي نسبة الضلع المجاور للوتر.",
+      "tags": [
+        "trigonometry",
+        "cosine"
+      ]
+    },
+    {
+      "id": "math-calc-006",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "ما مشتقة الدالة ص = 5س؟",
+      "options": [
+        "5",
+        "5س",
+        "0",
+        "س"
+      ],
+      "answerIndex": 0,
+      "explanation": "مشتقة 5س هي معامل س، أي 5.",
+      "tags": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "math-stat-006",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "statistics",
+      "difficulty": "easy",
+      "stem": "ما الوسيط للأعداد 3، 7، 9، 12، 15؟",
+      "options": [
+        "9",
+        "7",
+        "12",
+        "46"
+      ],
+      "answerIndex": 0,
+      "explanation": "الوسيط هو القيمة الوسطى بعد الترتيب، وهي 9.",
+      "tags": [
+        "median",
+        "statistics"
+      ]
+    },
+    {
+      "id": "math-prob-003",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "probability",
+      "difficulty": "medium",
+      "stem": "ما احتمال ظهور عدد زوجي عند رمي حجر نرد مرة واحدة؟",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/6",
+        "2/3"
+      ],
+      "answerIndex": 0,
+      "explanation": "الأعداد الزوجية 2 و4 و6 أي ثلاث نتائج من ست، فاحتمالها = 3 ÷ 6 = 0.5.",
+      "tags": [
+        "probability"
+      ]
     }
   ]
 }
