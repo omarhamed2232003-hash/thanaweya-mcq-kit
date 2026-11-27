@@ -133,6 +133,9 @@ function renderQuestion() {
   list.innerHTML = '';
   const answered = state.answers[question.id];
   const revealed = state.revealed.has(question.id);
+  const isMulti = question.type === 'multi';
+  const correctIndices = isMulti ? (question.answerIndices ?? []) : [question.answerIndex];
+  const chosen = isMulti ? (Array.isArray(answered) ? answered : []) : answered;
 
   question.options.forEach((option, optionIndex) => {
     const item = document.createElement('li');
@@ -141,10 +144,14 @@ function renderQuestion() {
     button.className = 'option';
     button.dataset.index = String(optionIndex);
     button.innerHTML = `<span class="key">${optionIndex + 1}</span><span>${escapeHtml(option)}</span>`;
+    if (isMulti && !revealed) {
+      button.setAttribute('aria-pressed', String(chosen.includes(optionIndex)));
+      if (chosen.includes(optionIndex)) button.classList.add('chosen');
+    }
     if (revealed) {
       button.disabled = true;
-      if (optionIndex === question.answerIndex) button.classList.add('correct');
-      else if (optionIndex === answered) button.classList.add('wrong');
+      if (correctIndices.includes(optionIndex)) button.classList.add('correct');
+      else if (Array.isArray(chosen) ? chosen.includes(optionIndex) : optionIndex === chosen) button.classList.add('wrong');
     }
     button.addEventListener('click', () => selectOption(optionIndex));
     item.append(button);
@@ -154,16 +161,20 @@ function renderQuestion() {
   const feedback = el('feedback');
   if (revealed) {
     feedback.classList.remove('hidden');
-    const isCorrect = answered === question.answerIndex;
+    const isCorrect = isMulti
+      ? chosen.length === correctIndices.length && correctIndices.every((index) => chosen.includes(index))
+      : answered === question.answerIndex;
     const verdict = el('feedback-verdict');
     verdict.textContent = isCorrect ? t(state.language, 'correct') : t(state.language, 'wrong');
     verdict.className = `verdict ${isCorrect ? 'correct' : 'wrong'}`;
-    el('feedback-answer').textContent = `${t(state.language, 'correctAnswerIs')}: ${question.options[question.answerIndex]}`;
+    const answerText = correctIndices.map((index) => question.options[index]).join(' / ');
+    el('feedback-answer').textContent = `${t(state.language, 'correctAnswerIs')}: ${answerText}`;
     el('feedback-explanation').textContent = `${t(state.language, 'explanation')}: ${question.explanation}`;
     el('next-btn').disabled = false;
   } else {
     feedback.classList.add('hidden');
-    el('next-btn').disabled = true;
+    // A multi-answer question needs at least one ticked option before moving on.
+    el('next-btn').disabled = isMulti ? chosen.length === 0 : true;
   }
 
   const isLast = state.index === total - 1;
@@ -181,6 +192,15 @@ function escapeHtml(text) {
 function selectOption(optionIndex) {
   const question = currentQuestion();
   if (state.revealed.has(question.id)) return;
+  if (question.type === 'multi') {
+    const current = Array.isArray(state.answers[question.id]) ? [...state.answers[question.id]] : [];
+    const at = current.indexOf(optionIndex);
+    if (at === -1) current.push(optionIndex);
+    else current.splice(at, 1);
+    state.answers[question.id] = current.sort((left, right) => left - right);
+    renderQuestion();
+    return;
+  }
   state.answers[question.id] = optionIndex;
   state.revealed.add(question.id);
   renderQuestion();
@@ -241,9 +261,12 @@ function renderResult() {
     li.append(tag);
     const why = document.createElement('span');
     why.className = 'why';
+    const answersText = (item.correctIndices ?? [item.correctIndex])
+      .map((index) => question.options[index])
+      .join(' / ');
     why.textContent = item.answered
-      ? `${t(state.language, 'correctAnswerIs')}: ${question.options[item.correctIndex]} — ${question.explanation}`
-      : `${t(state.language, 'unanswered')} — ${t(state.language, 'correctAnswerIs')}: ${question.options[item.correctIndex]}`;
+      ? `${t(state.language, 'correctAnswerIs')}: ${answersText} — ${question.explanation}`
+      : `${t(state.language, 'unanswered')} — ${t(state.language, 'correctAnswerIs')}: ${answersText}`;
     li.append(why);
     review.append(li);
   });
@@ -269,7 +292,15 @@ function startQuiz(event) {
   const countValue = el('count-select').value;
   const count = countValue === 'all' ? state.bank.questions.length : Number(countValue);
 
-  state.session = buildSession(state.bank, {
+  // The demo UI is verified for single-answer questions only. Multi-answer
+  // rendering exists below but has not been through a visual check yet, so the
+  // demo does not put those questions in front of a user until it has.
+  const uiBank = {
+    ...state.bank,
+    questions: state.bank.questions.filter((question) => (question.type ?? 'single') === 'single'),
+  };
+
+  state.session = buildSession(uiBank, {
     count,
     seed: `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
     filters: subject ? { subjects: [subject] } : {},

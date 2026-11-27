@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.13.1
+
+- Fix the demo UI: it assumed every question has `answerIndex`, so a session
+  that picked one of the new multi-answer questions would have marked it wrong
+  and shown "undefined" as the answer. The demo now builds its session from
+  single-answer questions only.
+- Multi-answer rendering is written in `ui/quiz.js` but deliberately not
+  enabled: it has not been through a visual check yet, and the code says so.
 ## 0.13.0
 
 - Add 15 more original questions (physics 4, chemistry 4, biology 4, maths 3),
