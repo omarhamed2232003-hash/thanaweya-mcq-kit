@@ -1851,6 +1851,414 @@
       "tags": [
         "median"
       ]
+    },
+    {
+      "id": "phy-elec-006",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "electricity",
+      "difficulty": "medium",
+      "stem": "مصباح يعمل على فرق جهد 220 فولت ويمر به تيار 0.5 أمبير. ما قدرته؟",
+      "options": [
+        "440 واط",
+        "110 واط",
+        "220.5 واط",
+        "55 واط"
+      ],
+      "answerIndex": 1,
+      "explanation": "القدرة = فرق الجهد × التيار = 220 × 0.5 = 110 واط.",
+      "tags": [
+        "power"
+      ]
+    },
+    {
+      "id": "phy-kin-005",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "medium",
+      "stem": "جسم كتلته 4 كجم يتحرك بسرعة 5 م/ث. ما كمية حركته؟",
+      "options": [
+        "9 كجم·م/ث",
+        "1.25 كجم·م/ث",
+        "20 كجم·م/ث",
+        "100 كجم·م/ث"
+      ],
+      "answerIndex": 2,
+      "explanation": "كمية الحركة = الكتلة × السرعة = 4 × 5 = 20 كجم·م/ث.",
+      "tags": [
+        "momentum"
+      ]
+    },
+    {
+      "id": "phy-heat-003",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "heat",
+      "difficulty": "easy",
+      "stem": "ماذا نسمي تحول المادة من الحالة الصلبة إلى الحالة السائلة؟",
+      "options": [
+        "التجمد",
+        "الانصهار",
+        "التبخر",
+        "التسامي"
+      ],
+      "answerIndex": 1,
+      "explanation": "الانصهار هو التحول من الصلب إلى السائل عند درجة حرارة الانصهار.",
+      "tags": [
+        "states-of-matter"
+      ]
+    },
+    {
+      "id": "phy-wave-004",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "waves",
+      "difficulty": "easy",
+      "stem": "في أي وسط لا ينتقل الصوت؟",
+      "options": [
+        "الهواء",
+        "الماء",
+        "الحديد",
+        "الفراغ"
+      ],
+      "answerIndex": 3,
+      "explanation": "الصوت موجة ميكانيكية تحتاج وسطًا ماديًا، فلا ينتقل في الفراغ.",
+      "tags": [
+        "sound"
+      ]
+    },
+    {
+      "id": "phy-elec-008",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "electricity",
+      "difficulty": "medium",
+      "stem": "مقاومتان متساويتان 10 أوم موصلتان على التوازي. ما المقاومة المكافئة؟",
+      "options": [
+        "20 أوم",
+        "5 أوم",
+        "10 أوم",
+        "0.2 أوم"
+      ],
+      "answerIndex": 1,
+      "explanation": "في حالة مقاومتين متساويتين على التوازي تكون المكافئة نصف إحداهما: 10 ÷ 2 = 5 أوم.",
+      "tags": [
+        "resistors",
+        "parallel"
+      ]
+    },
+    {
+      "id": "chem-eq-004",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "equations",
+      "difficulty": "medium",
+      "stem": "ما نواتج تفاعل الزنك مع حمض الهيدروكلوريك المخفف؟",
+      "options": [
+        "كلوريد الزنك وهيدروجين",
+        "أكسيد الزنك وماء",
+        "زنك وهيدروجين",
+        "كلوريد الزنك وأكسجين"
+      ],
+      "answerIndex": 0,
+      "explanation": "الزنك فلز نشط يحل محل الهيدروجين: Zn + 2HCl → ZnCl₂ + H₂.",
+      "tags": [
+        "displacement",
+        "metals"
+      ]
+    },
+    {
+      "id": "chem-mole-005",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "stoichiometry",
+      "difficulty": "hard",
+      "stem": "كم ذرة كربون في مول واحد من ثاني أكسيد الكربون CO₂؟",
+      "options": [
+        "6.02×10²³",
+        "1.204×10²⁴",
+        "3.01×10²³",
+        "12.04×10²³"
+      ],
+      "answerIndex": 0,
+      "explanation": "كل جزيء CO₂ فيه ذرة كربون واحدة، فمول واحد يحتوي عدد أفوجادرو من ذرات الكربون.",
+      "tags": [
+        "avogadro",
+        "mole"
+      ]
+    },
+    {
+      "id": "chem-bond-003",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "bonding",
+      "difficulty": "medium",
+      "stem": "ما نوع الرابطة بين ذرتي النيتروجين في جزيء N₂؟",
+      "options": [
+        "رابطة أحادية",
+        "رابطة ثنائية",
+        "رابطة ثلاثية تساهمية",
+        "رابطة أيونية"
+      ],
+      "answerIndex": 2,
+      "explanation": "كل ذرة نيتروجين تحتاج ثلاثة إلكترونات، فتتشاركان بثلاث روابط تساهمية، وهذا سبب ثبات جزيء النيتروجين.",
+      "tags": [
+        "covalent-bond",
+        "nitrogen"
+      ]
+    },
+    {
+      "id": "chem-acid-002",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "acids-bases",
+      "difficulty": "easy",
+      "stem": "أي مما يلي حمض قوي؟",
+      "options": [
+        "حمض الخليك",
+        "حمض الهيدروكلوريك",
+        "حمض الكربونيك",
+        "حمض البوريك"
+      ],
+      "answerIndex": 1,
+      "explanation": "حمض الهيدروكلوريك يتأين تمامًا في الماء فيُعد حمضًا قويًا، والباقي أحماض ضعيفة.",
+      "tags": [
+        "acids"
+      ]
+    },
+    {
+      "id": "chem-organic-001",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "organic",
+      "difficulty": "medium",
+      "stem": "ما الصيغة العامة للألكانات؟",
+      "options": [
+        "CnH2n",
+        "CnH2n+2",
+        "CnH2n-2",
+        "CnHn"
+      ],
+      "answerIndex": 1,
+      "explanation": "الألكانات هيدروكربونات مشبعة، وصيغتها العامة CnH2n+2 مثل الميثان CH₄ والإيثان C₂H₆.",
+      "tags": [
+        "organic",
+        "alkanes"
+      ]
+    },
+    {
+      "id": "bio-cell-002",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "cell",
+      "difficulty": "easy",
+      "stem": "أي عضية مسؤولة عن تخليق البروتين في الخلية؟",
+      "options": [
+        "الريبوسوم",
+        "الميتوكوندريا",
+        "جهاز جولجي",
+        "الجسم المركزي"
+      ],
+      "answerIndex": 0,
+      "explanation": "الريبوسومات تقرأ شفرة mRNA وتربط الأحماض الأمينية لتكوين البروتين.",
+      "tags": [
+        "ribosome",
+        "protein-synthesis"
+      ]
+    },
+    {
+      "id": "bio-photo-003",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "photosynthesis",
+      "difficulty": "easy",
+      "stem": "ما الصبغة الرئيسية التي تمتص الضوء في البناء الضوئي؟",
+      "options": [
+        "الهيموجلوبين",
+        "الكلوروفيل",
+        "الميلانين",
+        "الكاروتين وحده"
+      ],
+      "answerIndex": 1,
+      "explanation": "الكلوروفيل هو الصبغة الرئيسية التي تمتص الضوء وتنقل طاقته إلى تفاعلات البناء الضوئي.",
+      "tags": [
+        "chlorophyll"
+      ]
+    },
+    {
+      "id": "bio-gen-002",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "genetics",
+      "difficulty": "medium",
+      "stem": "ماذا يمثل النمط الجيني Aa؟",
+      "options": [
+        "فردًا متماثل الزيجوت سائدًا",
+        "فردًا هجينًا (خليط الزيجوت)",
+        "فردًا متماثل الزيجوت متنحيًا",
+        "فردًا يحمل ثلاثة أليلات"
+      ],
+      "answerIndex": 1,
+      "explanation": "Aa يحمل أليلين مختلفين، فهو هجين، ويظهر فيه الصفة السائدة إذا كان الأليل A سائدًا.",
+      "tags": [
+        "genetics",
+        "heterozygous"
+      ]
+    },
+    {
+      "id": "bio-eco-003",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "ecology",
+      "difficulty": "easy",
+      "stem": "بماذا تبدأ السلسلة الغذائية عادة؟",
+      "options": [
+        "المستهلك الأول",
+        "المحللات",
+        "المنتجات",
+        "المستهلك الثاني"
+      ],
+      "answerIndex": 2,
+      "explanation": "السلسلة الغذائية تبدأ بالمنتجات التي تحول الطاقة الشمسية إلى غذاء، ثم المستهلكات فالمحللات.",
+      "tags": [
+        "food-chain"
+      ]
+    },
+    {
+      "id": "bio-resp-002",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "respiration",
+      "difficulty": "hard",
+      "stem": "أين تحدث مرحلة تحلل السكر (الجليكوليز) في الخلية؟",
+      "options": [
+        "في الميتوكوندريا",
+        "في السيتوبلازم",
+        "في النواة",
+        "في البلاستيدة"
+      ],
+      "answerIndex": 1,
+      "explanation": "الجليكوليز يحدث في السيتوبلازم ولا يحتاج أكسجينًا، ثم تكمل الميتوكوندريا بقية مراحل التنفس الهوائي.",
+      "tags": [
+        "glycolysis",
+        "respiration"
+      ]
+    },
+    {
+      "id": "math-alg-006",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "medium",
+      "stem": "ما حلول المعادلة |س| = 5؟",
+      "options": [
+        "5 فقط",
+        "-5 فقط",
+        "5 أو -5",
+        "25 أو -25"
+      ],
+      "answerIndex": 2,
+      "explanation": "القيمة المطلقة تساوي 5 لكل عدد بعده عن الصفر 5، أي 5 و-5.",
+      "tags": [
+        "absolute-value"
+      ]
+    },
+    {
+      "id": "math-geom-004",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "geometry",
+      "difficulty": "easy",
+      "stem": "ما مجموع قياسات الزوايا الداخلية لأي مثلث؟",
+      "options": [
+        "90°",
+        "180°",
+        "270°",
+        "360°"
+      ],
+      "answerIndex": 1,
+      "explanation": "مجموع زوايا المثلث الداخلية 180 درجة في الهندسة الإقليدية.",
+      "tags": [
+        "triangles"
+      ]
+    },
+    {
+      "id": "math-calc-003",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "medium",
+      "stem": "ما مشتقة الدالة ص = 5س³؟",
+      "options": [
+        "15س²",
+        "5س²",
+        "15س³",
+        "3س²"
+      ],
+      "answerIndex": 0,
+      "explanation": "بقاعدة القوة: 5 × 3 × س² = 15س².",
+      "tags": [
+        "derivatives"
+      ]
+    },
+    {
+      "id": "math-stat-003",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "statistics",
+      "difficulty": "easy",
+      "stem": "ما منوال الأعداد 2، 3، 3، 5، 7؟",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "7"
+      ],
+      "answerIndex": 1,
+      "explanation": "المنوال هو القيمة الأكثر تكرارًا، والعدد 3 تكرر مرتين.",
+      "tags": [
+        "mode"
+      ]
+    },
+    {
+      "id": "math-trig-003",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "trigonometry",
+      "difficulty": "easy",
+      "stem": "ما قيمة ظا 45°؟",
+      "options": [
+        "0",
+        "0.5",
+        "1",
+        "غير معرّفة"
+      ],
+      "answerIndex": 2,
+      "explanation": "ظا 45° = جا 45° ÷ جتا 45° = 1، لأن الضلعين المقابل والمجاور متساويان.",
+      "tags": [
+        "trigonometry"
+      ]
     }
   ]
 }
