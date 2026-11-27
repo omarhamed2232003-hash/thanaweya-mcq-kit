@@ -369,7 +369,7 @@
   },
   {
    "batch": 16,
-   "commit": "pending",
+   "commit": "7371f52c",
    "date": "2026-11-27",
    "message": "maths review round 2: 14 fail items replaced with calculus-heavy medium/hard questions",
    "count": 14,
