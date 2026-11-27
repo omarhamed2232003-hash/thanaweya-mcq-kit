@@ -5205,6 +5205,357 @@
         "algebra",
         "log"
       ]
+    },
+    {
+      "id": "phy-ohm-010",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "current-electricity",
+      "difficulty": "medium",
+      "stem": "مقاومتان 6 أوم و3 أوم موصلتان على التوازي. ما المقاومة المكافئة؟",
+      "options": [
+        "9 Ω",
+        "18 Ω",
+        "2 Ω",
+        "4.5 Ω"
+      ],
+      "answerIndex": 2,
+      "explanation": "المقاومة المكافئة على التوازي = (6 × 3) ÷ (6 + 3) = 18 ÷ 9 = 2 أوم.",
+      "tags": [
+        "resistance",
+        "parallel"
+      ]
+    },
+    {
+      "id": "phy-energy-010",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "energy",
+      "difficulty": "medium",
+      "stem": "مصباح قدرته 60 واط يعمل 5 دقائق. ما الطاقة المستهلكة؟",
+      "options": [
+        "18000 J",
+        "300 J",
+        "3000 J",
+        "1200 J"
+      ],
+      "answerIndex": 0,
+      "explanation": "الزمن بالثواني = 5 × 60 = 300 ثانية، والطاقة = القدرة × الزمن = 60 × 300 = 18000 جول.",
+      "tags": [
+        "energy",
+        "power"
+      ]
+    },
+    {
+      "id": "phy-multi-002",
+      "type": "multi",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "units",
+      "difficulty": "medium",
+      "stem": "أي مما يلي وحدة مشتقة في النظام الدولي؟ (اختر كل ما ينطبق)",
+      "options": [
+        "النيوتن",
+        "الجول",
+        "المتر",
+        "الواط"
+      ],
+      "answerIndices": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "النيوتن والجول والواط وحدات مشتقة من الوحدات الأساسية، أما المتر فوحدة أساسية للطول.",
+      "tags": [
+        "units",
+        "derived"
+      ]
+    },
+    {
+      "id": "phy-wave-008",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "waves",
+      "difficulty": "medium",
+      "stem": "موجة سرعتها 340 م/ث وترددها 170 هرتز. ما طولها الموجي؟",
+      "options": [
+        "2 m",
+        "0.5 m",
+        "57800 m",
+        "170 m"
+      ],
+      "answerIndex": 0,
+      "explanation": "الطول الموجي = السرعة ÷ التردد = 340 ÷ 170 = 2 متر.",
+      "tags": [
+        "waves",
+        "wavelength"
+      ]
+    },
+    {
+      "id": "chem-mole-016",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "mole",
+      "difficulty": "easy",
+      "stem": "ما حجم 2 مول من غاز في الظروف القياسية؟ (الحجم المولي 22.4 لتر/مول)",
+      "options": [
+        "44.8 L",
+        "22.4 L",
+        "11.2 L",
+        "2 L"
+      ],
+      "answerIndex": 0,
+      "explanation": "الحجم = عدد المولات × الحجم المولي = 2 × 22.4 = 44.8 لتر.",
+      "tags": [
+        "mole",
+        "gas"
+      ]
+    },
+    {
+      "id": "chem-multi-002",
+      "type": "multi",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "reactions",
+      "difficulty": "easy",
+      "stem": "أي مما يلي تغير كيميائي؟ (اختر كل ما ينطبق)",
+      "options": [
+        "صدأ الحديد",
+        "احتراق الخشب",
+        "ذوبان الجليد",
+        "تعفن الطعام"
+      ],
+      "answerIndices": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "الصدأ والاحتراق والتعفن تكون فيها مواد جديدة، أما ذوبان الجليد فتغير فيزيائي يعود بالتبريد.",
+      "tags": [
+        "reactions",
+        "change"
+      ]
+    },
+    {
+      "id": "chem-acid-007",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "acids-bases",
+      "difficulty": "easy",
+      "stem": "ما الناتج من تفاعل حمض مع قاعدة؟",
+      "options": [
+        "ملح وماء",
+        "ملح وهيدروجين",
+        "أكسيد وماء",
+        "حمض أقوى"
+      ],
+      "answerIndex": 0,
+      "explanation": "تفاعل التعادل بين حمض وقاعدة ينتج ملحا وماء.",
+      "tags": [
+        "acids",
+        "neutralisation"
+      ]
+    },
+    {
+      "id": "chem-periodic-007",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "periodic-table",
+      "difficulty": "easy",
+      "stem": "كم إلكترونا في مستوى الطاقة الأخير لعنصر في المجموعة 17؟",
+      "options": [
+        "7",
+        "1",
+        "17",
+        "8"
+      ],
+      "answerIndex": 0,
+      "explanation": "عناصر المجموعة 17 لها 7 إلكترونات في المستوى الأخير، ولذلك تحتاج إلكترونا واحدا للتشبع.",
+      "tags": [
+        "periodic",
+        "valence"
+      ]
+    },
+    {
+      "id": "bio-genetics-009",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "genetics",
+      "difficulty": "medium",
+      "stem": "فرد طرازه الجيني Aa ينتج أمشاجا. ما نسبة الأمشاج الحاملة للأليل A إلى الحاملة للأليل a؟",
+      "options": [
+        "1 : 1",
+        "3 : 1",
+        "1 : 2 : 1",
+        "4 : 0"
+      ],
+      "answerIndex": 0,
+      "explanation": "الفرد Aa ينفصل أليله بانتظام في الانقسام الميوزي، فينتج نصف الأمشاج A ونصفها a، أي 1 : 1.",
+      "tags": [
+        "genetics",
+        "meiosis"
+      ]
+    },
+    {
+      "id": "bio-photo-010",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "photosynthesis",
+      "difficulty": "medium",
+      "stem": "أين يحدث الطور المظلم من البناء الضوئي؟",
+      "options": [
+        "الستروما",
+        "الجرانا",
+        "الغشاء الخارجي",
+        "السيتوبلازم"
+      ],
+      "answerIndex": 0,
+      "explanation": "الطور المظلم (تثبيت ثاني أكسيد الكربون) يحدث في الستروما، أما تفاعلات الضوء ففي الجرانا.",
+      "tags": [
+        "photosynthesis",
+        "stroma"
+      ]
+    },
+    {
+      "id": "bio-multi-002",
+      "type": "multi",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "genetics",
+      "difficulty": "medium",
+      "stem": "أي مما يلي يحدث في الانقسام الميوزي؟ (اختر كل ما ينطبق)",
+      "options": [
+        "تقليل عدد الكروموسومات إلى النصف",
+        "تكوين الأمشاج",
+        "انفصال الكروموسومات المتماثلة",
+        "إنتاج خلايا مماثلة للخلية الأم"
+      ],
+      "answerIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "الميوزي يقلل عدد الكروموسومات وينتج أمشاجا وينفصل فيه المتماثل، أما إنتاج خلايا مماثلة للخلية الأم فهو الانقسام الميتوزي.",
+      "tags": [
+        "genetics",
+        "meiosis"
+      ]
+    },
+    {
+      "id": "bio-photo-011",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "photosynthesis",
+      "difficulty": "medium",
+      "stem": "ما مصدر الأكسجين المنطلق في البناء الضوئي؟",
+      "options": [
+        "تحلل الماء",
+        "تحلل ثاني أكسيد الكربون",
+        "الجلوكوز",
+        "الكلوروفيل"
+      ],
+      "answerIndex": 0,
+      "explanation": "الأكسجين المنطلق يأتي من تحلل الماء في الطور الضوئي، لا من ثاني أكسيد الكربون.",
+      "tags": [
+        "photosynthesis",
+        "oxygen"
+      ]
+    },
+    {
+      "id": "math-calc-010",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "easy",
+      "stem": "ما مشتقة الدالة y = 5x^2؟",
+      "options": [
+        "10x",
+        "5x",
+        "25x",
+        "2x"
+      ],
+      "answerIndex": 0,
+      "explanation": "مشتقة x^2 هي 2x، وبضربها في المعامل 5 نحصل على 10x.",
+      "tags": [
+        "calculus",
+        "derivative"
+      ]
+    },
+    {
+      "id": "math-geom-010",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "geometry",
+      "difficulty": "medium",
+      "stem": "ما مساحة دائرة نصف قطرها 7 سم؟ (خذ π = 22 ÷ 7)",
+      "options": [
+        "154",
+        "44",
+        "49",
+        "22"
+      ],
+      "answerIndex": 0,
+      "explanation": "المساحة = π × نق² = (22 ÷ 7) × 49 = 154 سنتيمترا مربعا.",
+      "tags": [
+        "geometry",
+        "circle"
+      ]
+    },
+    {
+      "id": "math-multi-002",
+      "type": "multi",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "easy",
+      "stem": "أي مما يلي حل للمعادلة x² = 9؟ (اختر كل ما ينطبق)",
+      "options": [
+        "3",
+        "-3",
+        "9",
+        "0"
+      ],
+      "answerIndices": [
+        0,
+        1
+      ],
+      "explanation": "المعادلة x² = 9 لها حلان هما 3 و-3، لأن مربع كل منهما يساوي 9، أما 9 فمربعها 81.",
+      "tags": [
+        "algebra",
+        "equations"
+      ]
+    },
+    {
+      "id": "math-trig-008",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "trigonometry",
+      "difficulty": "easy",
+      "stem": "ما قيمة جا 30 درجة؟",
+      "options": [
+        "0.5",
+        "0.87",
+        "1",
+        "0"
+      ],
+      "answerIndex": 0,
+      "explanation": "جا 30 درجة = 0.5، وهي نسبة الضلع المقابل للزاوية إلى الوتر في مثلث 30 و60 و90.",
+      "tags": [
+        "trigonometry",
+        "sine"
+      ]
     }
   ]
 }

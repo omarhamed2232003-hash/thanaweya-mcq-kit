@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.16.0
+
+- Seventh question batch: 16 new original questions (4 physics, 4 chemistry,
+  4 biology, 4 maths), 4 of them multi-answer, taking the bank to 267
+  (72 physics, 68 chemistry, 67 biology, 60 maths; 252 single, 15 multi).
+- Mechanical audit only. The batch is listed in `docs/REVIEW_QUEUE.md` and needs
+  a subject reviewer before any release.
+- The separate `mcq-bank-lint` cross-check runs clean: 0 errors, 0 warnings,
+  1 documented suppression.
 ## 0.15.1
 
 - `chem-mole-005` states its answer in the explanation now ("6.02×10²³ ذرة"),

@@ -1,6 +1,6 @@
 {
   "name": "thanaweya-mcq-kit",
-  "version": "0.15.1",
+  "version": "0.16.0",
   "description": "Arabic-first (RTL) multiple-choice quiz engine with original sample content. Zero dependencies.",
   "type": "module",
   "license": "MIT",
