@@ -99,3 +99,11 @@ MIT — راجع [LICENSE](LICENSE).
 ## English summary
 
 A zero-dependency, Arabic-first (RTL) multiple-choice quiz engine. Pure selection, seeded shuffling, difficulty mix (30/40/20/10 by default), grading with per-question explanations, session serialization and a JSON question-bank schema with validation that reports every problem at once. Ships with a vanilla RTL demo UI and 130 original sample questions across physics, chemistry, biology and maths. Run `npm test`, `npm run validate`, or `npm run serve`. MIT licensed.
+
+## Answer-key audit
+
+`npm test` includes an audit of every question's marked answer against its own
+explanation: the arithmetic shown in the explanation is recomputed, the value
+the explanation finishes on must be the marked option, and no two options may be
+the same answer. Questions where an explanation contains an intermediate
+equation are listed in the test with the reason they are excluded.

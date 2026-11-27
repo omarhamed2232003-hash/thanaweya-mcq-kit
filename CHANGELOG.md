@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.8.0
+
+- Add `test/answers.test.js`: an answer-key audit that recomputes the arithmetic
+  each explanation shows, checks that the value an explanation finishes on is the
+  marked option, and rejects duplicate options. Two hand-checked exceptions
+  (intermediate "=" steps) are listed in the test with their reasons.
+- Audit of all 130 questions against those checks: no key/explanation
+  disagreement found.
 ## 0.7.0 — 2026-11-27
 
 - توسيع البنك من 110 إلى 130 سؤالًا أصليًا: 36 فيزياء، 35 كيمياء، 32 أحياء، 27 رياضيات.
