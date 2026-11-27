@@ -4674,6 +4674,537 @@
       "tags": [
         "trigonometry"
       ]
+    },
+    {
+      "id": "phy-energy-009",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "energy",
+      "difficulty": "easy",
+      "stem": "جسم كتلته 2 كجم يتحرك بسرعة 3 م/ث، ما طاقة حركته؟",
+      "options": [
+        "6 J",
+        "9 J",
+        "18 J",
+        "3 J"
+      ],
+      "answerIndex": 1,
+      "explanation": "طاقة الحركة = نصف × الكتلة × مربع السرعة = 0.5 × 2 × 9 = 9 جول.",
+      "tags": [
+        "energy",
+        "kinetic"
+      ]
+    },
+    {
+      "id": "phy-current-004",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "current-electricity",
+      "difficulty": "easy",
+      "stem": "شحنة مقدارها 12 كولوم تعبر مقطعا من موصل في 4 ثوان. ما شدة التيار؟",
+      "options": [
+        "48 A",
+        "0.33 A",
+        "3 A",
+        "12 A"
+      ],
+      "answerIndex": 2,
+      "explanation": "شدة التيار = الشحنة ÷ الزمن = 12 ÷ 4 = 3 أمبير.",
+      "tags": [
+        "current",
+        "charge"
+      ]
+    },
+    {
+      "id": "phy-ohm-008",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "current-electricity",
+      "difficulty": "easy",
+      "stem": "مقاومتان 4 أوم و6 أوم موصلتان على التوالي. ما المقاومة المكافئة؟",
+      "options": [
+        "2.4 Ω",
+        "10 Ω",
+        "24 Ω",
+        "5 Ω"
+      ],
+      "answerIndex": 1,
+      "explanation": "في التوصيل على التوالي تجمع المقاومات: 4 + 6 = 10 أوم.",
+      "tags": [
+        "resistance",
+        "series"
+      ]
+    },
+    {
+      "id": "phy-ohm-009",
+      "type": "multi",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "current-electricity",
+      "difficulty": "medium",
+      "stem": "أي مما يلي يقلل مقاومة سلك موصل؟ (اختر كل ما ينطبق)",
+      "options": [
+        "زيادة مساحة مقطعه",
+        "تقليل طوله",
+        "رفع درجة حرارته",
+        "استبداله بمادة أفضل توصيلا"
+      ],
+      "answerIndices": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "المقاومة تقل بزيادة مساحة المقطع وبتقليل الطول وباستخدام مادة أفضل توصيلا، أما رفع درجة الحرارة فيزيد مقاومة الموصلات المعدنية.",
+      "tags": [
+        "resistance",
+        "factors"
+      ]
+    },
+    {
+      "id": "phy-wave-006",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "waves",
+      "difficulty": "easy",
+      "stem": "موجة زمنها الدوري 0.02 ثانية. ما ترددها؟",
+      "options": [
+        "20 Hz",
+        "50 Hz",
+        "0.02 Hz",
+        "200 Hz"
+      ],
+      "answerIndex": 1,
+      "explanation": "التردد = مقلوب الزمن الدوري = 1 ÷ 0.02 = 50 هرتز.",
+      "tags": [
+        "waves",
+        "frequency"
+      ]
+    },
+    {
+      "id": "phy-wave-007",
+      "type": "multi",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "waves",
+      "difficulty": "medium",
+      "stem": "أي مما يلي يُعد موجة كهرومغناطيسية؟ (اختر كل ما ينطبق)",
+      "options": [
+        "الضوء المرئي",
+        "موجات الراديو",
+        "موجات الصوت",
+        "الأشعة السينية"
+      ],
+      "answerIndices": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "الضوء وموجات الراديو والأشعة السينية موجات كهرومغناطيسية تنتقل في الفراغ، أما الصوت فموجة ميكانيكية تحتاج وسطا ماديا.",
+      "tags": [
+        "waves",
+        "em"
+      ]
+    },
+    {
+      "id": "phy-kinematics-011",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "easy",
+      "stem": "تغيرت سرعة جسم من 4 م/ث إلى 12 م/ث في زمن قدره 2 ثانية. ما عجلته؟",
+      "options": [
+        "8 m/s²",
+        "6 m/s²",
+        "2 m/s²",
+        "4 m/s²"
+      ],
+      "answerIndex": 3,
+      "explanation": "العجلة = التغير في السرعة ÷ الزمن = (12 − 4) ÷ 2 = 4 م/ث².",
+      "tags": [
+        "mechanics",
+        "acceleration"
+      ]
+    },
+    {
+      "id": "phy-force-007",
+      "type": "single",
+      "subject": "physics",
+      "grade": "3",
+      "chapter": "mechanics",
+      "difficulty": "easy",
+      "stem": "ما وزن جسم كتلته 5 كجم عند أخذ عجلة الجاذبية 10 م/ث²؟",
+      "options": [
+        "5 N",
+        "50 N",
+        "0.5 N",
+        "500 N"
+      ],
+      "answerIndex": 1,
+      "explanation": "الوزن = الكتلة × عجلة الجاذبية = 5 × 10 = 50 نيوتن.",
+      "tags": [
+        "mechanics",
+        "weight"
+      ]
+    },
+    {
+      "id": "chem-mole-013",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "mole",
+      "difficulty": "easy",
+      "stem": "ما عدد مولات الماء في 36 جراما منه؟ (الكتلة المولية للماء 18 جم/مول)",
+      "options": [
+        "1 مول",
+        "18 مول",
+        "2 مول",
+        "36 مول"
+      ],
+      "answerIndex": 2,
+      "explanation": "عدد المولات = الكتلة ÷ الكتلة المولية = 36 ÷ 18 = 2 مول.",
+      "tags": [
+        "mole",
+        "water"
+      ]
+    },
+    {
+      "id": "chem-acid-005",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "acids-bases",
+      "difficulty": "medium",
+      "stem": "محلول تركيز أيون الهيدروجين فيه 10 أس سالب 3 مول/لتر. ما قيمة pH له؟",
+      "options": [
+        "11",
+        "3",
+        "7",
+        "-3"
+      ],
+      "answerIndex": 1,
+      "explanation": "pH = سالب لوغاريتم تركيز أيون الهيدروجين = 3.",
+      "tags": [
+        "acids",
+        "ph"
+      ]
+    },
+    {
+      "id": "chem-periodic-006",
+      "type": "multi",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "periodic-table",
+      "difficulty": "easy",
+      "stem": "أي مما يلي غاز نبيل؟ (اختر كل ما ينطبق)",
+      "options": [
+        "الهيليوم",
+        "النيون",
+        "النيتروجين",
+        "الأرجون"
+      ],
+      "answerIndices": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "الهيليوم والنيون والأرجون في المجموعة 18 وهي غازات نبيلة، أما النيتروجين ففي المجموعة 15.",
+      "tags": [
+        "periodic",
+        "noble-gas"
+      ]
+    },
+    {
+      "id": "chem-mole-014",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "mole",
+      "difficulty": "medium",
+      "stem": "ما كتلة 0.5 مول من كلوريد الصوديوم؟ (الكتلة المولية 58.5 جم/مول)",
+      "options": [
+        "58.5 g",
+        "117 g",
+        "29.25 g",
+        "14.6 g"
+      ],
+      "answerIndex": 2,
+      "explanation": "الكتلة = عدد المولات × الكتلة المولية = 0.5 × 58.5 = 29.25 جرام.",
+      "tags": [
+        "mole",
+        "nacl"
+      ]
+    },
+    {
+      "id": "chem-mole-015",
+      "type": "single",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "mole",
+      "difficulty": "medium",
+      "stem": "كم عدد الجزيئات في مول واحد من أي مادة؟",
+      "options": [
+        "6.02 × 10^22",
+        "6.02 × 10^23",
+        "3.01 × 10^23",
+        "1 × 10^23"
+      ],
+      "answerIndex": 1,
+      "explanation": "المول الواحد يحتوي على عدد أفوجادرو من الجزيئات، وهو 6.02 × 10^23.",
+      "tags": [
+        "mole",
+        "avogadro"
+      ]
+    },
+    {
+      "id": "chem-acid-006",
+      "type": "multi",
+      "subject": "chemistry",
+      "grade": "3",
+      "chapter": "acids-bases",
+      "difficulty": "medium",
+      "stem": "أي مما يلي حمض قوي؟ (اختر كل ما ينطبق)",
+      "options": [
+        "HCl",
+        "H2SO4",
+        "CH3COOH",
+        "HNO3"
+      ],
+      "answerIndices": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "حمض HCl وحمض H2SO4 وحمض HNO3 تتأين تأينا تاما في الماء فأحماض قوية، أما CH3COOH فتأينه جزئي.",
+      "tags": [
+        "acids",
+        "strength"
+      ]
+    },
+    {
+      "id": "bio-genetics-008",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "genetics",
+      "difficulty": "easy",
+      "stem": "ما عدد الكروموسومات في الخلية الجسمية للإنسان؟",
+      "options": [
+        "23",
+        "92",
+        "46",
+        "44"
+      ],
+      "answerIndex": 2,
+      "explanation": "الخلية الجسمية للإنسان تحتوي على 46 كروموسوما، أي 23 زوجا.",
+      "tags": [
+        "genetics",
+        "chromosomes"
+      ]
+    },
+    {
+      "id": "bio-photo-009",
+      "type": "multi",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "photosynthesis",
+      "difficulty": "medium",
+      "stem": "أي مما يلي يحدث في الطور الضوئي من البناء الضوئي؟ (اختر كل ما ينطبق)",
+      "options": [
+        "تحلل الماء",
+        "انطلاق الأكسجين",
+        "تكوين ATP",
+        "تثبيت ثاني أكسيد الكربون"
+      ],
+      "answerIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "الطور الضوئي يحلل الماء وينتج الأكسجين ويكوّن ATP وNADPH، أما تثبيت ثاني أكسيد الكربون فيحدث في الطور المظلم.",
+      "tags": [
+        "photosynthesis",
+        "light"
+      ]
+    },
+    {
+      "id": "bio-cell-008",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "cell-transport",
+      "difficulty": "easy",
+      "stem": "بأي عملية ينتقل الماء عبر الغشاء شبه المنفذ من المحلول الأقل تركيزا إلى الأكثر تركيزا؟",
+      "options": [
+        "الانتشار البسيط",
+        "الخاصية الأسموزية",
+        "النقل النشط",
+        "الالتهام"
+      ],
+      "answerIndex": 1,
+      "explanation": "انتقال الماء عبر غشاء شبه منفذ نحو المحلول الأعلى تركيزا هو الخاصية الأسموزية، ولا يحتاج طاقة.",
+      "tags": [
+        "cell",
+        "osmosis"
+      ]
+    },
+    {
+      "id": "bio-blood-004",
+      "type": "multi",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "blood",
+      "difficulty": "medium",
+      "stem": "أي مما يلي يشارك في الدفاع المناعي؟ (اختر كل ما ينطبق)",
+      "options": [
+        "الخلايا الليمفاوية",
+        "الأجسام المضادة",
+        "كرات الدم الحمراء",
+        "الخلايا البلعمية"
+      ],
+      "answerIndices": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "الخلايا الليمفاوية تنتج الأجسام المضادة والخلايا البلعمية تلتهم الميكروبات، أما كرات الدم الحمراء فنقل الأكسجين وظيفتها.",
+      "tags": [
+        "blood",
+        "immunity"
+      ]
+    },
+    {
+      "id": "bio-resp-006",
+      "type": "single",
+      "subject": "biology",
+      "grade": "3",
+      "chapter": "respiration",
+      "difficulty": "easy",
+      "stem": "ما الناتج النهائي لتخمر الجلوكوز في العضلات أثناء المجهود العنيف؟",
+      "options": [
+        "الإيثانول",
+        "حمض الستريك",
+        "الأسيتيل كوإنزيم أ",
+        "حمض اللاكتيك"
+      ],
+      "answerIndex": 3,
+      "explanation": "تخمر الجلوكوز في العضلات ينتج حمض اللاكتيك، أما الإيثانول فينتج في تخمر الخميرة.",
+      "tags": [
+        "respiration",
+        "fermentation"
+      ]
+    },
+    {
+      "id": "math-calc-008",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "easy",
+      "stem": "ما مشتقة الدالة y = x^3؟",
+      "options": [
+        "x^2",
+        "3x^2",
+        "3x",
+        "x^4/4"
+      ],
+      "answerIndex": 1,
+      "explanation": "مشتقة x أس n هي n × x أس (n − 1)، وعند n = 3 تكون المشتقة 3x^2.",
+      "tags": [
+        "calculus",
+        "derivative"
+      ]
+    },
+    {
+      "id": "math-calc-009",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "calculus",
+      "difficulty": "easy",
+      "stem": "ما ناتج تكامل 2x بالنسبة إلى x؟",
+      "options": [
+        "2 + c",
+        "x^2/2 + c",
+        "x^2 + c",
+        "2x^2 + c"
+      ],
+      "answerIndex": 2,
+      "explanation": "تكامل 2x هو x^2 زائد ثابت التكامل c.",
+      "tags": [
+        "calculus",
+        "integral"
+      ]
+    },
+    {
+      "id": "math-num-007",
+      "type": "multi",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "number-theory",
+      "difficulty": "easy",
+      "stem": "أي مما يلي عدد أولي؟ (اختر كل ما ينطبق)",
+      "options": [
+        "2",
+        "9",
+        "13",
+        "21"
+      ],
+      "answerIndices": [
+        0,
+        2
+      ],
+      "explanation": "2 و13 عددان أوليان لأن كل منهما لا يقبل القسمة إلا على نفسه وعلى 1، أما 9 و21 فمضاعفات 3.",
+      "tags": [
+        "number-theory",
+        "prime"
+      ]
+    },
+    {
+      "id": "math-alg-013",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "medium",
+      "stem": "في متتابعة حسابية حدها الأول 2 وأساسها 3، ما مجموع أول 10 حدود؟",
+      "options": [
+        "145",
+        "155",
+        "310",
+        "55"
+      ],
+      "answerIndex": 1,
+      "explanation": "المجموع = (10 ÷ 2) × (2 × 2 + 9 × 3) = 5 × 31 = 155.",
+      "tags": [
+        "algebra",
+        "series"
+      ]
+    },
+    {
+      "id": "math-log-004",
+      "type": "single",
+      "subject": "math",
+      "grade": "3",
+      "chapter": "algebra",
+      "difficulty": "easy",
+      "stem": "ما قيمة لو2 8؟",
+      "options": [
+        "2",
+        "8",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2,
+      "explanation": "لو2 8 هو الأس الذي نحتاج رفع 2 إليه لنحصل على 8، وهو 3.",
+      "tags": [
+        "algebra",
+        "log"
+      ]
     }
   ]
 }

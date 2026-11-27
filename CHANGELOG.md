@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.15.0
+
+- Sixth question batch: 24 new original questions (8 physics, 6 chemistry,
+  5 biology, 5 maths), 7 of them multi-answer, taking the bank to 251
+  (68 physics, 64 chemistry, 63 biology, 56 maths; 240 single, 11 multi).
+- The batch has had the mechanical answer-key audit only. It is listed in
+  `docs/REVIEW_QUEUE.md` and needs a subject reviewer before any release.
+- Cross-checked with the separate `mcq-bank-lint` tool: it flags one question
+  (`math-alg-005`) whose explanation ends on the value of the second variable.
+  That key is correct (x = 7, then y = 3); the linter's "last number wins"
+  heuristic is the thing that is wrong, and the existing whitelist entry in
+  `test/answers.test.js` documents it.
 ## 0.14.0
 
 - The demo UI now plays multi-answer questions: options toggle instead of

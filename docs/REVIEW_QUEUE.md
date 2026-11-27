@@ -11,6 +11,7 @@ This file lists the question batches that have only had the mechanical pass. Eac
 | Third batch | 0.10.0 | 23 (6 physics, 6 chemistry, 7 biology, 4 maths) | answer-key audit; one explanation rewritten after the audit flagged it | subject review |
 | Multi-answer batch | 0.11.0 | 4 multi-answer questions (physics, chemistry, biology, maths) | answer-key audit, multi-type tests | subject review |
 | Fifth batch | 0.13.0 | 15 (4 physics, 4 chemistry, 4 biology, 3 maths) | answer-key audit | subject review |
+| Sixth batch | 0.15.0 | 24 (8 physics, 6 chemistry, 5 biology, 5 maths; 7 multi-answer) | answer-key audit, cross-checked with mcq-bank-lint | subject review |
 | Fourth batch | 0.12.0 | 20 (5 physics, 5 chemistry, 5 biology, 5 maths) | answer-key audit | subject review; one ATP question (bio-resp-004) states "about 30", which depends on the textbook used |
 
 How to review a batch:

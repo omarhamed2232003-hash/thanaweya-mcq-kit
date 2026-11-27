@@ -34,7 +34,7 @@ ui/
   quiz.js      تحكم الواجهة (DOM عادي، بدون إطار عمل)
   quiz.css     تنسيق RTL مع وضع فاتح وداكن
 data/
-  sample-questions.json   227 سؤالًا أصليًا في الفيزياء والكيمياء والأحياء والرياضيات
+  sample-questions.json   251 سؤالًا أصليًا في الفيزياء والكيمياء والأحياء والرياضيات
 docs/
   QUESTION_SCHEMA.md      شرح كل حقل وقواعد التحقق
   INTEGRATION.md          كيف تُدمج المحرك في موقعك أو تطبيقك
@@ -84,7 +84,7 @@ console.log(result.scorePercent, result.byDifficulty);
 
 ## المحتوى
 
-الأسئلة الـ227 المرفقة كتبت خصيصًا لهذا المستودع، بشرح لكل إجابة وتوزيع متوازن للإجابات الصحيحة على المواضع الأربعة. الملف `data/sample-questions.json` يحمل `licenseNote` يوضح ذلك. عند إضافة أسئلة جديدة: محتوى أصلي فقط، ولا نسخ من امتحانات أو كتب محمية بحقوق نشر، ولا ادعاء بأنها أسئلة رسمية.
+الأسئلة الـ251 المرفقة كتبت خصيصًا لهذا المستودع، بشرح لكل إجابة وتوزيع متوازن للإجابات الصحيحة على المواضع الأربعة. الملف `data/sample-questions.json` يحمل `licenseNote` يوضح ذلك. عند إضافة أسئلة جديدة: محتوى أصلي فقط، ولا نسخ من امتحانات أو كتب محمية بحقوق نشر، ولا ادعاء بأنها أسئلة رسمية.
 
 ## الاختبارات
 
@@ -98,7 +98,7 @@ MIT — راجع [LICENSE](LICENSE).
 
 ## English summary
 
-A zero-dependency, Arabic-first (RTL) multiple-choice quiz engine. Pure selection, seeded shuffling, difficulty mix (30/40/20/10 by default), grading with per-question explanations, session serialization and a JSON question-bank schema with validation that reports every problem at once. Ships with a vanilla RTL demo UI (single-answer and multi-answer questions) and 227 original sample questions across physics, chemistry, biology and maths. Run `npm test`, `npm run validate`, or `npm run serve`. MIT licensed.
+A zero-dependency, Arabic-first (RTL) multiple-choice quiz engine. Pure selection, seeded shuffling, difficulty mix (30/40/20/10 by default), grading with per-question explanations, session serialization and a JSON question-bank schema with validation that reports every problem at once. Ships with a vanilla RTL demo UI (single-answer and multi-answer questions) and 251 original sample questions across physics, chemistry, biology and maths. Run `npm test`, `npm run validate`, or `npm run serve`. MIT licensed.
 
 ## Answer-key audit
 
