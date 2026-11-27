@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.19.0
+
+- `CONTRIBUTING.md` now carries the review workflow: what the mechanical checks
+  cover and what they do not, where the reviewer packet lives, that every new
+  batch needs a row in `docs/REVIEW_QUEUE.md`, and a short checklist for adding
+  a question (original content, explanation ends on the right value, arithmetic
+  recomputes, validate/test/linter, then the batch row).
+- No question changes.
 ## 0.18.0
 
 - Reviewer packet under `review/`: `questions-by-batch.md` lays out all 283
