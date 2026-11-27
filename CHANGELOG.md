@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.25.0
+
+- `docs/EXAM_SITE_EMBED.md`: the embedding guide for a site — three shapes
+  (whole bank in the page, a subset per topic, grading on a server), what to call
+  and in what order, session persistence, the single-file build, and a plain
+  statement of where the answer key ends up in each shape. Client-side grading
+  exposes the key; that is fine for practice and not for marks.
+- `test/docs-links.test.js`: every relative link in the documentation must point
+  at a file that exists. Tests 81/81.
 ## 0.24.0
 
 - `npm run build:demo`: one self-contained `demo.html` with the CSS, the script
