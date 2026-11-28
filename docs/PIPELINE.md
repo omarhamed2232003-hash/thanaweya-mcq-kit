@@ -39,7 +39,18 @@ npx mcq-exam-paper data/sample-questions.json --out paper.html \
 
 The same seed rebuilds the same paper, and the key CSV comes from the same build, so the two cannot drift apart.
 
-## 5. Play the same bank in the browser
+## 5. Put it in front of a teacher
+
+```bash
+npm run build:packet                        # everything, key visible
+npm run build:packet -- --blind --sample 20  # twenty questions, no key, key on the last page
+```
+
+Steps 1 to 4 are mechanical: they can be wrong together and still agree with each other. The packet is the step that asks a person. The first version lets a teacher read the marked key and mark what is wrong; the blind version makes them answer before they see it, which is the only way to learn whether the key is reachable from the question alone.
+
+Until a teacher signs a chapter, the honest status of the content is "mechanically checked", not "reviewed". `docs/TEACHER_REVIEW.md` is the session, `STATUS.md` is where the project currently stands.
+
+## 6. Play the same bank in the browser
 
 `npm run serve` in this repository opens the demo UI over the same file. The engine, the paper builder and the linter all read one format, which is the point: a question added once is usable everywhere.
 
@@ -51,5 +62,6 @@ The same seed rebuilds the same paper, and the key CSV comes from the same build
 | mcq-bank-lint | key agrees with explanation | judge the explanation |
 | mcq-bank-diff | report what changed | say whether the change is good |
 | mcq-exam-paper | reproducible printable paper | grade, typeset, solve bidi |
+| teacher packet (this repo) | asks a teacher, chapter by chapter | sign for the teacher |
 
-Read together, those four lines are the honest description of the whole set: mechanical checks here, human judgement there, and no tool pretending to do the other's job.
+Read together, those lines are the honest description of the whole set: mechanical checks here, human judgement there, and no tool pretending to do the other's job.

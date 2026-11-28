@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.28.6
+
+- `docs/PIPELINE.md` now carries the teacher step as step 5, between printing a
+  paper and playing the bank in the browser: the packet, the blind version, and
+  the sentence that matters — steps 1 to 4 can all agree with each other and
+  still be wrong together, so the packet is the step that asks a person. The
+  "where each tool stops" table gains its row: the packet asks a teacher, it
+  cannot sign for one.
+
 ## 0.28.5
 
 - STATUS.md: three claims corrected after checking them against the tests rather
