@@ -1,6 +1,6 @@
 # Where this stands
 
-As of 28 November 2026. Version 0.28.6. **No tag, no release, no visibility change.**
+As of 28 November 2026. Version 0.28.7. **No tag, no release, no visibility change.**
 
 ## Verified, and how
 
