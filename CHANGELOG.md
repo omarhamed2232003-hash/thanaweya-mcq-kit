@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.28.5
+
+- STATUS.md: three claims corrected after checking them against the tests rather
+  than against memory — the review rounds are described without a count that
+  reads wrong, the coverage table is marked as hand-written and not test-checked
+  (only the timeline is), and the linter's README check is described as what it
+  is: an undocumented export fails the suite.
+
 ## 0.28.4
 
 - `STATUS.md`: a short page saying where the repository actually stands — what

@@ -1,6 +1,6 @@
 # Where this stands
 
-As of 28 November 2026. Version 0.28.4. **No tag, no release, no visibility change.**
+As of 28 November 2026. Version 0.28.5. **No tag, no release, no visibility change.**
 
 ## Verified, and how
 
@@ -12,7 +12,7 @@ As of 28 November 2026. Version 0.28.4. **No tag, no release, no visibility chan
 
 ## Reviewed by a person
 
-- Three independent review rounds in November 2026 (physics and chemistry; biology and mathematics; then two follow-up rounds on the mathematics replacements). Every verdict was applied by question id and recorded in `docs/REVIEW_FINDINGS.md`, together with what the review did **not** cover.
+- Independent review rounds in November 2026: physics and chemistry, then biology and mathematics, then two follow-up rounds on the mathematics replacements. Every verdict was applied by question id and recorded in `docs/REVIEW_FINDINGS.md`, together with what each round did **not** cover.
 - Those reviewers saw the marked key. That is why `npm run build:packet -- --blind --sample 20` exists.
 
 ## Not verified
