@@ -13,9 +13,9 @@ This repository has content as well as code, so it has one gate the others do no
 
 ## Before the tag
 
-- [ ] **Omar reads the README and these release notes.** His 5:44 condition: nothing is tagged or released before he has read both.
+- [ ] **Omar reads the README and these release notes before anything is tagged or released.** This is a standing condition relayed by main, not something this file can grant or waive: nothing is tagged until he has read both.
 - [ ] `package.json` version, `CHANGELOG.md` top entry and the tag name agree.
-- [ ] CI is green on the default branch (`test.yml`, Node 20 and 22).
+- [ ] CI is green on the default branch (`test.yml`, Node 20, 22 and 24).
 - [ ] `npm test` passes locally on a clean clone.
 - [ ] A read-through for personal data, secrets, API keys and copied or third-party content. Nothing of that kind ships: no author names, no addresses, no tokens, no scraped text.
 - [ ] The scope statement below is still true, and the release notes say what the project does *not* do.
