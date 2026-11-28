@@ -1,5 +1,7 @@
 # thanaweya-mcq-kit
 
+**الحالة الحالية:** [STATUS.md](STATUS.md) — ما تم التحقق منه، ومن راجعه، وما لم يُتحقق منه بعد.
+
 محرك أسئلة اختيار من متعدد عربي (RTL) بدون أي تبعيات، مع محتوى تجريبي أصلي.
 Arabic-first multiple-choice quiz engine with zero dependencies and original sample content.
 

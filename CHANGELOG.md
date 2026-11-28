@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.28.4
+
+- `STATUS.md`: a short page saying where the repository actually stands — what
+  was verified and how, who has reviewed it, what is not verified, and what is
+  waiting on a decision. It exists so the README review is a two-minute read
+  instead of a reconstruction from the changelog and the findings files. Linked
+  from the top of the README.
+- `test/docs-truth.test.js` now also fails if the version on that page and the
+  version in `package.json` disagree.
+
 ## 0.28.3
 
 - `test/docs-truth.test.js`: the suite now fails if any document outside the

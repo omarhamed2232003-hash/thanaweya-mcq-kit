@@ -33,3 +33,11 @@ test('no document states a test count that will go stale', () => {
   }
   assert.deepEqual(offenders, [], `documents with a hardcoded test count:\n${offenders.join('\n')}`);
 });
+
+test('the status page and package.json state the same version', () => {
+  const pkg = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8'));
+  const status = readFileSync(join(root, 'STATUS.md'), 'utf8');
+  const stated = status.match(/Version (\d+\.\d+\.\d+)\./);
+  assert.ok(stated, 'STATUS.md does not state a version');
+  assert.equal(stated[1], pkg.version, 'STATUS.md and package.json disagree about the version');
+});
